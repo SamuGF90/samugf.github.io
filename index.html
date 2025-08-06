@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Gergely Samu</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gergely Samu | Personal Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1>Hello, I'm Gergely Samu</h1>
-    <p>This is my personal webpage powered by Talos.</p>
+  <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow fixed w-full z-10">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Gergely Samu</h1>
+        <nav class="space-x-4">
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#projects" class="hover:text-blue-600">Projects</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white pt-20">
+      <div class="text-center px-4">
+        <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Hi, I'm Gergely Samu</h2>
+        <p class="text-lg md:text-xl text-gray-600 max-w-xl mx-auto">
+          Chemist | Spectroscopist | Curious mind in materials and light
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-4">About Me</h3>
+        <p class="text-gray-700 text-lg">
+          I'm a researcher working at the intersection of materials chemistry, spectroscopy, and photonics.
+          My focus includes transient absorption, semiconductors, and nonlinear optics.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects/Research Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-4">Research & Projects</h3>
+        <ul class="space-y-6">
+          <li class="bg-white shadow rounded-xl p-6">
+            <h4 class="text-xl font-semibold">Hot Carrier Dynamics in Perovskites</h4>
+            <p class="text-gray-600">Transient absorption study exploring energy loss channels and bottleneck effects.</p>
+          </li>
+          <li class="bg-white shadow rounded-xl p-6">
+            <h4 class="text-xl font-semibold">Slot-Die Coating for LED Fabrication</h4>
+            <p class="text-gray-600">Optimizing thin-film processing for scalable light-emitting devices.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-4">Contact</h3>
+        <p class="text-lg text-gray-700">
+          You can reach me via email at:
+          <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">your.email@example.com</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm text-gray-500">
+      © 2025 Gergely Samu. Built with Tailwind.
+    </footer>
+
   </body>
 </html>
