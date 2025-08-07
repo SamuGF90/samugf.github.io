@@ -115,6 +115,12 @@ async function buildPublicationList() {
  
   // Sort by year descending
   publications.sort((a, b) => b.year.localeCompare(a.year));
+
+  const indexMap = new Map();
+publications.forEach((p, i) => {
+  const key = p.doi || p.title;  // Prefer DOI as unique key
+  indexMap.set(key, i);
+});
  
   // Populate year dropdown
   const years = [...new Set(publications.map(p => p.year))].sort((a, b) => b - a);
@@ -137,6 +143,8 @@ async function buildPublicationList() {
     }
 
     filtered.forEach((p, index) => {
+        const key = p.doi || p.title;
+  const globalIndex = indexMap.get(key);
   const highlightedAuthors = p.authors.map(formatAuthor).join(", ");
   const tocImgHTML = p.toc ? `<img src="${p.toc}" alt="TOC Figure" class="mt-2 rounded shadow max-w-xs">` : "";
   const abstractHTML = p.abstract ? `<p class="mt-2">${p.abstract}</p>` : "";
@@ -145,7 +153,7 @@ async function buildPublicationList() {
   li.className = "bg-white p-4 rounded shadow";
 
   li.innerHTML = `
-    <div class="font-semibold text-gray-900 mb-1">[${publications.length - index}] ${p.title}</div>
+    <div class="font-semibold text-gray-900 mb-1">[${publications.length - globalIndex}] ${p.title}</div>
     <div class="text-sm text-gray-600 mb-1">${highlightedAuthors}</div>
     <div class="text-sm text-gray-600">${p.journal} • ${p.year}
       ${p.doi ? ` <a href="${p.doi}" target="_blank" class="text-blue-600 hover:underline ml-2">(DOI)</a>` : ""}
