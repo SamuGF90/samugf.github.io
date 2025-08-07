@@ -1,166 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gergely Samu | Personal Site</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gergely Samu | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-    <!-- Navbar -->
-    <header class="bg-white shadow fixed w-full z-10">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-xl font-bold">Gergely Samu</h1>
-        <nav class="space-x-4">
-          <a href="#about" class="hover:text-blue-600">About</a>
-          <a href="#projects" class="hover:text-blue-600">Projects</a>
-          <a href="#publications" class="hover:text-blue-600">Publications</a>
-          <a href="#contact" class="hover:text-blue-600">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white pt-20">
-      <div class="text-center px-4">
-        <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Hi, I'm Gergely Samu</h2>
-        <p class="text-lg md:text-xl text-gray-600 max-w-xl mx-auto">
-          Chemist | Spectroscopist | Curious mind in materials and light
-        </p>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-20 bg-white">
-      <div class="max-w-4xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">About Me</h3>
-        <p class="text-gray-700 text-lg">
-          I'm a researcher working at the intersection of materials chemistry, spectroscopy, and photonics.
-          My focus includes transient absorption, semiconductors, and nonlinear optics.
-        </p>
-      </div>
-    </section>
-
-    <!-- Projects/Research Section -->
-    <section id="projects" class="py-20 bg-gray-50">
-      <div class="max-w-4xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">Research & Projects</h3>
-        <ul class="space-y-6">
-          <li class="bg-white shadow rounded-xl p-6">
-            <h4 class="text-xl font-semibold">Hot Carrier Dynamics in Perovskites</h4>
-            <p class="text-gray-600">Transient absorption study exploring energy loss channels and bottleneck effects.</p>
-          </li>
-          <li class="bg-white shadow rounded-xl p-6">
-            <h4 class="text-xl font-semibold">Slot-Die Coating for LED Fabrication</h4>
-            <p class="text-gray-600">Optimizing thin-film processing for scalable light-emitting devices.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Publications Section -->
-<section id="publications" class="py-20 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-6">Publications</h3>
-
-    <!-- Year Selector -->
-    <div class="mb-4">
-      <label for="yearSelect" class="block mb-2 text-gray-700 font-medium">Filter by Year:</label>
-      <select id="yearSelect" class="p-2 border border-gray-300 rounded-md">
-        <option value="all">All Years</option>
-      </select>
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Gergely Samu</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+        <a href="publications.html" class="hover:text-blue-600">Publications</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Publication List -->
-    <ul id="pubList" class="space-y-4 text-gray-700 text-lg">
-      <li>Loading publications from ORCID...</li>
-    </ul>
-  </div>
-</section>
+  <!-- Hero -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white">
+    <div class="text-center px-4">
+      <h2 class="text-5xl font-extrabold mb-4">Hi, I'm Gergely Samu</h2>
+      <p class="text-xl text-gray-600 max-w-xl mx-auto">
+        Materials chemist and spectroscopist, exploring the dynamics of light and matter.
+      </p>
+    </div>
+  </section>
 
-<script>
-  const orcidID = "0000-0002-3239-9154";
-  const pubList = document.getElementById("pubList");
-  const yearSelect = document.getElementById("yearSelect");
-
-  async function fetchPublications() {
-    const response = await fetch(`https://pub.orcid.org/v3.0/${orcidID}/works`, {
-      headers: { Accept: "application/json" },
-    });
-    const data = await response.json();
-    const works = data.group;
-
-    // Parse and map publications
-    let publications = works.map(w => {
-      const summary = w["work-summary"][0];
-      const title = summary.title.title.value;
-      const pubYear = summary["publication-date"]?.year?.value || "Unknown";
-      const putCode = summary.putCode;
-      const doi = summary.externalIds?.externalId?.find(id => id["external-id-type"] === "doi");
-      const doiLink = doi ? `https://doi.org/${doi["external-id-value"]}` : null;
-
-      return { title, year: pubYear, doi: doiLink };
-    });
-
-    // Sort by year descending
-    publications.sort((a, b) => b.year.localeCompare(a.year));
-
-    // Extract unique years
-    const years = [...new Set(publications.map(pub => pub.year))].sort((a, b) => b - a);
-    years.forEach(y => {
-      const option = document.createElement("option");
-      option.value = y;
-      option.textContent = y;
-      yearSelect.appendChild(option);
-    });
-
-    // Render publications
-    function render(yearFilter) {
-      pubList.innerHTML = "";
-      const filtered = yearFilter === "all" ? publications : publications.filter(p => p.year === yearFilter);
-
-      if (filtered.length === 0) {
-        pubList.innerHTML = `<li class="text-gray-500">No publications for selected year.</li>`;
-        return;
-      }
-
-      filtered.forEach(pub => {
-        const li = document.createElement("li");
-        li.className = "bg-white p-4 rounded shadow";
-        li.innerHTML = `
-          <strong>${pub.year}</strong> – ${pub.title}
-          ${pub.doi ? `<a href="${pub.doi}" class="text-blue-600 hover:underline ml-2" target="_blank">(DOI)</a>` : ""}
-        `;
-        pubList.appendChild(li);
-      });
-    }
-
-    // Initial render
-    render("all");
-
-    // Event listener
-    yearSelect.addEventListener("change", e => render(e.target.value));
-  }
-
-  fetchPublications();
-</script>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-white">
-      <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 class="text-3xl font-bold mb-4">Contact</h3>
-        <p class="text-lg text-gray-700">
-          You can reach me via email at:
-          <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">your.email@example.com</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center py-6 text-sm text-gray-500">
-      © 2025 Gergely Samu. Built with Tailwind.
-    </footer>
-
-  </body>
+</body>
 </html>
