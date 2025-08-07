@@ -16,7 +16,7 @@
     ],
     "doi": "https://doi.org/10.1002/admi.202500159",
     "abstract": "Charge extraction (or injection) at the transport layer/lead halide perovskite interface is a decisive process in determining the efficiency of optoelectronic devices. To elucidate the influence of band offsets on the hole transfer process, a series of perovskite thin films with systematically tuned valence band positions (FA<sub>0.83</sub>Cs<sub>0.17</sub>Pb(I<sub>x</sub>Br<sub>1-x</sub>)<sub>3</sub>) are fabricated and deposited on mesoporous NiO hole transport layers. In this work, transient absorption spectroscopy is performed to study the kinetics of hole transfer through the NiO/perovskite interface. It is revealed that a larger valence band offset is beneficial for hole extraction. To understand how hole depletion/accumulation influences the hole extraction process, in situ transient spectroelectrochemical measurements are also employed. These results highlight that, at negative applied electrochemical biases, an acceleration of the hole transfer process is found for different perovskite compositions. A more pronounced increase in the hole extraction rate can be tied to a larger valence band offset at the NiO/perovskite interface. These results provide a better understanding of the charge extraction process at NiO/perovskite interfaces, enabling more rational design of these systems.",
-    "toc": "images/toc/TOC_62.png"
+    "toc": "images/toc/toc_62.png"
   },
   {
     "title": "Scintillation Response of 0D Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> Thin Layers to Light‐ and Heavy‐Ion Irradiation",
@@ -33,7 +33,7 @@
     ],
     "doi": "https://doi.org/10.1002/adpr.202400217",
     "abstract": "Low-dimensional copper halides with perovskite–analogue structure are a rapidly growing material family for light-emitting and X-ray screening devices. Among them Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> exhibits exceptional optoelectronic properties (large Stokes shift, high emission yield), due to the strong confinement effect of its 0D structure. However, its radioluminescence response to energetic ions has only marginally been explored and to heavy ions fully ignored due to the detrimental effect of luminescence quenching. Herein, the scintillation response of Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> thin layers to ions in a wide range of atomic mass and ionization density, as well as to electrons using the Compton-coincidence technique, is investigated. The photon yield, linearity, and energy resolution are investigated as key parameters of the spectroscopic performance. Different semiempirical quenching models are used to better understand the relationship between the luminescence yield and the ionization density. The spectroscopic capability of polycrystalline Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> thin films is found on par with that of single-crystal CsI:Tl to detect heavy ions. This makes easily processable thin-film copper halides an attractive addition to the scintillator landscape.",
-    "toc": "images/toc/TOC_61.png"
+    "toc": "images/toc/toc_61.png"
   },
   {
     "title": "Application of Co<sub>3</sub>O<sub>4</sub> as anode catalyst in CO<sub>2</sub> electrolyzer cells",
@@ -50,7 +50,7 @@
     ],
     "doi": "https://doi.org/10.1038/s41427-025-00598-4",
     "abstract": "Replacing Ir with anode catalyst materials that are more abundant is a long-sought objective within the CO<sub>2</sub> electrolysis community. The chemical environment (near-neutral pH, carbonate buffer electrolyte) that inherently develops during long-term operation, however, limits the pool of applicable candidates. In this contribution, Ir was replaced with a porous Co<sub>3</sub>O<sub>4</sub> nanosheet catalyst layer as the anode of a zero-gap CO<sub>2</sub> electrolyzer cell. The catalyst was directly deposited on the Ti porous transport layer via hydrothermal synthesis, which allowed the precise control of the catalyst loading. Under optimal conditions (7 mg cm<sup>-2</sup> Co<sub>3</sub>O<sub>4</sub> loading), 300 mA cm<sup>-2</sup> current density was reached at 3.4 V applied cell voltage. The electrolyzer cell with the Co<sub>3</sub>O<sub>4</sub> anode was operated continuously for 50 hours at 250 mA cm<sup>-2</sup> current density with stable cell voltage and CO<sub>2</sub> reduction selectivity.",
-    "toc":"images/toc/TOC_60.png"
+    "toc":"images/toc/toc_60.png"
   },
   {
     "title": "Modulating Band Offset through Interface Engineering of Cu<sub>2</sub>SnSe<sub>3</sub>-Based Heterojunctions for Efficient Charge Separation and Collection",
@@ -69,7 +69,7 @@
     ],
     "doi": "https://doi.org/10.1002/smtd.202401780",
     "abstract": "Cu<sub>2</sub>SnSe<sub>3</sub> (CTSe) shows promise due to its wide solar absorption and tunable band gap, though low efficiency caused by interface recombination and crystallinity issues remains a challenge. In this study, a systematic and facile synthesis method for CTSe nanoparticles (NPs) is demonstrated, accompanied by an in-depth analysis of their growth mechanisms. A comprehensive experimental and theoretical investigation is conducted to explore the structural, compositional, optoelectronic, and band alignment properties of p-type CTSe NPs as a solar absorber, along with n-type CdSe and ZnSe NPs as buffer layers. Additionally, the band edge positions of the synthesized NPs are estimated using cyclic voltammetry (CV), UV photoelectron spectroscopy (UPS), and density functional theory (DFT), enabling the modulation of band offsets through interface engineering. The investigation revealed a staggered type-II band alignment at the CTSe/CdSe heterojunction, characterized by a minimal conduction band offset (CBO) of 0.06 eV. The findings from CV and UPS measurement supported by density functional theory-based calculations, suggests effective charge carrier separation and transport at the interface. The CTSe/CdSe heterojunction exhibited Schottky I–V characteristics, demonstrating a current of 1 mA in dark conditions. These findings demonstrate CTSe NPs' potential as an efficient absorber in thin-film solar cells, addressing interface recombination losses and improving performance.",
-    "toc":"images/toc/TOC_59.png"
+    "toc":"images/toc/toc_59.png"
   },
   {
     "title": "Solution triggered facile ion-exchange and phase transformation of ternary cesium-copper halide pseudo-perovskites",
@@ -86,7 +86,7 @@
     ],
     "doi": "https://doi.org/10.1039/D4CC06335J",
     "abstract": "Ternary cesium-copper halide pseudo-perovskites are an emerging class of semiconductors in the field of optoelectronics. Similarly to metal-halide perovskites, by controlling the halide-composition, their emission properties can be fine-tuned. Here, a post-synthetic halide exchange method was employed to alter the halide-composition and thus the emission properties of polycrystalline Cs<sub>3</sub>Cu<sub>2</sub>Br<sub>5</sub> layers.",
-    "toc": "images/toc/TOC_58.png"
+    "toc": "images/toc/toc_58.png"
   },
   {
     "title": "Sonochemically improved regeneration of mechanically amorphized Ca<sub>2</sub>Cr-layered double hydroxides – Synthesis, characterization and photocatalytic lidocaine decomposition",
@@ -122,7 +122,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.energyfuels.4c04058",
     "abstract": "Electrochemical reduction of carbon monoxide offers a possible route to produce valuable chemicals (such as acetate, ethanol or ethylene) from CO<sub>2</sub> in two consecutive electrochemical reactions. Such deeply reduced products are formed via the transfer of 4–6 electrons per CO molecule. Assuming similar-sized CO<sub>2</sub> and CO electrolyzers, 2–3-times larger current densities are required in the latter case to match the molar fluxes. Such high reaction rates can be ensured by tailoring the structure of the gas diffusion electrodes. Here, the structure of the cathode catalyst layer was systematically varied using different polymeric binders to achieve high reaction rates. Simple linear polymers, bearing the same backbone but different functional groups were compared to highlight the role of different structural motifs. The comparison was also extended to simple linear, partially fluorinated polymers. Interestingly, in some cases similar results were obtained as with the current state-of-the-art binders. Using different surface-wetting characterization techniques, we show that the hydrophobicity of the catalyst layer─provided by the binder─ is a prerequisite for high-rate CO electrolysis. The validity of this notion was demonstrated by performing CO electrolysis experiments at high current density (1 A cm<sup>–2</sup>) for several hours using PVDF as the catalyst binder.",
-    "toc":"images/toc/TOC_56.png"
+    "toc":"images/toc/toc_56.png"
   },
   {
     "title": "Coamplified Nanozyme Cocktails for Cascade Reaction-Driven Antioxidant Treatments",
@@ -142,7 +142,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsami.4c12511",
     "abstract": "Antioxidant nanozymes are powerful tools to combat oxidative stress, which can be further improved by applying nanozyme mixtures of multiple enzymatic function. Here, cocktails of Prussian blue (PB) nanocubes and copper(II) exchanged ZSM-5 zeolites (CuZ) with enhanced reactive oxygen species (ROS) scavenging activity were developed. Surface functionalization of the particles was performed using polymers to obtain stable colloids, i.e., resistant to aggregation, under a wide range of experimental conditions. The nanozyme cocktails possessed advanced antioxidant properties with multiple enzyme-like functions, catalyzing the decomposition of ROS in cascade reactions. The activity of the mixture far exceeded that of the individual particles, particularly in the peroxidase assay, where an improvement of more than an order of magnitude was observed, pointing to coamplification of the enzymatic activity. In addition, it was revealed that the copper(II) site in the CuZ plays an important role in the decomposition of both superoxide radicals and hydrogen peroxide, as it directly catalyzes the former reaction and acts as cocatalyst in the latter process by boosting the peroxidase activity of the PB nanozyme. The results give important insights into the design of synergistic particle mixtures for the broad-spectrum scavenging of ROS to develop efficient tools for antioxidant treatments in both medical therapies and industrial manufacturing processes.",
-    "toc":"images/toc/TOC_55.png"
+    "toc":"images/toc/toc_55.png"
   },
   {
     "title": "A Comparative Study on the Complexation of the Anticancer Iron Chelator VLX600 with Essential Metal Ions",
@@ -164,7 +164,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.inorgchem.3c03259",
     "abstract": "As cancer cells exhibit an increased uptake of iron, targeting the interaction with iron has become a straightforward strategy in the fight against cancer. This work comprehensively characterizes the chemical properties of 6-methyl-3-{(2E)-2-[1-(2-pyridinyl)ethylidene]hydrazino}-5H-[1,2,4]triazino[5,6-b]indole (VLX600), a clinically investigated iron chelator, in solution. Its protonation processes, lipophilicity, and membrane permeability as well as its complexation with essential metal ions were investigated using UV–visible, electron paramagnetic resonance, and NMR spectroscopic and computational methods. Formation constants revealed the following order of metal binding affinity at pH 7.4: Cu(II) > Fe(II) > Zn(II). The structures of VLX600 (denoted as HL) and the coordination modes in its metal complexes [Cu(II)(LH)Cl<sub>2</sub>], [Cu(II)(L)(CH<sub>3</sub>OH)Cl], [Zn(II)(LH)Cl<sub>2</sub>], and [Fe(II)(LH)<sub>2</sub>](NO<sub>3</sub>)<sub>2</sub> were elucidated by single-crystal X-ray diffraction. Redox properties of the iron complexes characterized by cyclic voltammetry showed strong preference of VLX600 toward Fe(II) over Fe(III). In vitro cytotoxicity of VLX600 was determined in six different human cancer cell lines, with IC<sub>50</sub> values ranging from 0.039 to 0.51 μM. Premixing VLX600 with Fe(III), Zn(II), and Cu(II) salts in stoichiometric ratios had a rather little effect overall, thus neither potentiating nor abolishing cytotoxicity. Together, although clinically investigated as an iron chelator, this is the first comprehensive solution study of VLX600 and its interaction with physiologically essential metal ions.",
-    "toc": "images/toc/TOC_54.png"
+    "toc": "images/toc/toc_54.png"
   },
   {
     "title": "Au-decorated Sb<sub>2</sub>Se<sub>3</sub> photocathodes for solar-driven CO<sub>2</sub> reduction",
@@ -180,7 +180,7 @@
     ],
     "doi": "https://doi.org/10.1039/d3ey00222e",
     "abstract": "Photoelectrodes with FTO/Au/Sb<sub>2</sub>Se<sub>3</sub>/TiO<sub>2</sub>/Au architecture were studied in photoelectrochemical CO<sub>2</sub> reduction reaction (PEC CO2RR). The preparation is based on a simple spin coating technique, where nanorod-like structures were obtained for Sb<sub>2</sub>Se<sub>3</sub>, as confirmed by SEM images. A thin conformal layer of TiO<sub>2</sub> was coated on the Sb<sub>2</sub>Se<sub>3</sub> nanorods via ALD, which acted as both an electron transfer layer and a protective coating. Au nanoparticles were deposited as co-catalysts via photo-assisted electrodeposition at different applied potentials to control their growth and morphology. The use of such architectures has not been explored in CO2RR yet. The photoelectrochemical performance for CO2RR was investigated with different Au catalyst loadings. A photocurrent density of ∼7.5 mA cm<sup>−2</sup> at −0.57 V vs. RHE for syngas generation was achieved, with an average Faradaic efficiency of 25 ± 6% for CO and 63 ± 12% for H<sub>2</sub>. The presented results point toward the use of Sb<sub>2</sub>Se<sub>3</sub>-based photoelectrodes in solar CO<sub>2</sub> conversion applications.",
-    "toc": "images/toc/TOC_53.png"
+    "toc": "images/toc/toc_53.png"
   },
   {
     "title": "Charge Transfer Kinetics in Halide Perovskites: On the Constraints of Time-Resolved Spectroscopy Measurements",
@@ -194,7 +194,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.4c00736",
     "abstract": "Understanding photophysical processes in lead halide perovskites is an important aspect of optimizing the performance of optoelectronic devices. The determination of exact charge carrier extraction rate constants remains elusive, as there is a large and persistent discrepancy in the reported absolute values. In this review, we concentrate on experimental procedures adopted in the literature to obtain kinetic estimates of charge transfer processes and limitations imposed by the spectroscopy technique employed. Time-resolved techniques (e.g., transient absorption–reflection and time-resolved photoluminescence spectroscopy) are commonly employed to probe charge transfer at perovskite/transport layer interfaces. The variation in sample preparation and measurement conditions can produce a wide dispersion of the measured kinetic parameters. The selected time window and the kinetic fitting model employed introduce additional uncertainty. We discuss here evaluation strategies that rely on multiexponential fitting protocols (regular or stretched) and show how the dispersion in the reported values for carrier transfer rate constants can be resolved.",
-    "toc": "images/toc/TOC_52.png"
+    "toc": "images/toc/toc_52.png"
   },
   {
     "title": "Design of blue-emitting adenosine monophosphate-copper nanocluster: Detection of Vitamin B<sub>2</sub> in real samples",
@@ -208,7 +208,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.microc.2024.111257",
     "abstract": "We demonstrate a simple preparation protocol for the synthesis of novel adenosine monophosphate-stabilized copper nanoclusters (AMP-Cu NCs). Synthesis parameters are optimized to reach the best fluorometric signal. The prepared Cu NCs show characteristic blue emission at 430 nm, which is related to the presence of Cu<sub>13</sub> metal cores. Three distinct lifetime components are identified and the metallic feature of the NCs is proven by X-ray photoelectron spectroscopy. The stability and the long-term storage of the AMP-Cu NCs were investigated by pH- and time-dependent measurements. Besides the synthesis and characterization, a possible liquid fluorescent assay method is also developed for the detection of the biologically important Vitamin B<sub>2</sub> in complex real samples by with 2.01 ± 0.31 μM detection limit. For the real samples, the yeast and dietary supplements were selected, where the detected concentration of Riboflavin was in good agreement with the expected amount in these complex chemical systems.",
-    "toc":"images/toc/TOC_51.png"
+    "toc":"images/toc/toc_51.png"
   },
   {
     "title": "Effect of Single-Crystal TiO<sub>2</sub>/Perovskite Band Alignment on the Kinetics of Electron Extraction",
@@ -224,7 +224,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.jpclett.3c03536",
     "abstract": "The kinetics of electron extraction at the electron transfer layer/perovskite interface strongly affects the efficiency of a perovskite solar cell. By combining transient absorption and time-resolved photoluminescence spectroscopy, the electron extraction process between FA<sub>0.83</sub>Cs<sub>0.17</sub>Pb(I<sub>0.83</sub>Br<sub>0.17</sub>)<sub>3</sub> and TiO<sub>2</sub> single crystals with different orientations of (100), (110), and (111) were probed from subpicosecond to several hundred nanoseconds. It was revealed that the band alignment between the constituents influenced the relative electron extraction process. TiO<sub>2</sub>(100) showed the fastest overall and hot electron transfer, owing to the largest conduction band and Fermi level offset compared to FA<sub>0.83</sub>Cs<sub>0.17</sub>Pb(I<sub>0.83</sub>Br<sub>0.17</sub>)<sub>3</sub>. It was found that an early electron accumulation in these systems can have an influence on the following electron extraction on the several nanosecond time scale. Furthermore, the existence of a potential barrier at the TiO<sub>2</sub>/perovskite interface was also revealed by performing excitation fluence-dependent measurements.",
-    "toc": "images/toc/TOC_50.png"
+    "toc": "images/toc/toc_50.png"
   },
   {
     "title": "Paired photoelectrochemical conversion of CO<sub>2</sub>/H<sub>2</sub>O and glycerol at high rate",
@@ -240,7 +240,7 @@
     ],
     "doi": "https://doi.org/10.1038/s41929-024-01134-3",
     "abstract": "Photoelectrochemistry holds the promise of directly converting sunlight to valuable chemical products. Photoelectrochemical (PEC) methods, however, lag behind their electrochemical counterparts in terms of current density. In this work, we demonstrate that, by using concentrated sunlight, we can achieve current densities similar to electrochemical methods, but with lower energy input. Specifically, we combined the direct PEC oxidation of glycerol with the dark hydrogen evolution or CO<sub>2</sub> reduction in a membrane-separated continuous-flow PEC cell. We achieved over 110 mA cm<sup>−2</sup> photocurrent density, which is at least an order of magnitude larger than those typically reported in the literature. We demonstrated that the product distribution of glycerol oxidation is notably different in PEC and electrochemical scenarios at the same current density, and the parasitic oxygen evolution reaction can be suppressed in the PEC case. This approach raises opportunities to drive complex electrochemical reactions in a more selective manner.",
-    "toc": "images/toc/TOC_49.png"
+    "toc": "images/toc/toc_49.png"
   },
   {
     "title": "Reduction of intracellular oxidative stress with a copper-incorporated layered double hydroxide",
@@ -259,7 +259,7 @@
     ],
     "doi": "https://doi.org/10.1039/d3cc05762c",
     "abstract": "Biocompatible Cu(II)-doped layered double hydroxide (CMA) nanoparticles were developed to combat reactive oxygen species. The 2-dimensional nanozymes showed both superoxide dismutase- and catalase-like activities in chemical assays, while proving as efficient antioxidants in the reduction of intracellular oxidative stress. The results indicate the great promise of CMA in antioxidant therapies.",
-    "toc":"images/toc/TOC_48.png"
+    "toc":"images/toc/toc_48.png"
   },
   {
     "title": "Temperature Dependent Carrier Dynamics in Ga-Alloyed CdSe/ZnS Core-Shell Quantum Dots",
@@ -281,7 +281,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.jpcc.3c04689",
     "abstract": "In this work, temperature dependent transient absorption spectroscopy measurements are presented on gallium-alloyed CdSe/ZnS core–shell nanoparticles between 30 and 130 °C. To our knowledge, temperature dependent measurements in these systems have been reported only in a few papers, although all processes related to carrier recombination are affected by temperature. For these experiments, gallium-alloyed CdSe/ZnS QD samples were used with nominal doping percentages of 2.5%, 7.5%, 15%. The experimental results show that the transient absorption decay is faster for the pristine CdSe/ZnS samples than in the gallium-alloyed samples at all temperatures. It is assumed that Ga-alloying promotes the formation of trions in the samples by introducing occupied impurity levels within the bandgap of CdSe. The resulting Coulomb blockade will, in turn, prolong the hot-electron relaxation process. By variation of the temperature, the distribution of charge carriers in the different recombination channels can be altered to accelerate recombination in the Ga-alloyed samples at higher temperatures. These measurements demonstrated their usefulness for observing the redistribution of charge carriers among different relaxation pathways.",
-    "toc": "images/toc/TOC_47.png"
+    "toc": "images/toc/toc_47.png"
   },
   {
     "title": "Local hydrophobicity allows high-performance electrochemical carbon monoxide reduction to C<sub>2+</sub> products",
@@ -299,7 +299,7 @@
     ],
     "doi": "https://doi.org/10.1039/d3ey00006k",
     "abstract": "While CO can already be produced at industrially relevant current densities via CO2 electrolysis, the selective formation of C<sub>2+</sub> products seems challenging. CO electrolysis, in principle, can overcome this barrier, hence forming valuable chemicals from CO<sub>2</sub> in two steps. Here we demonstrate that a mass-produced, commercially available polymeric pore sealer can be used as a catalyst binder, ensuring high rate and selective CO reduction. We achieved above 70% faradaic efficiency for C<sub>2+</sub> products formation at j = 500 mA cm<sup>−2</sup> current density. As no specific interaction between the polymer and the CO reactant was found, we attribute the stable and selective operation of the electrolyzer cell to the controlled wetting of the catalyst layer due to the homogeneous polymer coating on the catalyst particles’ surface. These results indicate that sophistically designed surface modifiers are not necessarily required for CO electrolysis, but a simpler alternative can in some cases lead to the same reaction rate, selectivity and energy efficiency; hence the capital costs can be significantly decreased.",
-    "toc":"images/toc/TOC_46.png"
+    "toc":"images/toc/toc_46.png"
   },
   {
     "title": "Photocatalytic and Antimicrobial Activity of Sulfur-Functionalized TiO<sub>2</sub>-Containing Composite Films",
@@ -316,7 +316,7 @@
     ],
     "doi": "https://doi.org/10.1002/ceat.202200489",
     "abstract": "Facile sulfation of TiO<sub>2</sub> semiconductor photocatalyst was achieved by a simple grinding and calcination method using elemental sulfur from desulfurization of petroleum. The successful sulfation of the prepared visible-light-active photocatalyst was also proved by infrared and X-ray photoelectron spectroscopic measurements. Photocatalytic tests revealed that the most efficient member of the series has higher photocatalytic activity than TiO<sub>2</sub> in the photodegradation of formic acid under both UV and visible-light activation. Moreover, the improved electrokinetic and water dispersibility behaviors of the sulfur-modified photocatalyst allowed the preparation of polyacrylate-based photoreactive thin films with increased photocatalytic activity, strong antimicrobial properties, and improved mechanical behavior.",
-    "toc":"images/toc/TOC_45.png"
+    "toc":"images/toc/toc_45.png"
   },
   {
     "title": "Promising Bioactivity of Vitamin B<sub>1</sub>-Au Nanocluster: Structure, Enhanced Antioxidant Behavior, and Serum Protein Interaction",
@@ -331,7 +331,7 @@
     ],
     "doi": "https://doi.org/10.3390/antiox12040874",
     "abstract": "In the current work, we first present a simple synthesis method for the preparation of novel Vitamin-B<sub>1</sub>-stabilized few-atomic gold nanoclusters with few atomic layers. The formed nanostructure contains ca. eight Au atoms and shows intensive blue emissions at 450 nm. The absolute quantum yield is 3%. The average lifetime is in the nanosecond range and three main components are separated and assigned to the metal–metal and ligand–metal charge transfers. Based on the structural characterization, the formed clusters contain Au in zero oxidation state, and Vitamin B<sub>1</sub> stabilizes the metal cores via the coordination of pyrimidine-N. The antioxidant property of the Au nanoclusters is more prominent than that of the pure Vitamin B<sub>1</sub>, which is confirmed by two different colorimetric assays. For the investigation into their potential bioactivity, interactions with bovine serum albumin were carried out and quantified. The determined stoichiometry indicates a self-catalyzed binding, which is almost the same value based on the fluorometric and calorimetric measurements. The calculated thermodynamic parameters verify the spontaneous bond of the clusters along the protein chain by hydrogen bonds and electrostatic interactions.",
-    "toc":"images/toc/TOC_44.png"
+    "toc":"images/toc/toc_44.png"
   },
   {
     "title": "The Effect of Halide Composition on the Luminescent Properties of Ternary Cesium–Copper Halide Pseudo-Perovskite Films",
@@ -350,7 +350,7 @@
     ],
     "doi": "https://doi.org/10.1002/adom.202300825",
     "abstract":"Ternary copper halide pseudo-perovskites are in the forefront of research as potential active materials in light emission applications. The optoelectronic properties of these compounds can be fine-tuned by the preparation of mixed-halide compositions. After irradiation, self-trapped excitonic states are formed in these materials. However, the emission from these self-trapped states is not yet fully understood. In this work, mixed-halide Cs<sub>3</sub>Cu<sub>2</sub>X<sub>5</sub> films (where X: I and/or Br) are prepared by a simple spray-coating method. Using ultraviolet photoelectron spectroscopy, the changes in optoelectronic properties are linked to the electronic structure of these materials. It is revealed that the incorporation of bromide into the lattice makes the emission process of these materials more vulnerable to trap states. By combining the different spectroscopic characterization techniques, the exact band structure of these compounds is determined, and the different processes are translated to the absolute energy scale. As an alternative excitation mechanism of self-trapped states, α-particles are used to induce radioluminescence response. The Cs<sub>3</sub>Cu<sub>2</sub>X<sub>5</sub> films exhibit composite decay patterns, most likely attributed to a multitude of different trap state-mediated recombination processes.",
-    "toc":"images/toc/TOC_43.png"
+    "toc":"images/toc/toc_43.png"
   },
   {
     "title": "Antioxidant colloids via heteroaggregation of cerium oxide nanoparticles and latex beads",
@@ -368,7 +368,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.colsurfb.2022.112531",
     "abstract": "Antioxidant colloids were developed via controlled heteroaggregation of cerium oxide nanoparticles (CeO<sub>2</sub> NPs) and sulfate-functionalized polystyrene latex (SL) beads. Positively charged CeO<sub>2</sub> NPs were directly immobilized onto SL particles of opposite surface charge via electrostatic attraction (SL/Ce composite), while negatively charged CeO<sub>2</sub> NPs were initially functionalized with poly(diallyldimethylammonium chloride) (PDADMAC) polyelectrolyte and then, aggregated with the SL particles (SPCe composite). The PDADMAC served to induce a charge reversal on CeO<sub>2</sub> NPs, while the SL support prevented nanoparticle aggregation under conditions, where the dispersions of bare CeO<sub>2</sub> NPs were unstable. Both SL/Ce and SPCe showed enhanced radical scavenging activity compared to bare CeO<sub>2</sub> NPs and were found to mimic peroxidase enzymes. The results demonstrate that SL beads are suitable supports to formulate CeO<sub>2</sub> particles and to achieve remarkable dispersion storage stability. The PDADMAC functionalization and immobilization of CeO<sub>2</sub> NPs neither compromised the peroxidase-like activity nor the radical scavenging potential. The obtained SL/Ce and SPCe artificial enzymes are foreseen to be excellent antioxidant agents in various applications in the biomedical, food, and cosmetic industries.",
-    "toc":"images/toc/TOC_42.png"
+    "toc":"images/toc/toc_42.png"
   },
   {
     "title": "CO<sub>2</sub> Conversion on N-Doped Carbon Catalysts via Thermo- and Electrocatalysis: Role of C-NO<sub>x</sub> Moieties",
@@ -389,7 +389,7 @@
     ],
     "doi": "https://doi.org/10.1021/acscatal.2c01589",
     "abstract": "N-doped carbon (N–C) materials are increasingly popular in different electrochemical and catalytic applications. Due to the structural and stoichiometric diversity of these materials, however, the role of different functional moieties is still controversial. We have synthesized a set of N–C catalysts, with identical morphologies (∼27 nm pore size). By systematically changing the precursors, we have varied the amount and chemical nature of N-functions on the catalyst surface. The CO<sub>2</sub> reduction (CO2R) properties of these catalysts were tested in both electrochemical (EC) and thermal catalytic (TC) experiments (i.e., CO<sub>2</sub> + H<sub>2</sub> reaction). CO was the major CO2R product in all cases, while CH<sub>4</sub> appeared as a minor product. Importantly, the CO2R activity changed with the chemical composition, and the activity trend was similar in the EC and TC scenarios. The activity was correlated with the amount of different N-functions, and a correlation was found for the −NO<sub>x</sub> species. Interestingly, the amount of this species decreased radically during EC CO2R, which was coupled with the performance decrease. The observations were rationalized by the adsorption/desorption properties of the samples, while theoretical insights indicated a similarity between the EC and TC paths.",
-    "toc":"images/toc/TOC_41.png"
+    "toc":"images/toc/toc_41.png"
   },
   {
     "title": "Exciton Dynamics in MoS<sub>2</sub>-Pentacene and WSe<sub>2</sub>-Pentacene Heterojunctions",
@@ -412,7 +412,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsnano.2c06144",
     "abstract": "We measured the exciton dynamics in van der Waals heterojunctions of transition metal dichalcogenides (TMDCs) and organic semiconductors (OSs). TMDCs and OSs are semiconducting materials with rich and highly diverse optical and electronic properties. Their heterostructures, exhibiting van der Waals bonding at their interfaces, can be utilized in the field of optoelectronics and photovoltaics. Two types of heterojunctions, MoS<sub>2</sub>-pentacene and WSe<sub>2</sub>-pentacene, were prepared by layer transfer of 20 nm pentacene thin films as well as MoS<sub>2</sub> and WSe<sub>2</sub> monolayer crystals onto Au surfaces. The samples were studied by means of transient absorption spectroscopy in the reflectance mode. We found that A-exciton decay by hole transfer from MoS<sub>2</sub> to pentacene occurs with a characteristic time of 21 ± 3 ps. This is slow compared to previously reported hole transfer times of 6.7 ps in MoS<sub>2</sub>-pentacene junctions formed by vapor deposition of pentacene molecules onto MoS<sub>2</sub> on SiO<sub>2</sub>. The B-exciton decay in WSe<sub>2</sub> shows faster hole transfer rates for WSe<sub>2</sub>-pentacene heterojunctions, with a characteristic time of 7 ± 1 ps. The A-exciton in WSe<sub>2</sub> also decays faster due to the presence of a pentacene overlayer; however, fitting the decay traces did not allow for the unambiguous assignment of the associated decay time. Our work provides important insights into excitonic dynamics in the growing field of TMDC-OS heterojunctions.",
-    "toc":"images/toc/TOC_40.png"
+    "toc":"images/toc/toc_40.png"
   },
   {
     "title": "Sacrificial Agent Gone Rogue: Electron-Acceptor-Induced Degradation of CsPbBr<sub>3</sub> Photocathodes",
@@ -426,7 +426,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.1c02130",
     "abstract": "Lead halide perovskites (LHPs) have emerged as perspective materials for light harvesting, due to their tunable band gap and optoelectronic properties. Photocatalytic and photoelectrochemical (PEC) studies, employing LHP/liquid junctions, are evolving, where sacrificial reagents are often used. In this study, we found that a frequently applied electron scavenger (TCNQ) has dual roles: while it leads to rapid electron transfer from the electrode to TCNQ, enhancing the PEC performance, it also accelerates the decomposition of the CsPbBr<sub>3</sub> photoelectrode. The instability of the films is caused by the TCNQ-mediated halide exchange between the dichloromethane solvent and the LHP film, during PEC operation. Charge transfer and halide exchange pathways were proposed on the basis of in situ spectroelectrochemical and ex situ surface characterization methods, also providing guidance on planning PEC experiments with such systems.",
-    "toc":"images/toc/TOC_39.png"
+    "toc":"images/toc/toc_39.png"
   },
   {
     "title": "Scintillator of Polycrystalline Perovskites for High-Sensitivity Detection of Charged-Particle Radiations",
@@ -442,7 +442,7 @@
     ],
     "doi": "https://doi.org/10.1002/adfm.202206645",
     "abstract": "Herein, the first study on the scintillation properties of CsCu<sub>2</sub>X<sub>3</sub> and Cs<sub>3</sub>Cu<sub>2</sub>X<sub>5</sub> (where X: Cl<sup>−</sup>, Br<sup>−</sup>, I<sup>−</sup>) is presented, describing their charged particle-induced luminescence involving electrons, protons, α-particles, and heavy ions, as well as revealing their capabilities on the timing and spectroscopic evaluation of single-particle events. The thin layers are prepared with a simple and cost-effective deposition procedure, without the incorporation of external dopants, exploiting the intrinsic radiative recombination observed in low-dimensional perovskites. The combined effect of the high binding energy and localized stability of self-trapped excitons, large Stokes shift, defect tolerance, and the high excitation density along the particle track leads to the emergence of boosted scintillation pulses. The observations demonstrate the first use of inorganic thin-film scintillators with optical pulse characteristics and light yield competitive with doped single crystal scintillators, while also providing improved structural and functional stability under extreme environmental conditions.",
-    "toc":"images/toc/TOC_38.png"
+    "toc":"images/toc/toc_38.png"
   },
   {
     "title": "Selective production of imines and benzimidazoles by cooperative bismuth(III)/transition metal ion catalysis",
@@ -463,7 +463,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.jcat.2022.09.008",
     "abstract": "Cooperative Bi(III)/Co(II) and Bi(III)/Mn(II) heterogeneous catalysts have been developed enabling efficient oxidative annulations for preparing both cross-coupled imines and benzimidazoles under ambient conditions in an atom-economic and time-efficient manner, involving ambient air as oxidant and without the need of any other additives. This is the first synergistic Lewis acid/transition metal catalyzed annulation which is potentiated by the interfaces between the building blocks of the catalysts. To achieve our goals, a useful fabrication process has been developed to heterogenize the transition metal ions via strong interactions on well-known Sillèn-type bismuth subcarbonate (bismutite). Their reusability, activity and selectivity as well as water-tolerance have made them potential competitors to effective heterogeneous/homogeneous catalysts reported previously.",
-    "toc":"images/toc/TOC_37.png"
+    "toc":"images/toc/toc_37.png"
   },
   {
     "title": "Synthesis and characterization of novel blue-emitting nicotinamide-gold nanoclusters with “chain-breaker” antioxidant property",
@@ -478,7 +478,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.molliq.2022.119372",
     "abstract": "In this paper, we firstly demonstrate a simple and reproducible synthesis protocol to produce nicotinamide-stabilized gold nanoclusters (NAM-Au NCs) under mild conditions. The dominant role of the pH and the ligand to metal ion molar ratio on the formation of these few atomic fluorescent NCs were proven. The prepared NCs show intensive blue-emission at 380 nm with two main lifetime components (4.7 and 6.7 ns), which refers to an ultra-small Au NCs structure and nearly uniform composition. The metallic oxidation state of the metal content was identified by X-ray photoelectron spectroscopy, while infrared studies strongly confirm the binding of aromatic-N and the amide-N to the metal core. The oxygen radical capacity (ORAC) tests were carried out in the case of the stabilizing nicotinamide and the prepared NAM-Au NCs using Trolox molecule as reference between 1 and 100 µM concentration range. Based on the fluorometric measurements, we demonstrated that our blue-emitting Au NCs also possess antioxidant activity with 0.48 ± 0.03 Trolox equivalent value. We clearly proved that our sub-nanometer-sized NAM-Au NCs show novel molecular-like optical features against the pure nicotinamide, but the antioxidant effect was also preserved. These coupled properties make our NCs as potential agents for biocatalytic reactions.",
-    "toc":"images/toc/TOC_36.png"
+    "toc":"images/toc/toc_36.png"
   },
   {
     "title": "Visible light-photoreactive composite surfaces with thermoresponsive wetting and photocatalytic properties",
@@ -494,7 +494,7 @@
     ],
     "doi": "https://doi.org/10.3144/expresspolymlett.2022.4",
     "abstract": "With the increasing demand for liquid manipulation and microfluidic techniques, surfaces with external stimuli induced real-time tunable wetting properties are getting into the focus of materials science research. In this study, we present poly(dimethylsiloxane) (PDMS) copolymer-based composite coatings with thermally adjustable wetting and visible-light photoreactivity. To give thermal responsivity to the spray-coated or doctor blade-casted PDMS surfaces, they were grafted with poly(N-isopropylacrylamide) (PNIPAAm), applying the Activators Regenerated by Electron Transfer – Atom Transfer Radical Polymerization (ARGET-ATRP) method. As the lower critical solution temperature (LCST) of the grafted PNIPAAm chains appeared to be 34°C, the copolymer films showed thermoresponsive, and PNIPAAm surface concentration-dependent wetting characteristics. The addition of 15 wt% visible light-active plasmonic Ag-TiO<sub>2</sub> photocatalyst nanoparticles (d<sub>primary</sub>~50 nm) enriched the coatings with photocatalytic activity, which was also proven to be temperature-dependent during methylene-blue (MB; c<sub>0</sub> = 6.25 mM) photodegradation tests (blue LED-light, λ = 405 nm) at the S/L-interface. Thanks to the real-time tunable wetting and photocatalytic properties, the presented coatings may offer a novel route towards sophisticated liquid manipulation.",
-    "toc":"images/toc/TOC_35.png"
+    "toc":"images/toc/toc_35.png"
   },
   {
     "title": "Construction and Properties of Donor-Acceptor Stenhouse Adducts on Gold Surfaces",
@@ -513,7 +513,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.langmuir.0c03275",
     "abstract": "The construction of a donor–acceptor Stenhouse adduct molecular layer on a gold surface is presented. To avoid the incompatibility of the thiol surface-binding group with the donor–acceptor polyene structure of the switch, an interfacial reaction approach was followed. Poly(dopamine)-supported gold nanoparticles on quartz slides were chosen as substrates, which was expected to facilitate both the interfacial reaction and the switching process by providing favorable steric conditions due to the curved particle surface. The reaction between the surface-bound donor half and the CF<sub>3</sub>-isoxazolone-based acceptor half was proved to be successful by X-ray photoelectron spectroscopy (XPS). However, UV–vis measurements suggested that a closed, cyclopentenone-containing structure of the switch formed on the surface irreversibly. Analysis of the wetting behavior of the surface revealed spontaneous water spreading that could be associated with conformational changes of the closed isomer.",
-    "toc":"images/toc/TOC_34.png"
+    "toc":"images/toc/toc_34.png"
   },
   {
     "title": "Copper-Loaded Layered Bismuth Subcarbonate—Efficient Multifunctional Heterogeneous Catalyst for Concerted C-S/C-N Heterocyclization",
@@ -533,7 +533,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsami.1c09234",
     "abstract":"An efficient self-supported Cu(II)Bi(III) bimetallic catalyst with a layered structure was designed and developed. By careful characterization of the as-prepared material, the host structure was identified to exhibit a Sillen-type bismutite framework, with copper(II) ions being loaded as guests. The heterogeneous catalyst enabled C–N and C–S arylations under mild reaction conditions and with high chemoselectivities, thus furnishing valuable phenothiazines via heterocyclization with wide substrate tolerance. As corroborated by detailed catalytic studies, the cooperative, bifunctional catalyst, bearing Lewis acid sites along with copper(II) catalytic sites, facilitated an intriguing concerted C–N/C–S heterocyclization mechanism. The heterogeneous nature of the catalytic reactions was verified experimentally. Importantly, the catalyst was successfully recycled and reused multiple times, persevering its original structural order as well as its initial activity.",
-    "toc":"images/toc/TOC_33.png"
+    "toc":"images/toc/toc_33.png"
   },
   {
     "title": "Design of hybrid biocatalysts by controlled heteroaggregation of manganese oxide and sulfate latex particles to combat reactive oxygen species",
@@ -550,7 +550,7 @@
     ],
     "doi": "https://doi.org/10.1039/d1tb00505g",
     "abstract":"The preparation of an antioxidant hybrid material by controlled heteroaggregation of manganese oxide nanoparticles (MnO<sub>2</sub> NPs) and sulfate-functionalized polystyrene latex (SL) beads was accomplished. Negatively charged MnO<sub>2</sub> NPs were prepared by precipitation and initially functionalized with poly(diallyldimethylammonium chloride) (PDADMAC) polyelectrolyte to induce charge reversal allowing decoration of oppositely charged SL surfaces via simple mixing. The PDADMAC-functionalized MnO<sub>2</sub> NPs (PMn) aggregated with the SL particles leading to the formation of negatively charged, neutral and positively charged (SPMn) composites. The charge neutralization resulted in rapidly aggregating dispersions, while stable samples were observed once the composites possessed sufficiently high negative and positive charge, below and above the charge neutralization point, respectively. The antioxidant assays revealed that SL served as a suitable substrate and that the PDADMAC functionalization and immobilization of MnO<sub>2</sub> NPs did not compromise their catalase (CAT) and superoxide dismutase (SOD)-like activities, which were also maintained within a wide temperature range. The obtained SPMn composite is expected to be an excellent candidate as an antioxidant material for the efficient scavenging of reactive oxygen species at both laboratory and larger scales, even under harsh conditions, where natural antioxidants do not function.",
-    "toc":"images/toc/TOC_32.png"
+    "toc":"images/toc/toc_32.png"
   },
   {
     "title": "Local Chemical Environment Governs Anode Processes in CO<sub>2</sub> Electrolyzers",
@@ -567,7 +567,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.1c01937",
     "abstract":"A major goal within the CO<sub>2</sub> electrolysis community is to replace the generally used Ir anode catalyst with a more abundant material, which is stable and active for water oxidation under process conditions. Ni is widely applied in alkaline water electrolysis, and it has been considered as a potential anode catalyst in CO<sub>2</sub> electrolysis. Here we compare the operation of electrolyzer cells with Ir and Ni anodes and demonstrate that, while Ir is stable under process conditions, the degradation of Ni leads to a rapid cell failure. This is caused by two parallel mechanisms: (i) a pH decrease of the anolyte to a near neutral value and (ii) the local chemical environment developing at the anode (i.e., high carbonate concentration). The latter is detrimental for zero-gap electrolyzer cells only, but the first mechanism is universal, occurring in any kind of CO<sub>2</sub> electrolyzer after prolonged operation with recirculated anolyte.",
-    "toc":"images/toc/TOC_31.png"
+    "toc":"images/toc/toc_31.png"
   },
   {
     "title": "The Mystery of Black TiO<sub>2</sub>: Insights from Combined Surface Science and in Situ Electrochemical Methods",
@@ -581,7 +581,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsmaterialsau.1c00020",
     "abstract":"Titanium dioxide (TiO<sub>2</sub>) is often employed as a light absorber, electron-transporting material and catalyst in different energy and environmental applications. Heat treatment in a hydrogen atmosphere generates black TiO<sub>2</sub> (b-TiO<sub>2</sub>), allowing better absorption of visible light, which placed this material in the forefront of research. At the same time, hydrogen treatment also introduces trap states, and the question of whether these states are beneficial or harmful is rather controversial and depends strongly on the application. We employed combined surface science and in situ electrochemical methods to scrutinize the effect of these states on the photoelectrochemical (PEC), electrocatalytic (EC), and charge storage properties of b-TiO<sub>2</sub>. Lower photocurrents were recorded with the increasing number of defect sites, but the EC and charge storage properties improved. We also found that the PEC properties can be enhanced by trap state passivation through Li<sup>+</sup> ion intercalation in a two-step process. This passivation can only be achieved by utilizing small size cations in the electrolyte (Li<sup>+</sup>) but not with bulky ones (Bu<sub>4</sub>N<sup>+</sup>). The presented insights will help to resolve some of the controversies in the literature and also provide rational trap state engineering strategies.",
-    "toc":"images/toc/TOC_30.png"
+    "toc":"images/toc/toc_30.png"
   },
   {
     "title": "The effect of nanostructure dimensionality on the photoelectrochemical properties of derived TiO<sub>2</sub> films",
@@ -598,7 +598,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.electacta.2021.137900",
     "abstract":"Studying the effect of nanoscale morphology on the photoelectrochemical performance of semiconductor electrodes has been in the forefront of research for over a decade, there are still major inconsistencies and controversies in the literature. Here we aimed to resolve some of these issues, by the controlled preparation of TiO<sub>2</sub> photoelectrodes from nanoparticles, nanorods, and nanosheets, where the nano dimension of the 0D, 1D, and 2D structures was kept similar (about 10 nm). XRD, Raman spectroscopy, XPS and UPS were employed to confirm that the chemical nature of the nanostructures is nearly identical, they only differ in their morphology. Photoelectrodes were prepared keeping the loading amount, surface area, or the film thickness identical, to deconvolute all trivial effects, and only scrutinize the role of morphology. TiO<sub>2</sub> nanorod (NR) films exhibited the best photoelectrochemical performance in all comparisons, achieving ~4 mA cm<sup>−2</sup> at 0.2 V vs. Ag/AgCl (under 100 mW cm<sup>−2</sup>, Xe-lamp illumination). In stark contrast, TiO<sub>2</sub> nanosheet (NS) film showed the lowest performance owing to the small amount of active sites on the basal plane of the NSs and the insufficient charge carrier transport through the film. Overall, we have demonstrated that under carefully controlled conditions, it is possible to compare the PEC behavior of TiO<sub>2</sub> photoelectrodes, and that the 1D nanostructures outperformed its 0D and 2D counterparts.",
-    "toc":"images/toc/TOC_29.png"
+    "toc":"images/toc/toc_29.png"
   },
   {
     "title": "A colloid approach to decorate latex particles with Prussian blue nanozymes",
@@ -613,7 +613,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.molliq.2020.113066",
     "abstract":"Prussian blue (PB) nanoparticles of intrinsic peroxidase and superoxide dismutase-like activities were prepared by the co-precipitation method and immobilized on amidine functionalized polystyrene latex (AL) particles. The interaction between the AL and PB particles and the colloidal stability of the resulting AL-PB hybrid composites were assessed at different mass ratios via determination of the charging and aggregation characteristics in the samples. The negatively charged PB nanoparticles strongly adsorbed on the oppositely charged AL particles resulting in a range of AL-PB composites of positive, neutral and negative overall charge, once the PB dose was increased. The AL-PB composite of a saturated PB layer on the surface of the AL particles formed considerably stable dispersions. Further, the morphology, structural and functional features of the AL-PB composites were explored by electron microscopy and enzymatic assays. The results revealed that the immobilization of PB nanoparticles not only provided a sustained catalytic surface but did not compromise the enzyme-like activities. The obtained stable composite is a promising agent in antioxidant therapies and wherever the aim is to reduce oxidative stress at laboratory or larger scales.",
-    "toc":"images/toc/TOC_28.png"
+    "toc":"images/toc/toc_28.png"
   },
   {
     "title": "Au/Pb Interface Allows the Methane Formation Pathway in Carbon Dioxide Electroreduction",
@@ -629,7 +629,7 @@
     ],
     "doi": "https://doi.org/10.1021/acscatal.0c00749",
     "abstract":"The electrochemical conversion of carbon dioxide (CO<sub>2</sub>) to high-value chemicals is an attractive approach to create an artificial carbon cycle. Tuning the activity and product selectivity while maintaining long-term stability, however, remains a significant challenge. Here, we study a series of Au–Pb bimetallic electrocatalysts with different Au/Pb interfaces, generating carbon monoxide (CO), formic acid (HCOOH), and methane (CH<sub>4</sub>) as CO<sub>2</sub> reduction products. The formation of CH<sub>4</sub> is significant because it has only been observed on very few Cu-free electrodes. The maximum CH<sub>4</sub> formation rate of 0.33 mA cm<sup>–2</sup> was achieved when the most Au/Pb interfaces were present. In situ Raman spectroelectrochemical studies confirmed the stability of the Pb native substoichiometric oxide under the reduction conditions on the Au–Pb catalyst, which seems to be a major contributor to CH<sub>4</sub> formation. Density functional theory simulations showed that without Au, the reaction would get stuck on the COOH intermediate, and without O, the reaction would not evolve further than the CHOH intermediate. In addition, they confirmed that the Au/Pb bimetallic interface (together with the subsurface oxygen in the model) possesses a moderate binding strength for the key intermediates, which is indeed necessary for the CH<sub>4</sub> pathway. Overall, this study demonstrates how bimetallic nanoparticles can be employed to overcome scaling relations in the CO<sub>2</sub> reduction reaction.",
-    "toc":"images/toc/TOC_27.png"
+    "toc":"images/toc/toc_27.png"
   },
   {
     "title": "Iodine (I) Expulsion at Photoirradiated Mixed Halide Perovskite Interface. Should I Stay or Should I Go?",
@@ -643,7 +643,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.0c00925",
     "abstract":"Visible light irradiation of a mixed halide perovskite film in contact with a solvent (dichloromethane, DCM) in which the film otherwise is stable leads to selective expulsion of iodide (I) from the film with a concurrent shift in the band edge to lower wavelengths. We have now employed mixed halide perovskites to uncover the influence of A-site cation [methylammonium (MA) and cesium (Cs)] on the mobility of iodide ions under photoirradiation. In the absence of solvent contact, the mixed halide perovskite films undergo photoinduced segregation with a rate constant that decreases with increasing Cs content. Interestingly, the iodide expulsion rate in DCM is strongly dependent on the rate of photoinduced segregation. At Cs atomic concentrations greater than 50%, the films become stable as the iodide expulsion is largely suppressed. The role of the A-site cation in dictating the mobility of halide ions is discussed.",
-    "toc":"images/toc/TOC_26.png"
+    "toc":"images/toc/toc_26.png"
   },
   {
     "title": "Photocorrosion at Irradiated Perovskite/Electrolyte Interfaces",
@@ -655,7 +655,7 @@
     ],
     "doi": "https://doi.org/10.1021/jacs.0c10348",
     "abstract":"Metal–halide perovskites transformed optoelectronics research and development during the past decade. They have also gained a foothold in photocatalytic and photoelectrochemical processes recently, but their sensitivity to the most commonly applied solvents and electrolytes together with their susceptibility to photocorrosion hinders such applications. Understanding the elementary steps of photocorrosion of these materials can aid the endeavor of realizing stable devices. In this Perspective, we discuss both thermodynamic and kinetic aspects of photocorrosion processes occurring at the interface of perovskite photocatalysts and photoelectrodes with different electrolytes. We show how combined in situ and operando electrochemical techniques can reveal the underlying mechanisms. Finally, we also discuss emerging strategies to mitigate photocorrosion (such as surface protection, materials and electrolyte engineering, etc.).",
-    "toc":"images/toc/TOC_25.png"
+    "toc":"images/toc/toc_25.png"
   },
   {
     "title": "Structure-Property Relationships in Unsymmetric Bis(antiaromatics): Who Wins the Battle between Pentalene and Benzocyclobutadiene?",
@@ -672,7 +672,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.joc.9b03119",
     "abstract":"According to the currently accepted structure–property relationships, aceno-pentalenes with an angular shape (fused to the 1,2-bond of the acene) exhibit higher antiaromaticity than those with a linear shape (fused to the 2,3-bond of the acene). To explore and expand the current view, we designed and synthesized molecules where two isomeric, yet, different, 8π antiaromatic subunits, a benzocyclobutadiene (BCB) and a pentalene, are combined into, respectively, an angular and a linear topology via an unsaturated six-membered ring. The antiaromatic character of the molecules is supported experimentally by 1H NMR, UV–vis, and cyclic voltammetry measurements and X-ray crystallography. The experimental results are further confirmed by theoretical studies including the calculation of several aromaticity indices (NICS, ACID, HOMA, FLU, MCI). In the case of the angular molecule, double bond-localization within the connecting six-membered ring resulted in reduced antiaromaticity of both the BCB and pentalene subunits, while the linear structure provided a competitive situation for the two unequal [4n]π subunits. We found that in the latter case the BCB unit alleviated its unfavorable antiaromaticity more efficiently, leaving the pentalene with strong antiaromaticity. Thus, a reversed structure–antiaromaticity relationship when compared to aceno-pentalenes was achieved.",
-    "toc":"images/toc/TOC_24.png"
+    "toc":"images/toc/toc_24.png"
   },
   {
     "title": "Electrochemical Hole Injection Selectively Expels Iodide from Mixed Halide Perovskite Films",
@@ -688,7 +688,7 @@
     ],
     "doi": "https://doi.org/10.1021/jacs.9b04568",
     "abstract":"Halide ion mobility in metal halide perovskites remains an intriguing phenomenon, influencing their optical and photovoltaic properties. Selective injection of holes through electrochemical anodic bias has allowed us to probe the effect of hole trapping at iodide (0.9 V) and bromide (1.15 V) in mixed halide perovskite (CH<sub>3</sub>NH<sub>3</sub>PbBr<sub>1.5</sub>I<sub>1.5</sub>) films. Upon trapping holes at the iodide site, the iodide gradually gets expelled from the mixed halide film (as iodine and/or triiodide ion), leaving behind re-formed CH<sub>3</sub>NH<sub>3</sub>PbBr<sub>3</sub> domains. The weakening of the Pb–I bond following the hole trapping (oxidation of the iodide site) and its expulsion from the lattice in the form of iodine provided further insight into the photoinduced segregation of halide ions in mixed halide perovskite films. Transient absorption spectroscopy revealed that the iodide expulsion process leaves a defect-rich perovskite lattice behind as charge carrier recombination in the re-formed lattice is greatly accelerated. The selective mobility of iodide species provides insight into the photoinduced phase segregation and its implication in the stable operation of perovskite solar cells.",
-    "toc":"images/toc/TOC_23.png"
+    "toc":"images/toc/toc_23.png"
   },
   {
     "title": "Tuning the Excited-State Dynamics of CuI Films with Electrochemical Bias",
@@ -703,7 +703,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.9b00182",
     "abstract":"Owing to its high hole conductivity and ease of preparation, CuI was among the first inorganic hole-transporting materials that were introduced early on in metal halide perovskite solar cells, but its full potential as a semiconductor material is still to be realized. We have now performed ultrafast spectroelectrochemical experiments on ITO/CuI electrodes to show the effect of applied bias on the excited-state dynamics in CuI. Under operating conditions, the recombination of excitons is dependent on the applied bias, and it can be accelerated by decreasing the potential from +0.6 to −0.1 V vs Ag/AgCl. Prebiasing experiments show the persistent and reversible “memory” effect of electrochemical bias on charge carrier lifetimes. The excitation of CuI in a CuI/CsPbBr<sub>3</sub> film provides synergy between both CuI and CsPbBr<sub>3</sub> in dictating the charge separation and recombination.",
-    "toc":"images/toc/TOC_22.png"
+    "toc":"images/toc/toc_22.png"
   },
   {
     "title": "Optoelectronic Properties of CuI Photoelectrodes",
@@ -717,7 +717,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.jpclett.8b03242",
     "abstract":"Detailed mechanistic understanding of the optoelectronic features is a key factor in designing efficient and stable photoelectrodes. In situ spectroelectrochemical methods were employed to scrutinize the effect of trap states on the optical and electronic properties of CuI photoelectrodes and to assess their stability against (photo)electrochemical corrosion. The excitonic band in the absorption spectrum and the Raman spectral features were directly influenced by the applied bias potential. These spectral changes exhibit a good correlation with the alterations observed in the charge-transfer resistance. Interestingly, the population and depopulation of the trap states, which are responsible for the changes in both the optical and electronic properties, occur in a different potential/energy regime. Although cathodic photocorrosion of CuI is thermodynamically favored, this process is kinetically hindered, thus providing good stability in photoelectrochemical operation.",
-    "toc":"images/toc/TOC_21.png"
+    "toc":"images/toc/toc_21.png"
   },
   {
     "title": "Composition-Dependent Electrocatalytic Behavior of Au-Sn Bimetallic Nanoparticles in Carbon Dioxide Reduction",
@@ -732,7 +732,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.8b01996",
     "abstract":"Bimetallic electrocatalysts offer great flexibility to tailor the activity and selectivity in electrochemical carbon dioxide (CO<sub>2</sub>) reduction. Here, we report on the electrocatalytic behavior of Au–Sn bimetallic nanoparticles with different intermetallic phases toward CO<sub>2</sub> electroreduction. Two high-value products formed with reasonable current density: formic acid in the liquid phase and syngas (CO + H<sub>2</sub>) in the gas phase. Notably, the phase composition of the catalysts had a massive influence on both activity and product distribution. Selective isotopic labeling studies emphasized the role of bicarbonate as the source of CO and formic acid formation on the AuSn bimetallic phase. In situ Raman spectroelectrochemical studies also demonstrated that the catalytic performance of the AuSn phase was superior to that of its parent metal and other bimetallic counterparts. The achieved control over the product distribution demonstrated the promise of bimetallic nanostructures being employed as efficient catalysts in the electroreduction of CO<sub>2</sub>.",
-    "toc":"images/toc/TOC_20.png"
+    "toc":"images/toc/toc_20.png"
   },
   {
     "title": "Electrochemistry and Spectroelectrochemistry of Lead Halide Perovskite Films: Materials Science Aspects and Boundary Conditions",
@@ -746,7 +746,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.chemmater.7b04321",
     "abstract":"The unique optoelectronic properties of lead halide perovskites have triggered a new wave of excitement in materials chemistry during the past five years. Electrochemistry, spectroelectrochemistry, and photoelectrochemistry could be viable tools both for analyzing the optoelectronic features of these materials and for assembling them into hybrid architectures (e.g., solar cells). At the same time, the instability of these materials limits the pool of solvents and electrolytes that can be employed in such experiments. The focus of our study is to establish a stability window for electrochemical tests for all-inorganic CsPbBr<sub>3</sub> and hybrid organic–inorganic MAPbI<sub>3</sub> perovskites. In addition, we aimed to understand the reduction and oxidation events that occur and to assess the damage done during these processes at extreme electrochemical conditions. In this vein, we demonstrated the chemical, structural, and morphological changes of the films in both reductive and oxidative environments. Taking all these results together as a whole, we propose a set of boundary conditions and protocols for how electrochemical experiments with lead halide perovskites should be carried out and interpreted. The presented results will contribute to the understanding of the electrochemical response of these materials and lead to a standardization of results in the literature so that comparisons can more easily be made.",
-    "toc":"images/toc/TOC_19.png"
+    "toc":"images/toc/toc_19.png"
   },
   {
     "title": "Electrodeposition of Hole-Transport Layer on Methylammonium Lead Iodide Film: A Strategy to Assemble Perovskite Solar Cells",
@@ -761,7 +761,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.chemmater.8b01521",
     "abstract":"In this study, we report the electrochemical deposition of PEDOT (HTM layer) directly on the MAPbI<sub>3</sub> film deposited on a FTO/TiO<sub>2</sub> electrode and its implementation in a perovskite solar cell (PSC) with an n–i–p architecture. The effect of electrochemical post-treatments of the HTM layer on the performance of PSC has also been scrutinized.",
-    "toc":"images/toc/TOC_18.png"
+    "toc":"images/toc/toc_18.png"
   },
   {
     "title": "Modulation of Charge Recombination in CsPbBr<sub>3</sub> Perovskite Films with Electrochemical Bias",
@@ -775,7 +775,7 @@
     ],
     "doi": "https://doi.org/10.1021/jacs.7b10958",
     "abstract":"The charging of a mesoscopic TiO<sub>2</sub> layer in a metal halide perovskite solar cell can influence the overall power conversion efficiency. By employing CsPbBr<sub>3</sub> films deposited on a mesoscopic TiO<sub>2</sub> film, we have succeeded in probing the influence of electrochemical bias on the charge carrier recombination process. The transient absorption spectroscopy experiments conducted at different applied potentials indicate a decrease in the charge carrier lifetimes of CsPbBr<sub>3</sub> as we increase the potential from −0.6 to +0.6 V vs Ag/AgCl. The charge carrier lifetime increased upon reversing the applied bias, thus indicating the reversibility of the photoresponse to charging effects. The ultrafast spectroelectrochemical experiments described here offer a convenient approach to probe the charging effects in perovskite solar cells.",
-    "toc":"images/toc/TOC_17.png"
+    "toc":"images/toc/toc_17.png"
   },
   {
     "title": "On the measured optical bandgap values of inorganic oxide semiconductors for solar fuels generation",
@@ -790,7 +790,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.cattod.2017.03.016",
     "abstract":"This article focuses on variation in the values for the optical bandgaps (E<sub>g</sub>) experimentally reported for fourteen oxide semiconductors that have been studied for solar photoelectrochemical and photocatalytic environmental remediation applications. Both binary and ternary compounds have been included in this study. The variance in the reported values is much more severe for the ternary compounds relative to the binary counterparts. Factors related to semiconductor doping and size quantization have been carefully removed from playing a role in the presented data. Instead the variability is attributed to intrinsic errors associated with the extraction of E<sub>g</sub> values from spectral data (for example, via Tauc plots), and to other sample-related factors such as surface functional groups and compound non-stoichiometry. Finally, suggestions for future, follow-up study are also given.",
-    "toc":"images/toc/TOC_16.png"
+    "toc":"images/toc/toc_16.png"
   },
   {
     "title": "Rapid synthesis of interconnected CuCrO<sub>2</sub> nanostructures: A promising electrode material for photoelectrochemical fuel generation",
@@ -803,7 +803,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.electacta.2018.03.185",
     "abstract":"Solar fuel generation is a promising avenue to mitigate the harmful effects of the increasing carbon dioxide concentration in the atmosphere. Both photoelectrochemical water splitting and carbon dioxide reduction are viable pathways to utilize solar irradiation, however, there is a strong need for novel photoelectrode materials with enhanced properties. Copper-based delafossites (CuMO<sub>2</sub>, where M: Cr, Al, Fe, Rh, etc.) are attractive photocathode candidates because their conduction band position lies at a sufficiently negative potential for both carbon dioxide reduction and hydrogen evolution. In this study copper chromium delafossite (CuCrO<sub>2</sub>) nanostructures were prepared by solution combustion synthesis; which yielded an almost phase pure, partially crystalline product within five minutes. The nanocrystalline samples were characterized by powder X-ray diffraction, transmission and scanning electron microscopy, UV–vis diffuse reflectance, FT-IR, and Raman spectroscopy. Linear sweep photovoltammograms indicated a promising photoelectrochemical performance (especially after thermal annealing), which is rooted in the interconnected porous structure of the samples. Long-term photoelectrolysis proved that CuCrO<sub>2</sub> can reduce carbon dioxide to carbon monoxide, methane, formic acid, and methanol, while hydrogen was co-generated from water splitting. What is further important, CuCrO<sub>2</sub> was more resistant to photocorrosion (i.e., metallic copper formation) than its monometallic Cu<sub>2</sub>O counterpart.",
-    "toc":"images/toc/TOC_15.png"
+    "toc":"images/toc/toc_15.png"
   },
   {
     "title": "A Victim of Halide Ion Segregation. How Light Soaking Affects Solar Cell Performance of Mixed Halide Lead Perovskites",
@@ -816,7 +816,7 @@
     ],
     "doi": "https://doi.org/10.1021/acsenergylett.7b00589",
     "abstract":"Photoinduced segregation in mixed halide perovskites has a direct influence on decreasing the solar cell efficiency as segregated I-rich domains serve as charge recombination centers. The changes in the external quantum efficiency mirror the spectral loss in the absorption; however, the time scale of the IPCE recovery in the dark is slower than the absorption recovery, showing the intricate nature of the photoinduced halide segregation and charge collection in solar cell devices.",
-    "toc":"images/toc/TOC_14.png"
+    "toc":"images/toc/toc_14.png"
   },
   {
     "title": "Bandgap-engineered quaternary M<sub>x</sub>Bi<sub>2−x</sub>Ti<sub>2</sub>O<sub>7</sub> (M: Fe, Mn) semiconductor nanoparticles: Solution combustion synthesis, characterization, and photocatalysis",
@@ -832,7 +832,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.apcatb.2017.02.036",
     "abstract":"Ternary and quaternary metal oxides form a rapidly emerging class of new functional materials tackling the grand challenge of efficient solar energy harvesting. Currently the main interest is devoted to the characteristics of these materials and little consideration has been given to their preparation. Solution combustion synthesis (SCS) is considered a green and sustainable alternative to the widely employed energy- and/or time-consuming synthesis methods. In this study, SCS was employed to prepare Bi<sub>2</sub>Ti<sub>2</sub>O<sub>7</sub> and to perform bandgap engineering through foreign ion (Fe, Mn) incorporation. The synthesized materials were characterized by powder X-ray diffraction, transmission electron microscopy, energy-dispersive X-ray microanalysis, diffuse reflectance UV–vis and Raman spectroscopy, and surface area determination via N<sub>2</sub> adsorption. We found that nanocrystalline materials were formed during the SCS synthesis. Further, the phase composition of these materials and the amount of the foreign metal ions incorporated in the parent structure, could be effectively controlled. Consequently, the SCS technique provided a simple and reliable tool for bandgap engineering. The photocatalytic activity of the materials was tested through methyl orange degradation, and the intrinsic photocatalytic activity of the various samples were compared after deconvoluting the effect of their vastly different specific surface areas.",
-    "toc":"images/toc/TOC_13.png"
+    "toc":"images/toc/toc_13.png"
   },
   {
     "title": "Photocatalytic, photoelectrochemical, and antibacterial activity of benign-by-design mechanochemically synthesized metal oxide nanomaterials",
@@ -850,7 +850,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.cattod.2016.07.010",
     "abstract":"In the search for highly active and stable photocatalysts, significant efforts are devoted to find both new materials and innovative synthetic methods. In this study, an environmentally friendly and sustainable approach, dry reactive milling, was employed to synthesize two different semiconducting oxide nanomaterials, namely TiO<sub>2</sub> and ZnO using polysaccharides as sacrificial templates. The as synthesized nanomaterials were characterized by powder X-ray diffraction, transmission electron microscopy, scanning electron microscopy, diffuse reflection UV-vis and Raman spectroscopy, and N<sub>2</sub> adsorption tests. Their photocatalytic activity was tested in ethanol degradation, followed by gas chromatographic analysis. Photoelectrochemical measurements were performed to assess the optoelectronic properties and the antimicrobial activity of these photocatalysts was also tested under visible light irradiation. Overall, we found that the performance of the synthesized nanomaterials was comparable to the benchmark P25 EVONIK titania, with ZnO exhibiting a remarkably superior antibacterial activity against E. coli.",
-    "toc":"images/toc/TOC_12.png"
+    "toc":"images/toc/toc_12.png"
   },
   {
     "title": "Photoelectrochemistry by Design: Tailoring the Nanoscale Structure of Pt/NiO Composites Leads to Enhanced Photoelectrochemical Hydrogen Evolution Performance",
@@ -870,7 +870,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.jpcc.7b00429",
     "abstract":"Photoelectrochemical hydrogen evolution is a promising avenue to store the energy of sunlight in the form of chemical bonds. The recent rapid development of new synthetic approaches enables the nanoscale engineering of semiconductor photoelectrodes, thus tailoring their physicochemical properties toward efficient H<sub>2</sub> formation. In this work, we carried out the parallel optimization of the morphological features of the semiconductor light absorber (NiO) and the cocatalyst (Pt). While nanoporous NiO films were obtained by electrochemical anodization, the monodisperse Pt nanoparticles were synthesized using wet chemical methods. The Pt/NiO nanocomposites were characterized by XRD, XPS, SEM, ED, TEM, cyclic voltammetry, photovoltammetry, EIS, etc. The relative enhancement of the photocurrent was demonstrated as a function of the nanoparticle size and loading. For mass-specific surface activity the smallest nanoparticles (2.0 and 4.8 nm) showed the best performance. After deconvoluting the trivial geometrical effects (stemming from the variation of Pt particle size and thus the electroactive surface area), however, the intermediate particle sizes (4.8 and 7.2 nm) were found to be optimal. Under optimized conditions, a 20-fold increase in the photocurrent (and thus the H<sub>2</sub> evolution rates) was observed for the nanostructured Pt/NiO composite, compared to the benchmark nanoparticulate NiO film.",
-    "toc":"images/toc/TOC_11.png"
+    "toc":"images/toc/toc_11.png"
   },
   {
     "title": "Solution Combustion Synthesis, Characterization, and Photocatalytic Activity of CuBi<sub>2</sub>O<sub>4</sub> and Its Nanocomposites with CuO and α-Bi<sub>2</sub>O<sub>3</sub>",
@@ -887,7 +887,7 @@
     ],
     "doi": "https://doi.org/10.1021/acs.jpcc.6b13093",
     "abstract":"The ternary compound, CuBi<sub>2</sub>O<sub>4</sub>, a 1:1 stoichiometric derivative of the two component oxides CuO and Bi<sub>2</sub>O<sub>3</sub>, has attracted attention from the solar water splitting and photocatalysis communities as a p-type semiconductor responsive to visible light. This study demonstrates that solution combustion synthesis (SCS) can be used to prepare powders not only of this compound but also nanocomposites with either CuO or Bi<sub>2</sub>O<sub>3</sub> in excess. This was simply done by tuning the SCS precursor mixture composition. The synthesized crystalline samples were characterized by powder X-ray diffraction (with Rietveld refinement for phase purity), diffuse reflectance UV–visible spectroscopy, electron microscopy, and photoelectrochemical (PEC) techniques. The band structure and photoactivity of these oxides were probed by linear sweep voltammetry and by measuring their photoaction spectra (internal photon-to-electron conversion efficiency vs wavelength). The photoactivity (attributed to hydrogen evolution and CO<sub>2</sub> photoreduction) was considerably improved in the CuO/CuBi<sub>2</sub>O<sub>4</sub> nanocomposites because of electron transport of the photogenerated charge carriers between the CuBi<sub>2</sub>O<sub>4</sub> and the CuO nanoparticles.",
-    "toc":"images/toc/TOC_10.png"
+    "toc":"images/toc/toc_10.png"
   },
   {
     "title": "Tailoring the interfaces in conducting polymer composites by controlled polymerization",
@@ -899,7 +899,7 @@
     ],
     "doi": "https://doi.org/10.1016/B978-0-08-100791-4.00005-7",
     "abstract":"This chapter summarizes the various strategies for the controlled synthesis of conducting polymer/inorganic nanostructure interfaces. We aimed to give a brief overview on the wealth of possibilities, also highlighting the particular importance of each method. The presented approaches span through chemical, electrochemical, and photo-polymerization of the conducting polymer (CP), but certain examples for the in situ formation of the inorganic component was also demonstrated. One common feature in all cases was the precise control over the properties of the organic/inorganic interface. Such control may include the manipulation of the composition, morphology, and optoelectronic properties of the hybrid assembly. It is also important that various comparative studies evidenced the superior performance of such prepared hybrid materials compared to their counterparts obtained via simple mechanical mixing. We really hope that the materials science community will increasingly exploit these smart methods in the future, to obtain nanohybrid materials with advanced properties.",
-    "toc":"images/toc/TOC_09.png"
+    "toc":"images/toc/toc_09.png"
   },
   {
     "title": "Electrochemical synthesis and characterization of poly(3-hexylthiophene)/single-walled carbon nanotube array hybrid materials",
@@ -914,7 +914,7 @@
     ],
     "doi": "https://doi.org/10.1007/s10008-016-3290-8",
     "abstract":"In this study, we demonstrate that by directly employing single-walled carbon nanotube arrays (SWCNT-arrays)—grown on conductive substrates—as working electrodes, selective and uniform electrodeposition of a conducting polymer, namely poly(3-hexylthiophene), can be achieved on the surface of the nanotubes. The overall kinetic pattern of the electrodeposition was studied by separating the deposition charge from the one related to the redox transformation of the polymer film deposited during the precedent cycles. Both the structure and the electrochemical properties of the hybrid materials were studied as a function of the electrodeposition cycles, thus the amount of the formed polymer. The hybrids were characterized by electron microscopic (SEM, TEM) and vibrational spectroscopic (Raman spectroscopy) means. The obtained results were compared and contrasted with those gathered on macroscopic-sized multi-walled carbon nanotube array-based composites in our group recently. Overall, we conclude that electrochemical polymerization is an attractive tool to synthesize conducting polymer/SWCNT hybrid materials with controlled composition and morphology.",
-    "toc":"images/toc/TOC_08.png"
+    "toc":"images/toc/toc_08.png"
   },
   {
     "title": "The Effect of Rh on the Interaction of Co with Al<sub>2</sub>O<sub>3</sub> and CeO<sub>2</sub> Supports",
@@ -931,7 +931,7 @@
     ],
     "doi": "https://doi.org/10.1007/s10562-016-1809-3",
     "abstract":"Co and Rh+Co catalysts supported on Al<sub>2</sub>O<sub>3</sub> and CeO<sub>2</sub> were investigated by temperature programmed reduction (TPR) and X-ray photoelectron spectroscopy (XPS). The CeO<sub>2</sub> defects, resulted from the effects of the metals, were further analyzed by Raman spectroscopy and optical absorption. Although the interaction of Co with these two supports is fairly different, it can be concluded that Rh inhibits the strong Co-support interaction. It was revealed that Co over Al<sub>2</sub>O<sub>3</sub> forms mainly Co<sup>2+</sup> compounds, only a smaller fraction of cobalt is in metallic state. After the addition of 0.1 % Rh, Co<sub>3</sub>O<sub>4</sub> like species is dominant, the amount of metallic state increased after reduction. Over CeO<sub>2</sub> the Co dissolution into the support was inhibited by Rh. A wide range of TPR results proved the stepwise reduction of Co, which was promoted by the addition of Rh. By Rh the entire mechanism of this process was altered that can be observed even by XPS. On the basis of the Raman and the optical measurements we concluded that the metals induce defect sites on the CeO<sub>2</sub> surface, and these appear as similar features on the spectra of Co and Rh containing samples, thus their density depends on the metal loading and not on the metal type. CeO<sub>2</sub> has a bandgap of 3.27 eV, which is not altered by the metals, but an electronic contact was detected between the metals and CeO<sub>2</sub> by photovoltammetry. The increased number of metallic species is mainly responsible for the higher catalytic activity and for the enhanced hydrogen selectivity in the stream reforming of ethanol.",
-    "toc":"images/toc/TOC_07.png"
+    "toc":"images/toc/toc_07.png"
   },
   {
     "title": "Challenges and rewards of the electrosynthesis of macroscopic aligned carbon nanotube array/conducting polymer hybrid assemblies",
@@ -952,7 +952,7 @@
     ],
     "doi": "https://doi.org/10.1002/polb.23782",
     "abstract":"Hybrid assemblies based on conducting polymers and carbon nanomaterials with organized nanoscale structure are excellent candidates for various application schemes ranging from thermal management to electrochemical energy conversion and storage. In the case of macroscopic samples, however, precise control of the nanoscale structure has remained a major challenge to be solved for the scientific community. In this study we demonstrate possible routes to homogeneously infiltrate poly(3-hexylthiophene), poly(3,4-ethylenedioxythiophene), and polyaniline into macroscopic arrays of vertically aligned multiwalled carbon nanotubes (MWCNTAs). Electron microscopic images and Raman spectroscopic analysis (performed along the longitudinal dimension of the hybrid samples) both confirmed that optimization of the electropolymerization circumstances allowed fine tuning of the hybrid structure towards the targeted application. In this vein, three different application avenues were tested. The remarkable anisotropy in both the electrical and thermal conductivity of the nanocomposites makes them eminently attractive candidates to be deployed in thermal management. Thermoelectric studies, aimed to understand the effect of organized nanoscale morphology on the important parameters (Seebeck coefficient, electrical-, and thermal conductivity) compared to their non-organized hybrid counterparts. Finally, extraordinary high charge storage capacity values were registered for the MWCNTA/PANI hybrids (500 F g<sup>−1</sup> and 1–3 F cm<sup>−2</sup>).",
-    "toc":"images/toc/TOC_06.png"
+    "toc":"images/toc/toc_06.png"
   },
   {
     "title": "New insights into the relationship between structure and photocatalytic properties of TiO<sub>2</sub> catalysts",
@@ -972,7 +972,7 @@
     ],
     "doi": "https://doi.org/10.1039/c4ra11489b",
     "abstract":"This work systematically investigated the relationship between structure, morphology, photoelectrochemical (PEC) and photocatalytic (PC) properties of TiO<sub>2</sub> catalysts. A series of TiO<sub>2</sub> catalysts with various phase compositions (anatase-, brookite- and finally rutile-rich samples) and morphologies (1D morphology, rhomboid nanoparticles (NPs) and flower-like assemblies of nanorods) were prepared by an acidic hydrothermal treatment of hydrogen titanate nanofibres (H-TNFs). The structures of the samples, such as crystal phase composition and their spatial distribution, were extensively characterised, and the samples were tested for photocatalytic degradation of ethanol. A strong correlation is found between PEC and PC properties. PEC measurements revealed that the brookite-rich samples generated high but unstable photocurrents. The anatase and rutile-rich samples showed good stability, but for the rutile-rich samples low photocurrents were detected due to the poor conductivity of this polymorph. In contrast, the sample containing 93.2% anatase and 6.8% brookite with elongated morphology not only showed the ability to generate high photocurrents but also maintained a stable photoresponse upon an extended period of time, because of its well-balanced bi-crystalline structure and elongated morphology. Therefore, the abilities to generate high photocurrents and to maintain a stable photoresponse are equally important and probably a prerequisite for a good photocatalyst.",
-    "toc":"images/toc/TOC_05.png"
+    "toc":"images/toc/toc_05.png"
   },
   {
     "title": "On the electrochemical synthesis and charge storage properties of WO<sub>3</sub>/polyaniline hybrid nanostructures",
@@ -986,7 +986,7 @@
     ],
     "doi": "https://doi.org/10.1007/s10008-015-2820-0",
     "abstract":"The aim of this study is to tailor the electrochemical synthesis of hybrid materials consisting of nanoporous tungsten trioxide (WO<sub>3</sub>) and polyaniline (PANI) for application as supercapacitor electrodes. Nanoporous WO<sub>3</sub>, synthesized by the anodization of tungsten foils, acted as the active material framework for this assembly. With the variation of the anodization voltage, host materials with different morphological features were prepared. Subsequently, electrodeposition of PANI was carried out by potentiodynamic cycling in highly acidic media. Through alteration of the number of deposition cycles, the amount of deposited PANI was varied. This parameter had a decisive impact on the morphology of the resulting hybrids as confirmed by SEM images. Cyclic voltammetry and galvanostatic charge–discharge measurements were carried out to characterize the charge storage properties of the synthesized hybrids. By comparing electrochemical data with structural properties, structure–property relationships were established, and under optimal conditions, 350 F g<sup>−1</sup> and 200 mF cm<sup>−2</sup> were obtained.",
-    "toc":"images/toc/TOC_04.png"
+    "toc":"images/toc/toc_04.png"
   },
   {
     "title": "Photoelectrochemical Infiltration of a Conducting Polymer (PEDOT) into Metal-Chalcogenide Decorated TiO<sub>2</sub> Nanotube Arrays",
@@ -1002,7 +1002,7 @@
     ],
     "doi": "https://doi.org/10.1016/j.electacta.2014.11.094",
     "abstract":"Photoelectrochemical synthesis of TiO<sub>2</sub>/CdX/PEDOT [X: S, Se; PEDOT = poly(3,4-ethylenedioxythiophene)] ternary hybrids was carried out by exploiting the semiconductor (SC) nature of both the oxide and the chalcogenide component. To this end, TiO<sub>2</sub> nanotube arrays were initially electrosynthesized on titanium foils by anodization in fluoride-containing aqueous media. CdS and CdSe quantum dots were subsequently deposited on the nanotubes using successive ionic layer adsorption and reaction (SILAR). The conjugated polymer, PEDOT, was then grafted using photoelectrochemical excitation of the SC matrix and potentiodynamic deposition, to ultimately afford the ternary hybrid architecture. The morphology, structural properties, and chemical composition of these assemblies were evaluated by scanning electron microscopy, diffuse reflectance UV-Vis spectrophotometry, and Raman spectroscopy, while their electroactivity was evaluated by cyclic voltammetry. Photoelectrochemical deposition of the conducting polymer was carried out both through selective excitation of the chalcogenide sensitizer and the collective photoexcitation of the two SC components. Two precursor molecules, namely, EDOT or bis-EDOT were compared and contrasted in terms of their relative proclivity to oligomer/polymer formation. The use of UV or visible spectral wavelength components allowed for discrimination between the various polymer formation and SC photoexcitation pathways.",
-    "toc":"images/toc/TOC_03.png"
+    "toc":"images/toc/toc_03.png"
   },
   {
     "title": "Time- and energy-efficient solution combustion synthesis of binary metal tungstate nanoparticles with enhanced photocatalytic activity",
@@ -1022,7 +1022,7 @@
     ],
     "doi": "https://doi.org/10.1002/cssc.201500383",
     "abstract":"In the search for stable and efficient photocatalysts beyond TiO<sub>2</sub>, the tungsten-based oxide semiconductors silver tungstate (Ag<sub>2</sub>WO<sub>4</sub>), copper tungstate (CuWO<sub>4</sub>), and zinc tungstate (ZnWO<sub>4</sub>) were prepared using solution combustion synthesis (SCS). The tungsten precursor’s influence on the product was of particular relevance to this study, and the most significant effects are highlighted. Each sample’s photocatalytic activity towards methyl orange degradation was studied and benchmarked against their respective commercial oxide sample obtained by solid-state ceramic synthesis. Based on the results herein, we conclude that SCS is a time- and energy-efficient method to synthesize crystalline binary tungstate nanomaterials even without additional excessive heat treatment. As many of these photocatalysts possess excellent photocatalytic activity, the discussed synthetic strategy may open sustainable materials chemistry avenues to solar energy conversion and environmental remediation.",
-    "toc":"images/toc/TOC_02.png"
+    "toc":"images/toc/toc_02.png"
   },
   {
     "title": "Hyphenated in situ conductance and spectroelectrochemical studies of polyaniline films in strongly acidic solutions",
