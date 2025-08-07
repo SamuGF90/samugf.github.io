@@ -1,0 +1,940 @@
+[
+  
+  {
+    "title": "Electrochemical Modulation of Hole Extraction in NiO/Perovskite Bilayers",
+    "year": "2025",
+    "journal": "Advanced Materials Interfaces",
+    "authors": [
+      "Chen, X.",
+      "Sárosi, K.",
+      "Tóth, B.",
+      "Gilicze, B.",
+      "Bengery, Z.",
+      "Mogyorósi, K.",
+      "Janáky, C.",
+      "Samu, G.F."
+    ],
+    "doi": "https://doi.org/10.1002/admi.202500159",
+    "abstract": "Charge extraction (or injection) at the transport layer/lead halide perovskite interface is a decisive process in determining the efficiency of optoelectronic devices. To elucidate the influence of band offsets on the hole transfer process, a series of perovskite thin films with systematically tuned valence band positions (FA<sub>0.83</sub>Cs<sub>0.17</sub>Pb(I<sub>x</sub>Br<sub>1-x</sub>)<sub>3</sub>) are fabricated and deposited on mesoporous NiO hole transport layers. In this work, transient absorption spectroscopy is performed to study the kinetics of hole transfer through the NiO/perovskite interface. It is revealed that a larger valence band offset is beneficial for hole extraction. To understand how hole depletion/accumulation influences the hole extraction process, in situ transient spectroelectrochemical measurements are also employed. These results highlight that, at negative applied electrochemical biases, an acceleration of the hole transfer process is found for different perovskite compositions. A more pronounced increase in the hole extraction rate can be tied to a larger valence band offset at the NiO/perovskite interface. These results provide a better understanding of the charge extraction process at NiO/perovskite interfaces, enabling more rational design of these systems.",
+    "toc": "images/toc/TOC_63.png"
+  },
+  {
+    "title": "Scintillation Response of 0D Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> Thin Layers to Light‐ and Heavy‐Ion Irradiation",
+    "year": "2025",
+    "journal": "Advanced Photonics Research",
+    "authors": [
+      "Hunyadi, M.",
+      "Csík, A.",
+      "Hajdu, C.",
+      "Janáky, C.",
+      "Rajta, I.",
+      "Samu, G.F.",
+      "Csige, L."
+    ],
+    "doi": "https://doi.org/10.1002/adpr.202400217",
+    "abstract": "Low-dimensional copper halides with perovskite–analogue structure are a rapidly growing material family for light-emitting and X-ray screening devices. Among them Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> exhibits exceptional optoelectronic properties (large Stokes shift, high emission yield), due to the strong confinement effect of its 0D structure. However, its radioluminescence response to energetic ions has only marginally been explored and to heavy ions fully ignored due to the detrimental effect of luminescence quenching. Herein, the scintillation response of Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> thin layers to ions in a wide range of atomic mass and ionization density, as well as to electrons using the Compton-coincidence technique, is investigated. The photon yield, linearity, and energy resolution are investigated as key parameters of the spectroscopic performance. Different semiempirical quenching models are used to better understand the relationship between the luminescence yield and the ionization density. The spectroscopic capability of polycrystalline Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> thin films is found on par with that of single-crystal CsI:Tl to detect heavy ions. This makes easily processable thin-film copper halides an attractive addition to the scintillator landscape.",
+    "toc": "images/toc/TOC_62.png"
+  },
+  {
+    "title": "Application of Co<sub>3</sub>O<sub>4</sub> as anode catalyst in CO<sub>2</sub> electrolyzer cells",
+    "year": "2025",
+    "journal": "Npg Asia Materials",
+    "authors": [
+      "Kormányos, A.",
+      "Priamushko, T.",
+      "Samu, G.F.",
+      "Samu, A.",
+      "Endrődi, B.",
+      "Cherevko, S.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1038/s41427-025-00598-4",
+    "abstract": "Replacing Ir with anode catalyst materials that are more abundant is a long-sought objective within the CO<sub>2</sub> electrolysis community. The chemical environment (near-neutral pH, carbonate buffer electrolyte) that inherently develops during long-term operation, however, limits the pool of applicable candidates. In this contribution, Ir was replaced with a porous Co<sub>3</sub>O<sub>4</sub> nanosheet catalyst layer as the anode of a zero-gap CO<sub>2</sub> electrolyzer cell. The catalyst was directly deposited on the Ti porous transport layer via hydrothermal synthesis, which allowed the precise control of the catalyst loading. Under optimal conditions (7 mg cm<sup>-2</sup> Co<sub>3</sub>O<sub>4</sub> loading), 300 mA cm<sup>-2</sup> current density was reached at 3.4 V applied cell voltage. The electrolyzer cell with the Co<sub>3</sub>O<sub>4</sub> anode was operated continuously for 50 hours at 250 mA cm<sup>-2</sup> current density with stable cell voltage and CO<sub>2</sub> reduction selectivity.",
+    "toc":"images/toc/TOC_61.png"
+  },
+  {
+    "title": "Modulating Band Offset through Interface Engineering of Cu<sub>2</sub>SnSe<sub>3</sub>-Based Heterojunctions for Efficient Charge Separation and Collection",
+    "year": "2025",
+    "journal": "Small Methods",
+    "authors": [
+      "Borkar, D.R.",
+      "Mandal, A.",
+      "Jadhav, Y.A.",
+      "Eya, H.I.",
+      "Kolekar, S.",
+      "Kahaly, M.U.",
+      "Samu, G.F.",
+      "Gouda, G.M.",
+      "Rondiya, S.R."
+    ],
+    "doi": "https://doi.org/10.1002/smtd.202401780"
+  },
+  {
+    "title": "Solution triggered facile ion-exchange and phase transformation of ternary cesium-copper halide pseudo-perovskites",
+    "year": "2025",
+    "journal": "Chemical Communications",
+    "authors": [
+      "Hajdu, C.",
+      "Zsigmond, T.S.",
+      "Kutus, B.",
+      "Ungor, D.",
+      "Csapó, E.",
+      "Janáky, C.",
+      "Samu, G.F."
+    ],
+    "doi": "https://doi.org/10.1039/D4CC06335J"
+  },
+  {
+    "title": "Sonochemically improved regeneration of mechanically amorphized Ca<sub>2</sub>Cr-layered double hydroxides – Synthesis, characterization and photocatalytic lidocaine decomposition",
+    "year": "2025",
+    "journal": "Applied Clay Science",
+    "authors": [
+      "Szabó, V.",
+      "Mészáros, R.",
+      "Kutus, B.",
+      "Samu, G.F.",
+      "Kónya, Z.",
+      "Kukovecz, Á.",
+      "Sipos, P.",
+      "Szabados, M."
+    ],
+    "doi": "https://doi.org/10.1016/j.clay.2024.107684",
+    "abstract": "Our aim was to extend the structure recovery method previously seen for mechanochemically amorphized Ca2Fe-layered double hydroxides (LDH) to additional LDHs and to further improve it by utilizing ultrasonic irradiation. Work commenced with the synthesis of Ca2Cr-LDH, under the developed optimal conditions of unusually high alkali concentration (9 M NaOH) and mild heating (50 °C). Comparing ultrasonic treatment with mechanical mixing, sonication was able to recover the original structure twice as fast, reduce the direct optical band gaps of LDHs by larger extent, while the surface CrVI content decreased by nearly 20 %. Without base addition, Ca2M-hydrocalumites (MIII: Al, Sc, V, Cr, Fe, Ga, In) was used as sacrificial templates in lidocaine photomineralization by forming active MIII hydroxides and oxide particles. LDH-derived Cr(OH)3 proved to be a robust and reusable catalyst, with efficiencies ahead of many semiconductors such as SnO2, BiOBr, WO3, SrTiO3 and ZnO. At pH 12, dissolution of Ca2Cr-LDHs was inhibited, so that the catalytic effects of pre-milling and structural restoration could be studied. Performance of Ca2Cr-LDHs nearly doubled after grinding, while a small increase was observed for Mg2Cr- and a decrease for Zn2Cr-LDHs. However, with appropriate structural recovery, activity of all LDHs was enhanced compared to the initial or ground solids. Benefits of ultrasonic recovery in catalysis over mechanical stirring have also been demonstrated and highlighted key aspects of the efficiency of structure recovery in the significantly different hydrocalumite−hydrotalcite systems.",
+    "TOC":"images/toc/TOC_58.png"
+  },
+  {
+    "title": "Comparative Study of Different Polymeric Binders in Electrochemical CO Reduction",
+    "year": "2024",
+    "journal": "Energy & Fuels",
+    "authors": [
+      "Galbicsek, N.V.",
+      "Kormányos, A.",
+      "Samu, G.F.",
+      "Ayyub, M.M.",
+      "Kotnik, T.",
+      "Kovačič, S.",
+      "Janáky, C.",
+      "Endrődi, B."
+    ],
+    "doi": "https://doi.org/10.1021/acs.energyfuels.4c04058"
+  },
+  {
+    "title": "Coamplified Nanozyme Cocktails for Cascade Reaction-Driven Antioxidant Treatments",
+    "year": "2024",
+    "journal": "ACS Applied Materials & Interfaces",
+    "authors": [
+      "Halmagyi, T.G.",
+      "Voros, A.",
+      "Saringer, S.",
+      "Hornok, V.",
+      "May N.V.",
+      "Samu, G.F.",
+      "Szenti, I.",
+      "Szerlauth, A.",
+      "Konya, Z.",
+      "Szilagyi, I."
+    ],
+    "doi": "https://doi.org/10.1021/acsami.4c12511"
+  },
+  {
+    "title": "A Comparative Study on the Complexation of the Anticancer Iron Chelator VLX600 with Essential Metal Ions",
+    "year": "2024",
+    "journal": "Inorganic Chemistry",
+    "authors": [
+      "Pósa, V.",
+      "Federa, A.",
+      "Cseh, K.",
+      "Wenisch, D.",
+      "Spengler, G.",
+      "May, N.V.",
+      "Lihi, N.",
+      "Samu, G.F.",
+      "Jakupec, M.A.",
+      "Keppler, B.K.",
+      "Kowol, C.R.",
+      "Enyedy, E.A."
+    ],
+    "doi": "https://doi.org/10.1021/acs.inorgchem.3c03259"
+  },
+  {
+    "title": "Au-decorated Sb<sub>2</sub>Se<sub>3</sub> photocathodes for solar-driven CO<sub>2</sub> reduction",
+    "year": "2024",
+    "journal": "Ees Catalysis",
+    "authors": [
+      "Dela Cruz, J.M.C.M.",
+      "Balog, I.",
+      "Tóth, P.S.",
+      "Bencsik, G.",
+      "Samu, G.F.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1039/d3ey00222e"
+  },
+  {
+    "title": "Charge Transfer Kinetics in Halide Perovskites: On the Constraints of Time-Resolved Spectroscopy Measurements",
+    "year": "2024",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Chen, X.",
+      "Kamat, P.V.",
+      "Janáky, C.",
+      "Samu, G.F."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.4c00736"
+  },
+  {
+    "title": "Design of blue-emitting adenosine monophosphate-copper nanocluster: Detection of Vitamin B2 in real samples",
+    "year": "2024",
+    "journal": "Microchemical Journal",
+    "authors": [
+      "Ungor, D.",
+      "Kuklis, L.",
+      "Samu, G.F.",
+      "Csapó, E."
+    ],
+    "doi": "https://doi.org/10.1016/j.microc.2024.111257"
+  },
+  {
+    "title": "Effect of Single-Crystal TiO<sub>2</sub>/Perovskite Band Alignment on the Kinetics of Electron Extraction",
+    "year": "2024",
+    "journal": "Journal of Physical Chemistry Letters",
+    "authors": [
+      "Chen, X.",
+      "Pasanen, H.P.",
+      "Khan, R.",
+      "Tkachenko, N.V.",
+      "Janáky, C.",
+      "Samu, G.F."
+    ],
+    "doi": "https://doi.org/10.1021/acs.jpclett.3c03536"
+  },
+  {
+    "title": "Paired photoelectrochemical conversion of CO<sub>2</sub>/H<sub>2</sub>O and glycerol at high rate",
+    "year": "2024",
+    "journal": "Nature Catalysis",
+    "authors": [
+      "Balog, Á.",
+      "Kecsenovity, E.",
+      "Samu, G.F.",
+      "He, J.",
+      "Fekete, D.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1038/s41929-024-01134-3"
+  },
+  {
+    "title": "Reduction of intracellular oxidative stress with a copper-incorporated layered double hydroxide",
+    "year": "2024",
+    "journal": "Chemical Communications",
+    "authors": [
+      "Szerlauth, A.",
+      "Madácsy, T.",
+      "Samu, G.F.",
+      "Bíró, P.",
+      "Erdélyi, M.",
+      "Varga, G.",
+      "Xu, Z.P.",
+      "Maléth, J.",
+      "Szilágyi, I."
+    ],
+    "doi": "https://doi.org/10.1039/d3cc05762c"
+  },
+  {
+    "title": "Temperature Dependent Carrier Dynamics in Ga-Alloyed CdSe/ZnS Core-Shell Quantum Dots",
+    "year": "2024",
+    "journal": "Journal of Physical Chemistry C",
+    "authors": [
+      "Sárosi, K.",
+      "Tuinenga, C.",
+      "Samu, G.F.",
+      "Mogyorósi, K.",
+      "Dudás, J.",
+      "Tóth, B.",
+      "Jójárt, P.",
+      "Gilicze, B.",
+      "Seres, I.",
+      "Bengery, Z.",
+      "Janáky, C.",
+      "Chikán, V."
+    ],
+    "doi": "https://doi.org/10.1021/acs.jpcc.3c04689"
+  },
+  {
+    "title": "Local hydrophobicity allows high-performance electrochemical carbon monoxide reduction to C2+ products",
+    "year": "2023",
+    "journal": "Ees Catalysis",
+    "authors": [
+      "Kormányos, A.",
+      "Endrodi, B.",
+      "Zhang, Z.",
+      "Samu, A.",
+      "Mérai, L.",
+      "Samu, G.F.",
+      "Janovák, L.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1039/d3ey00006k"
+  },
+  {
+    "title": "Photocatalytic and Antimicrobial Activity of Sulfur-Functionalized TiO<sub>2</sub>-Containing Composite Films",
+    "year": "2023",
+    "journal": "Chemical Engineering and Technology",
+    "authors": [
+      "Ágoston, Á.",
+      "Balassa, L.",
+      "Deák, Á.",
+      "Samu, G.F.",
+      "Tallósy, S.P.",
+      "Gombár, G.",
+      "Janovák, L."
+    ],
+    "doi": "https://doi.org/10.1002/ceat.202200489"
+  },
+  {
+    "title": "Promising Bioactivity of Vitamin B1-Au Nanocluster: Structure, Enhanced Antioxidant Behavior, and Serum Protein Interaction",
+    "year": "2023",
+    "journal": "Antioxidants",
+    "authors": [
+      "Ungor, D.",
+      "Gombár, G.",
+      "Juhász, Á.",
+      "Samu, G.F.",
+      "Csapó, E."
+    ],
+    "doi": "https://doi.org/10.3390/antiox12040874"
+  },
+  {
+    "title": "The Effect of Halide Composition on the Luminescent Properties of Ternary Cesium–Copper Halide Pseudo-Perovskite Films",
+    "year": "2023",
+    "journal": "Advanced Optical Materials",
+    "authors": [
+      "Samu, G.F.",
+      "Zsigmond, T.S.",
+      "Hajdu, C.",
+      "Hunyadi, M.",
+      "Csige, L.",
+      "Csík, A.",
+      "Kopniczky, J.",
+      "Hopp, B.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1002/adom.202300825"
+  },
+  {
+    "title": "Antioxidant colloids via heteroaggregation of cerium oxide nanoparticles and latex beads",
+    "year": "2022",
+    "journal": "Colloids and Surfaces B Biointerfaces",
+    "authors": [
+      "Alsharif, N.B.",
+      "Samu, G.F.",
+      "Sáringer, S.",
+      "Szerlauth, A.",
+      "Takács, D.",
+      "Hornok, V.",
+      "Dékány, I.",
+      "Szilagyi, I."
+    ],
+    "doi": "https://doi.org/10.1016/j.colsurfb.2022.112531"
+  },
+  {
+    "title": "CO<sub>2</sub> Conversion on N-Doped Carbon Catalysts via Thermo- and Electrocatalysis: Role of C-NO<sub>x</sub> Moieties",
+    "year": "2022",
+    "journal": "ACS Catalysis",
+    "authors": [
+      "Hursán, D.",
+      "Ábel, M.",
+      "Baán, K.",
+      "Fako, E.",
+      "Samu, G.F.",
+      "Nguyën, H.C.",
+      "López, N.",
+      "Atanassov, P.",
+      "Kónya, Z.",
+      "Sápi, A.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acscatal.2c01589"
+  },
+  {
+    "title": "Exciton Dynamics in MoS<sub>2</sub>-Pentacene and WSe<sub>2</sub>-Pentacene Heterojunctions",
+    "year": "2022",
+    "journal": "ACS Nano",
+    "authors": [
+      "Markeev, P.A.",
+      "Najafidehaghani, E.",
+      "Samu, G.F.",
+      "Sarosi, K.",
+      "Kalkan, S.B.",
+      "Gan, Z.",
+      "George, A.",
+      "Reisner, V.",
+      "Mogyorosi, K.",
+      "Chikan, V.",
+      "Nickel, B.",
+      "Turchanin, A.",
+      "De Jong, M.P."
+    ],
+    "doi": "https://doi.org/10.1021/acsnano.2c06144"
+  },
+  {
+    "title": "Sacrificial Agent Gone Rogue: Electron-Acceptor-Induced Degradation of CsPbBr<sub>3</sub> Photocathodes",
+    "year": "2022",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Jeong, H.W.",
+      "Zsigmond, T.S.",
+      "Samu, G.F.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.1c02130"
+  },
+  {
+    "title": "Scintillator of Polycrystalline Perovskites for High-Sensitivity Detection of Charged-Particle Radiations",
+    "year": "2022",
+    "journal": "Advanced Functional Materials",
+    "authors": [
+      "Hunyadi, M.",
+      "Samu, G.F.",
+      "Csige, L.",
+      "Csík, A.",
+      "Buga, C.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1002/adfm.202206645"
+  },
+  {
+    "title": "Selective production of imines and benzimidazoles by cooperative bismuth(III)/transition metal ion catalysis",
+    "year": "2022",
+    "journal": "Journal of Catalysis",
+    "authors": [
+      "Kocsis, M.",
+      "Szabados, M.",
+      "Ötvös, S.B.",
+      "Samu, G.F.",
+      "Fogarassy, Z.",
+      "Pécz, B.",
+      "Kukovecz, Á.",
+      "Kónya, Z.",
+      "Sipos, P.",
+      "Pálinkó, I.",
+      "Varga, G."
+    ],
+    "doi": "https://doi.org/10.1016/j.jcat.2022.09.008"
+  },
+  {
+    "title": "Synthesis and characterization of novel blue-emitting nicotinamide-gold nanoclusters with “chain-breaker” antioxidant property",
+    "year": "2022",
+    "journal": "Journal of Molecular Liquids",
+    "authors": [
+      "Gombár, G.",
+      "Ungor, D.",
+      "Samu, G.F.",
+      "Dömötör, O.",
+      "Csapó, E."
+    ],
+    "doi": "https://doi.org/10.1016/j.molliq.2022.119372"
+  },
+  {
+    "title": "Visible light-photoreactive composite surfaces with thermoresponsive wetting and photocatalytic properties",
+    "year": "2022",
+    "journal": "Express Polymer Letters",
+    "authors": [
+      "Mérai, L.",
+      "Deák, Á.",
+      "Szalai, B.",
+      "Samu, G.F.",
+      "Katona, G.",
+      "Janovák, L."
+    ],
+    "doi": "https://doi.org/10.3144/expresspolymlett.2022.4"
+  },
+  {
+    "title": "Construction and Properties of Donor-Acceptor Stenhouse Adducts on Gold Surfaces",
+    "year": "2021",
+    "journal": "Langmuir",
+    "authors": [
+      "Nánási, D.E.",
+      "Kunfi, A.",
+      "Ábrahám, Á.",
+      "Mayer, P.J.",
+      "Mihály, J.",
+      "Samu, G.F.",
+      "Kiss, É.",
+      "Mohai, M.",
+      "London, G."
+    ],
+    "doi": "https://doi.org/10.1021/acs.langmuir.0c03275"
+  },
+  {
+    "title": "Copper-Loaded Layered Bismuth Subcarbonate—Efficient Multifunctional Heterogeneous Catalyst for Concerted C-S/C-N Heterocyclization",
+    "year": "2021",
+    "journal": "ACS Applied Materials and Interfaces",
+    "authors": [
+      "Kocsis, M.",
+      "Ötvös, S.B.",
+      "Samu, G.F.",
+      "Fogarassy, Z.",
+      "Pécz, B.",
+      "Kukovecz, A.",
+      "Kónya, Z.",
+      "Sipos, P.",
+      "Pálinkó, I.",
+      "Varga, G."
+    ],
+    "doi": "https://doi.org/10.1021/acsami.1c09234"
+  },
+  {
+    "title": "Design of hybrid biocatalysts by controlled heteroaggregation of manganese oxide and sulfate latex particles to combat reactive oxygen species",
+    "year": "2021",
+    "journal": "Journal of Materials Chemistry B",
+    "authors": [
+      "Alsharif, N.B.",
+      "Bere, K.",
+      "Sáringer, S.",
+      "Samu, G.F.",
+      "Takács, D.",
+      "Hornok, V.",
+      "Szilagyi, I."
+    ],
+    "doi": "https://doi.org/10.1039/d1tb00505g"
+  },
+  {
+    "title": "Local Chemical Environment Governs Anode Processes in CO<sub>2</sub> Electrolyzers",
+    "year": "2021",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Vass, Á.",
+      "Endrödi, B.",
+      "Samu, G.F.",
+      "Balog, Á.",
+      "Kormányos, A.",
+      "Cherevko, S.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.1c01937"
+  },
+  {
+    "title": "The Mystery of Black TiO<sub>2</sub>: Insights from Combined Surface Science and in Situ Electrochemical Methods",
+    "year": "2021",
+    "journal": "ACS Materials Au",
+    "authors": [
+      "Balog, Á.",
+      "Samu, G.F.",
+      "Petö, S.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acsmaterialsau.1c00020"
+  },
+  {
+    "title": "The effect of nanostructure dimensionality on the photoelectrochemical properties of derived TiO<sub>2</sub> films",
+    "year": "2021",
+    "journal": "Electrochimica Acta",
+    "authors": [
+      "Jeong, H.W.",
+      "Haihua, W.",
+      "Samu, G.F.",
+      "Rouster, P.",
+      "Szilágyi, I.",
+      "Park, H.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.electacta.2021.137900"
+  },
+  {
+    "title": "A colloid approach to decorate latex particles with Prussian blue nanozymes",
+    "year": "2020",
+    "journal": "Journal of Molecular Liquids",
+    "authors": [
+      "Alsharif, N.B.",
+      "Samu, G.F.",
+      "Sáringer, S.",
+      "Muráth, S.",
+      "Szilagyi, I."
+    ],
+    "doi": "https://doi.org/10.1016/j.molliq.2020.113066"
+  },
+  {
+    "title": "Au/Pb Interface Allows the Methane Formation Pathway in Carbon Dioxide Electroreduction",
+    "year": "2020",
+    "journal": "ACS Catalysis",
+    "authors": [
+      "Ismail, A.M.",
+      "Samu, G.F.",
+      "Nguyën, H.C.",
+      "Csapó, E.",
+      "López, N.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acscatal.0c00749"
+  },
+  {
+    "title": "Iodine (I) Expulsion at Photoirradiated Mixed Halide Perovskite Interface. Should I Stay or Should I Go?",
+    "year": "2020",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Mathew, P.S.",
+      "Samu, G.F.",
+      "Janáky, C.",
+      "Kamat, P.V."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.0c00925"
+  },
+  {
+    "title": "Photocorrosion at Irradiated Perovskite/Electrolyte Interfaces",
+    "year": "2020",
+    "journal": "Journal of the American Chemical Society",
+    "authors": [
+      "Samu, G.F.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/jacs.0c10348"
+  },
+  {
+    "title": "Structure-Property Relationships in Unsymmetric Bis(antiaromatics): Who Wins the Battle between Pentalene and Benzocyclobutadiene?",
+    "year": "2020",
+    "journal": "Journal of Organic Chemistry",
+    "authors": [
+      "Mayer, P.J.",
+      "El Bakouri, O.",
+      "Holczbauer, T.",
+      "Samu, G.F.",
+      "Janáky, C.",
+      "Ottosson, H.",
+      "London, G."
+    ],
+    "doi": "https://doi.org/10.1021/acs.joc.9b03119"
+  },
+  {
+    "title": "Electrochemical Hole Injection Selectively Expels Iodide from Mixed Halide Perovskite Films",
+    "year": "2019",
+    "journal": "Journal of the American Chemical Society",
+    "authors": [
+      "Samu, G.F.",
+      "Balog, Á.",
+      "De Angelis, F.",
+      "Meggiolaro, D.",
+      "Kamat, P.V.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/jacs.9b04568"
+  },
+  {
+    "title": "Tuning the Excited-State Dynamics of CuI Films with Electrochemical Bias",
+    "year": "2019",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Samu, G.F.",
+      "Scheidt, R.A.",
+      "Balog, Á.",
+      "Janáky, C.",
+      "Kamat, P.V."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.9b00182"
+  },
+  {
+    "title": "Optoelectronic Properties of CuI Photoelectrodes",
+    "year": "2019",
+    "journal": "The Journal of Physical Chemistry Letters",
+    "authors": [
+      "Balog, Á.",
+      "Samu, G.F.",
+      "Kamat, P.V.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acs.jpclett.8b03242"
+  },
+  {
+    "title": "Composition-Dependent Electrocatalytic Behavior of Au-Sn Bimetallic Nanoparticles in Carbon Dioxide Reduction",
+    "year": "2019",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Ismail, A.M.",
+      "Samu, G.F.",
+      "Balog, Á.",
+      "Csapó, E.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.8b01996"
+  },
+  {
+    "title": "Structure-property relationships in unsymmetric bis(antiaromatics): Who wins the battle between pentalene and benzocyclobutadiene?",
+    "year": "2020",
+    "journal": "The Journal of Organic Chemistry",
+    "authors": [
+      "Mayer, P.J.",
+      "Bakouri, O.E.",
+      "Holczbauer, T.",
+      "Samu, G.F.",
+      "Janáky, C.",
+      "Ottosson, H.",
+      "London, G."
+    ],
+    "doi": "https://pubs.acs.org/doi/10.1021/acs.joc.9b03119"
+  },
+  {
+    "title": "Electrochemistry and Spectroelectrochemistry of Lead Halide Perovskite Films: Materials Science Aspects and Boundary Conditions",
+    "year": "2018",
+    "journal": "Chemistry of Materials",
+    "authors": [
+      "Samu, G.F.",
+      "Scheidt, R.A.",
+      "Kamat, P.V.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acs.chemmater.7b04321"
+  },
+  {
+    "title": "Electrodeposition of Hole-Transport Layer on Methylammonium Lead Iodide Film: A Strategy to Assemble Perovskite Solar Cells",
+    "year": "2018",
+    "journal": "Chemistry of Materials",
+    "authors": [
+      "Samu, G.F.",
+      "Scheidt, R.A.",
+      "Zaiats, G.",
+      "Kamat, P.V.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acs.chemmater.8b01521"
+  },
+  {
+    "title": "Modulation of Charge Recombination in CsPbBr<sub>3</sub> Perovskite Films with Electrochemical Bias",
+    "year": "2018",
+    "journal": "Journal of the American Chemical Society",
+    "authors": [
+      "Scheidt, R.A.",
+      "Samu, G.F.",
+      "Janáky, C.",
+      "Kamat, P.V."
+    ],
+    "doi": "https://doi.org/10.1021/jacs.7b10958"
+  },
+  {
+    "title": "On the measured optical bandgap values of inorganic oxide semiconductors for solar fuels generation",
+    "year": "2018",
+    "journal": "Catalysis Today",
+    "authors": [
+      "Roy, D.",
+      "Samu, G.F.",
+      "Hossain, M.K.",
+      "Janáky, C.",
+      "Rajeshwar, K."
+    ],
+    "doi": "https://doi.org/10.1016/j.cattod.2017.03.016"
+  },
+  {
+    "title": "Rapid synthesis of interconnected CuCrO<sub>2</sub> nanostructures: A promising electrode material for photoelectrochemical fuel generation",
+    "year": "2018",
+    "journal": "Electrochimica Acta",
+    "authors": [
+      "Varga, A.",
+      "Samu, G.F.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.electacta.2018.03.185"
+  },
+  {
+    "title": "A Victim of Halide Ion Segregation. How Light Soaking Affects Solar Cell Performance of Mixed Halide Lead Perovskites",
+    "year": "2017",
+    "journal": "ACS Energy Letters",
+    "authors": [
+      "Samu, G.F.",
+      "Janáky, C.",
+      "Kamat, P.V."
+    ],
+    "doi": "https://doi.org/10.1021/acsenergylett.7b00589"
+  },
+  {
+    "title": "Bandgap-engineered quaternary M<sub>x</sub>Bi<sub>2−x</sub>Ti<sub>2</sub>O<sub>7</sub> (M: Fe, Mn) semiconductor nanoparticles: Solution combustion synthesis, characterization, and photocatalysis",
+    "year": "2017",
+    "journal": "Applied Catalysis B Environmental",
+    "authors": [
+      "Samu, G.F.",
+      "Veres, Á.",
+      "Endrődi, B.",
+      "Varga, E.",
+      "Rajeshwar, K.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.apcatb.2017.02.036"
+  },
+  {
+    "title": "Photocatalytic, photoelectrochemical, and antibacterial activity of benign-by-design mechanochemically synthesized metal oxide nanomaterials",
+    "year": "2017",
+    "journal": "Catalysis Today",
+    "authors": [
+      "Samu, G.F.",
+      "Veres, Á.",
+      "Tallósy, S.P.",
+      "Janovák, L.",
+      "Dékány, I.",
+      "Yepez, A.",
+      "Luque, R.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.cattod.2016.07.010"
+  },
+  {
+    "title": "Photoelectrochemistry by Design: Tailoring the Nanoscale Structure of Pt/NiO Composites Leads to Enhanced Photoelectrochemical Hydrogen Evolution Performance",
+    "year": "2017",
+    "journal": "Journal of Physical Chemistry C",
+    "authors": [
+      "Sápi, A.",
+      "Varga, A.",
+      "Samu, G.F.",
+      "Dobó, D.",
+      "Juhász, K.L.",
+      "Takács, B.",
+      "Varga, E.",
+      "Kukovecz, A.",
+      "Kónya, Z.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1021/acs.jpcc.7b00429"
+  },
+  {
+    "title": "Solution Combustion Synthesis, Characterization, and Photocatalytic Activity of CuBi<sub>2</sub>O<sub>4</sub> and Its Nanocomposites with CuO and α-Bi<sub>2</sub>O<sub>3</sub>",
+    "year": "2017",
+    "journal": "Journal of Physical Chemistry C",
+    "authors": [
+      "Hossain, M.K.",
+      "Samu, G.F.",
+      "Gandha, K.",
+      "Santhanagopalan, S.",
+      "Liu, J.P.",
+      "Janáky, C.",
+      "Rajeshwar, K."
+    ],
+    "doi": "https://doi.org/10.1021/acs.jpcc.6b13093"
+  },
+  {
+    "title": "Tailoring the interfaces in conducting polymer composites by controlled polymerization",
+    "year": "2017",
+    "journal": "Hybrid Polymer Composite Materials Structure and Chemistry",
+    "authors": [
+      "Samu, G.F.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/B978-0-08-100791-4.00005-7"
+  },
+  {
+    "title": "Electrochemical synthesis and characterization of poly(3-hexylthiophene)/single-walled carbon nanotube array hybrid materials",
+    "year": "2016",
+    "journal": "Journal of Solid State Electrochemistry",
+    "authors": [
+      "Endrődi, B.",
+      "Samu, G.F.",
+      "Azam, M.A.",
+      "Janáky, C.",
+      "Visy, C."
+    ],
+    "doi": "https://doi.org/10.1007/s10008-016-3290-8"
+  },
+  {
+    "title": "The Effect of Rh on the Interaction of Co with Al<sub>2</sub>O<sub>3</sub> and CeO<sub>2</sub> Supports",
+    "year": "2016",
+    "journal": "Catalysis Letters",
+    "authors": [
+      "Varga, E.",
+      "Baán, K.",
+      "Samu, G.F.",
+      "Erdőhelyi, A.",
+      "Oszkó, A.",
+      "Kónya, Z.",
+      "Kiss, J."
+    ],
+    "doi": "https://doi.org/10.1007/s10562-016-1809-3"
+  },
+  {
+    "title": "Challenges and rewards of the electrosynthesis of macroscopic aligned carbon nanotube array/conducting polymer hybrid assemblies",
+    "year": "2015",
+    "journal": "Journal of Polymer Science, Part B: Polymer Physics",
+    "authors": [
+      "Endrődi, B.",
+      "Samu, G.F.",
+      "Fejes, D.",
+      "Németh, Z.",
+      "Horváth, E.",
+      "Pisoni, A.",
+      "Matus, P.K.",
+      "Hernádi, K.",
+      "Visy, C.",
+      "Forró, L.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1002/polb.23782"
+  },
+  {
+    "title": "New insights into the relationship between structure and photocatalytic properties of TiO<sub>2</sub> catalysts",
+    "year": "2015",
+    "journal": "Rsc Advances",
+    "authors": [
+      "Veres, Á.",
+      "Ménesi, J.",
+      "Janáky, C.",
+      "Samu, G.F.",
+      "Scheyer, M.K.",
+      "Xu, Q.",
+      "Salahioglu, F.",
+      "Garland, M.V.",
+      "Dékány, I.",
+      "Zhong, Z."
+    ],
+    "doi": "https://doi.org/10.1039/c4ra11489b"
+  },
+  {
+    "title": "On the electrochemical synthesis and charge storage properties of WO<sub>3</sub>/polyaniline hybrid nanostructures",
+    "year": "2015",
+    "journal": "Journal of Solid State Electrochemistry",
+    "authors": [
+      "Samu, G.F.",
+      "Pencz, K.",
+      "Janáky, C.",
+      "Rajeshwar, K."
+    ],
+    "doi": "https://doi.org/10.1007/s10008-015-2820-0"
+  },
+  {
+    "title": "Photoelectrochemical Infiltration of a Conducting Polymer (PEDOT) into Metal-Chalcogenide Decorated TiO<sub>2</sub> Nanotube Arrays",
+    "year": "2015",
+    "journal": "Electrochimica Acta",
+    "authors": [
+      "Samu, G.F.",
+      "Visy, C.",
+      "Rajeshwar, K.",
+      "Sarker, S.",
+      "Subramanian, V.R.",
+      "Janáky, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.electacta.2014.11.094"
+  },
+  {
+    "title": "Time- and energy-efficient solution combustion synthesis of binary metal tungstate nanoparticles with enhanced photocatalytic activity",
+    "year": "2015",
+    "journal": "ChemSusChem",
+    "authors": [
+      "Thomas, A.",
+      "Janáky, C.",
+      "Samu, G.F.",
+      "Huda, M.N.",
+      "Sarker, P.",
+      "Liu, J.P.",
+      "Van Nguyen, V.",
+      "Wang, E.H.",
+      "Schug, K.A.",
+      "Rajeshwar, K."
+    ],
+    "doi": "https://doi.org/10.1002/cssc.201500383"
+  },
+  {
+    "title": "Hyphenated in situ conductance and spectroelectrochemical studies of polyaniline films in strongly acidic solutions",
+    "year": "2013",
+    "journal": "Electrochimica Acta",
+    "authors": [
+      "Tóth, P.S.",
+      "Samu, G.F.",
+      "Endrodi, B.",
+      "Visy, C."
+    ],
+    "doi": "https://doi.org/10.1016/j.electacta.2012.12.138"
+  }
+]

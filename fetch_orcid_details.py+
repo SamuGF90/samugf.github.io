@@ -1,0 +1,56 @@
+import requests
+import json
+
+ORCID = "0000-0002-3239-9154"
+BASE_URL = f"https://pub.orcid.org/v3.0/{ORCID}"
+HEADERS = {"Accept": "application/json"}
+
+# Step 1: Get summary of works
+r = requests.get(f"{BASE_URL}/works", headers=HEADERS)
+works = r.json().get("group", [])
+
+detailed_pubs = []
+
+# Step 2: For each, fetch detailed metadata
+for group in works:
+    summary = group.get("work-summary", [{}])[0]
+    putcode = summary.get("put-code")
+    if not putcode:
+        continue
+
+    detail_url = f"{BASE_URL}/work/{putcode}"
+    detail_r = requests.get(detail_url, headers=HEADERS)
+    if detail_r.status_code != 200:
+        continue
+
+    data = detail_r.json()
+
+    title = data.get("title", {}).get("title", {}).get("value", "Untitled")
+    year = data.get("publication-date", {}).get("year", {}).get("value", "Unknown")
+    journal = data.get("journal-title", {}).get("value", "Unknown journal")
+
+    authors = [
+        a.get("credit-name", {}).get("value", "")
+        for a in data.get("contributors", {}).get("contributor", [])
+    ]
+
+    doi_obj = next(
+        (eid for eid in data.get("external-ids", {}).get("external-id", [])
+         if eid["external-id-type"] == "doi"),
+        None
+    )
+    doi = f"https://doi.org/{doi_obj['external-id-value']}" if doi_obj else None
+
+    detailed_pubs.append({
+        "title": title,
+        "year": year,
+        "journal": journal,
+        "authors": authors,
+        "doi": doi
+    })
+
+# Step 3: Save the data to a JSON file
+with open("orcid-details.json", "w", encoding="utf-8") as f:
+    json.dump(detailed_pubs, f, indent=2, ensure_ascii=False)
+
+print(f"✔️ Done! {len(detailed_pubs)} entries saved to orcid-details.json")
