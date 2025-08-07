@@ -2,6 +2,7 @@
   
   {
     "title": "Electrochemical Modulation of Hole Extraction in NiO/Perovskite Bilayers",
+    "keywords": ["metal-halide perovskite", "spectroelectrochemistry", "ultrafast spectroscopy", "semiconductor physics"],
     "year": "2025",
     "journal": "Advanced Materials Interfaces",
     "authors": [
@@ -20,6 +21,7 @@
   },
   {
     "title": "Scintillation Response of 0D Cs<sub>3</sub>Cu<sub>2</sub>I<sub>5</sub> Thin Layers to Light‐ and Heavy‐Ion Irradiation",
+    "keywords": ["pseudo-perovskite", "scintillation", "materials science", "semiconductor physics"],
     "year": "2025",
     "journal": "Advanced Photonics Research",
     "authors": [
@@ -37,6 +39,7 @@
   },
   {
     "title": "Application of Co<sub>3</sub>O<sub>4</sub> as anode catalyst in CO<sub>2</sub> electrolyzer cells",
+    "keywords": ["photoelectron spectroscopy", "electrochemistry"],
     "year": "2025",
     "journal": "Npg Asia Materials",
     "authors": [
@@ -54,6 +57,7 @@
   },
   {
     "title": "Modulating Band Offset through Interface Engineering of Cu<sub>2</sub>SnSe<sub>3</sub>-Based Heterojunctions for Efficient Charge Separation and Collection",
+    "keywords": ["materials science", "ultrafast spectroscopy", "semiconductor physics"],
     "year": "2025",
     "journal": "Small Methods",
     "authors": [
@@ -73,6 +77,7 @@
   },
   {
     "title": "Solution triggered facile ion-exchange and phase transformation of ternary cesium-copper halide pseudo-perovskites",
+    "keywords": ["pseudo-perovskite", "scintillation", "materials science", "semiconductor physics"],
     "year": "2025",
     "journal": "Chemical Communications",
     "authors": [
@@ -90,6 +95,7 @@
   },
   {
     "title": "Sonochemically improved regeneration of mechanically amorphized Ca<sub>2</sub>Cr-layered double hydroxides – Synthesis, characterization and photocatalytic lidocaine decomposition",
+    "keywords": ["materials science", "photoelectron spectroscopy"],
     "year": "2025",
     "journal": "Applied Clay Science",
     "authors": [
@@ -108,6 +114,7 @@
   },
   {
     "title": "Comparative Study of Different Polymeric Binders in Electrochemical CO Reduction",
+    "keywords": ["electrochemistry"],
     "year": "2024",
     "journal": "Energy & Fuels",
     "authors": [
@@ -126,6 +133,7 @@
   },
   {
     "title": "Coamplified Nanozyme Cocktails for Cascade Reaction-Driven Antioxidant Treatments",
+    "keywords": ["materials science","photoelectron spectroscopy"],
     "year": "2024",
     "journal": "ACS Applied Materials & Interfaces",
     "authors": [
@@ -146,6 +154,7 @@
   },
   {
     "title": "A Comparative Study on the Complexation of the Anticancer Iron Chelator VLX600 with Essential Metal Ions",
+    "keywords": ["photoelectron spectroscopy"],
     "year": "2024",
     "journal": "Inorganic Chemistry",
     "authors": [
@@ -168,6 +177,7 @@
   },
   {
     "title": "Au-decorated Sb<sub>2</sub>Se<sub>3</sub> photocathodes for solar-driven CO<sub>2</sub> reduction",
+    "keywords": ["photoelectrochemistry", "materials science", "semiconductor physics", "photoelectron spectroscopy"],
     "year": "2024",
     "journal": "Ees Catalysis",
     "authors": [
@@ -184,6 +194,7 @@
   },
   {
     "title": "Charge Transfer Kinetics in Halide Perovskites: On the Constraints of Time-Resolved Spectroscopy Measurements",
+    "keywords": ["materials science", "semiconductor physics", "metal-halide perovskite", "ultrafast spectroscopy"],
     "year": "2024",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -198,6 +209,7 @@
   },
   {
     "title": "Design of blue-emitting adenosine monophosphate-copper nanocluster: Detection of Vitamin B<sub>2</sub> in real samples",
+    "keywords": ["photoelectron spectroscopy"],
     "year": "2024",
     "journal": "Microchemical Journal",
     "authors": [
@@ -212,6 +224,7 @@
   },
   {
     "title": "Effect of Single-Crystal TiO<sub>2</sub>/Perovskite Band Alignment on the Kinetics of Electron Extraction",
+    "keywords":["materials science","metal-halide perovskite","semiconductor physics","ultrafast spectroscopy"],
     "year": "2024",
     "journal": "Journal of Physical Chemistry Letters",
     "authors": [
@@ -228,6 +241,7 @@
   },
   {
     "title": "Paired photoelectrochemical conversion of CO<sub>2</sub>/H<sub>2</sub>O and glycerol at high rate",
+    "keywords":["photoelectrochemistry","semiconductor physics","materials science"],
     "year": "2024",
     "journal": "Nature Catalysis",
     "authors": [
@@ -244,6 +258,7 @@
   },
   {
     "title": "Reduction of intracellular oxidative stress with a copper-incorporated layered double hydroxide",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2024",
     "journal": "Chemical Communications",
     "authors": [
@@ -263,6 +278,7 @@
   },
   {
     "title": "Temperature Dependent Carrier Dynamics in Ga-Alloyed CdSe/ZnS Core-Shell Quantum Dots",
+    "keywords":["materials science","semiconductor physics","ultrafast spectroscopy"],
     "year": "2024",
     "journal": "Journal of Physical Chemistry C",
     "authors": [
@@ -285,6 +301,7 @@
   },
   {
     "title": "Local hydrophobicity allows high-performance electrochemical carbon monoxide reduction to C<sub>2+</sub> products",
+    "keywords":["photoelectron spectroscopy","electrochemistry"],
     "year": "2023",
     "journal": "Ees Catalysis",
     "authors": [
@@ -303,6 +320,7 @@
   },
   {
     "title": "Photocatalytic and Antimicrobial Activity of Sulfur-Functionalized TiO<sub>2</sub>-Containing Composite Films",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2023",
     "journal": "Chemical Engineering and Technology",
     "authors": [
@@ -320,6 +338,7 @@
   },
   {
     "title": "Promising Bioactivity of Vitamin B<sub>1</sub>-Au Nanocluster: Structure, Enhanced Antioxidant Behavior, and Serum Protein Interaction",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2023",
     "journal": "Antioxidants",
     "authors": [
@@ -335,6 +354,7 @@
   },
   {
     "title": "The Effect of Halide Composition on the Luminescent Properties of Ternary Cesium–Copper Halide Pseudo-Perovskite Films",
+    "keywords":["pseudo-perovskite","scintillation","semiconductor physics","materials science"],
     "year": "2023",
     "journal": "Advanced Optical Materials",
     "authors": [
@@ -354,6 +374,7 @@
   },
   {
     "title": "Antioxidant colloids via heteroaggregation of cerium oxide nanoparticles and latex beads",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2022",
     "journal": "Colloids and Surfaces B Biointerfaces",
     "authors": [
@@ -372,6 +393,7 @@
   },
   {
     "title": "CO<sub>2</sub> Conversion on N-Doped Carbon Catalysts via Thermo- and Electrocatalysis: Role of C-NO<sub>x</sub> Moieties",
+    "keywords":["electrochemistry","photoelectron spectroscopy"],
     "year": "2022",
     "journal": "ACS Catalysis",
     "authors": [
@@ -393,6 +415,7 @@
   },
   {
     "title": "Exciton Dynamics in MoS<sub>2</sub>-Pentacene and WSe<sub>2</sub>-Pentacene Heterojunctions",
+    "keywords":["ultrafast spectroscopy","semiconductor physics"],
     "year": "2022",
     "journal": "ACS Nano",
     "authors": [
@@ -416,6 +439,7 @@
   },
   {
     "title": "Sacrificial Agent Gone Rogue: Electron-Acceptor-Induced Degradation of CsPbBr<sub>3</sub> Photocathodes",
+    "keywords":["photoelectrochemistry","metal-halide perovskite","semiconductor physics","spectroelectrochemistry"],
     "year": "2022",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -430,6 +454,7 @@
   },
   {
     "title": "Scintillator of Polycrystalline Perovskites for High-Sensitivity Detection of Charged-Particle Radiations",
+    "keywords":["materials science","pseudo-perovskite","scintillation","semiconductor physics"],
     "year": "2022",
     "journal": "Advanced Functional Materials",
     "authors": [
@@ -446,6 +471,7 @@
   },
   {
     "title": "Selective production of imines and benzimidazoles by cooperative bismuth(III)/transition metal ion catalysis",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2022",
     "journal": "Journal of Catalysis",
     "authors": [
@@ -467,6 +493,7 @@
   },
   {
     "title": "Synthesis and characterization of novel blue-emitting nicotinamide-gold nanoclusters with “chain-breaker” antioxidant property",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2022",
     "journal": "Journal of Molecular Liquids",
     "authors": [
@@ -482,6 +509,7 @@
   },
   {
     "title": "Visible light-photoreactive composite surfaces with thermoresponsive wetting and photocatalytic properties",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2022",
     "journal": "Express Polymer Letters",
     "authors": [
@@ -498,6 +526,7 @@
   },
   {
     "title": "Construction and Properties of Donor-Acceptor Stenhouse Adducts on Gold Surfaces",
+    "keywords":["materials science"],
     "year": "2021",
     "journal": "Langmuir",
     "authors": [
@@ -517,6 +546,7 @@
   },
   {
     "title": "Copper-Loaded Layered Bismuth Subcarbonate—Efficient Multifunctional Heterogeneous Catalyst for Concerted C-S/C-N Heterocyclization",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2021",
     "journal": "ACS Applied Materials and Interfaces",
     "authors": [
@@ -537,6 +567,7 @@
   },
   {
     "title": "Design of hybrid biocatalysts by controlled heteroaggregation of manganese oxide and sulfate latex particles to combat reactive oxygen species",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2021",
     "journal": "Journal of Materials Chemistry B",
     "authors": [
@@ -554,6 +585,7 @@
   },
   {
     "title": "Local Chemical Environment Governs Anode Processes in CO<sub>2</sub> Electrolyzers",
+    "keywords":["electrochemistry","photoelectron spectroscopy"],
     "year": "2021",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -571,6 +603,7 @@
   },
   {
     "title": "The Mystery of Black TiO<sub>2</sub>: Insights from Combined Surface Science and in Situ Electrochemical Methods",
+    "keywords":["semiconductor physics","materials science","photoelectrochemistry"],
     "year": "2021",
     "journal": "ACS Materials Au",
     "authors": [
@@ -585,6 +618,7 @@
   },
   {
     "title": "The effect of nanostructure dimensionality on the photoelectrochemical properties of derived TiO<sub>2</sub> films",
+    "keywords":["photoelectrochemistry","semiconductor physics","materials science"],
     "year": "2021",
     "journal": "Electrochimica Acta",
     "authors": [
@@ -602,6 +636,7 @@
   },
   {
     "title": "A colloid approach to decorate latex particles with Prussian blue nanozymes",
+    "keywords":["photoelectron spectroscopy"],
     "year": "2020",
     "journal": "Journal of Molecular Liquids",
     "authors": [
@@ -617,6 +652,7 @@
   },
   {
     "title": "Au/Pb Interface Allows the Methane Formation Pathway in Carbon Dioxide Electroreduction",
+    "keywords":["electrochemistry","photoelectron spectroscopy"],
     "year": "2020",
     "journal": "ACS Catalysis",
     "authors": [
@@ -633,6 +669,7 @@
   },
   {
     "title": "Iodine (I) Expulsion at Photoirradiated Mixed Halide Perovskite Interface. Should I Stay or Should I Go?",
+    "keywords":["materials science","metal-halide perovskite","semiconductor physics"],
     "year": "2020",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -647,6 +684,7 @@
   },
   {
     "title": "Photocorrosion at Irradiated Perovskite/Electrolyte Interfaces",
+    "keywords":["photoelectrochemistry","metal-halide perovskite","materials science"],
     "year": "2020",
     "journal": "Journal of the American Chemical Society",
     "authors": [
@@ -659,6 +697,7 @@
   },
   {
     "title": "Structure-Property Relationships in Unsymmetric Bis(antiaromatics): Who Wins the Battle between Pentalene and Benzocyclobutadiene?",
+    "keywords":["electrochemistry"],
     "year": "2020",
     "journal": "Journal of Organic Chemistry",
     "authors": [
@@ -676,6 +715,7 @@
   },
   {
     "title": "Electrochemical Hole Injection Selectively Expels Iodide from Mixed Halide Perovskite Films",
+    "keywords":["spectroelectrochemistry","ultrafast spectroscopy","metal-halide perovskite","semiconductor physics"],
     "year": "2019",
     "journal": "Journal of the American Chemical Society",
     "authors": [
@@ -692,6 +732,7 @@
   },
   {
     "title": "Tuning the Excited-State Dynamics of CuI Films with Electrochemical Bias",
+    "keywords":["materials science","metal-halide perovskite","semiconductor physics","spectroelectrochemistry","ultrafast spectroscopy"],
     "year": "2019",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -707,6 +748,7 @@
   },
   {
     "title": "Optoelectronic Properties of CuI Photoelectrodes",
+    "keywords":["photoelectrochemistry","materials science","semiconductor physics","spectroelectrochemistry"],
     "year": "2019",
     "journal": "The Journal of Physical Chemistry Letters",
     "authors": [
@@ -721,6 +763,7 @@
   },
   {
     "title": "Composition-Dependent Electrocatalytic Behavior of Au-Sn Bimetallic Nanoparticles in Carbon Dioxide Reduction",
+    "keywords":["electrochemistry","photoelectron spectroscopy"],
     "year": "2019",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -736,6 +779,7 @@
   },
   {
     "title": "Electrochemistry and Spectroelectrochemistry of Lead Halide Perovskite Films: Materials Science Aspects and Boundary Conditions",
+    "keywords":["electrochemistry","metal-halide perovskite","spectroelectrochemistry","semiconductor physics"],
     "year": "2018",
     "journal": "Chemistry of Materials",
     "authors": [
@@ -750,6 +794,7 @@
   },
   {
     "title": "Electrodeposition of Hole-Transport Layer on Methylammonium Lead Iodide Film: A Strategy to Assemble Perovskite Solar Cells",
+    "keywords":["electrochemistry","spectroelectrochemistry","ultrafast spectroscopy","metal-halide perovskite"],
     "year": "2018",
     "journal": "Chemistry of Materials",
     "authors": [
@@ -765,6 +810,7 @@
   },
   {
     "title": "Modulation of Charge Recombination in CsPbBr<sub>3</sub> Perovskite Films with Electrochemical Bias",
+    "keywords":["metal-halide perovskite","semiconductor physics","spectroelectrochemistry","ultrafast spectroscopy"],
     "year": "2018",
     "journal": "Journal of the American Chemical Society",
     "authors": [
@@ -779,6 +825,7 @@
   },
   {
     "title": "On the measured optical bandgap values of inorganic oxide semiconductors for solar fuels generation",
+    "keywords":["materials science","semiconductor physics"],
     "year": "2018",
     "journal": "Catalysis Today",
     "authors": [
@@ -794,6 +841,7 @@
   },
   {
     "title": "Rapid synthesis of interconnected CuCrO<sub>2</sub> nanostructures: A promising electrode material for photoelectrochemical fuel generation",
+    "keywords":["materials science","photoelectrochemistry","semiconductor physics"],
     "year": "2018",
     "journal": "Electrochimica Acta",
     "authors": [
@@ -807,6 +855,7 @@
   },
   {
     "title": "A Victim of Halide Ion Segregation. How Light Soaking Affects Solar Cell Performance of Mixed Halide Lead Perovskites",
+    "keywords":["materials science","metal-halide perovskite","semiconductor physics"],
     "year": "2017",
     "journal": "ACS Energy Letters",
     "authors": [
@@ -820,6 +869,7 @@
   },
   {
     "title": "Bandgap-engineered quaternary M<sub>x</sub>Bi<sub>2−x</sub>Ti<sub>2</sub>O<sub>7</sub> (M: Fe, Mn) semiconductor nanoparticles: Solution combustion synthesis, characterization, and photocatalysis",
+    "keywords":["materials science","photoelectrochemistry","semiconductor physics"],
     "year": "2017",
     "journal": "Applied Catalysis B Environmental",
     "authors": [
@@ -836,6 +886,7 @@
   },
   {
     "title": "Photocatalytic, photoelectrochemical, and antibacterial activity of benign-by-design mechanochemically synthesized metal oxide nanomaterials",
+    "keywords":["photoelectrochemistry","materials science","semiconductor physics"],
     "year": "2017",
     "journal": "Catalysis Today",
     "authors": [
@@ -854,6 +905,7 @@
   },
   {
     "title": "Photoelectrochemistry by Design: Tailoring the Nanoscale Structure of Pt/NiO Composites Leads to Enhanced Photoelectrochemical Hydrogen Evolution Performance",
+    "keywords":["electrochemistry","materials science","photoelectrochemistry","semiconductor physics"],
     "year": "2017",
     "journal": "Journal of Physical Chemistry C",
     "authors": [
@@ -874,6 +926,7 @@
   },
   {
     "title": "Solution Combustion Synthesis, Characterization, and Photocatalytic Activity of CuBi<sub>2</sub>O<sub>4</sub> and Its Nanocomposites with CuO and α-Bi<sub>2</sub>O<sub>3</sub>",
+    "keywords":["materials science","photoelectrochemistry","semiconductor physics"],
     "year": "2017",
     "journal": "Journal of Physical Chemistry C",
     "authors": [
@@ -891,6 +944,7 @@
   },
   {
     "title": "Tailoring the interfaces in conducting polymer composites by controlled polymerization",
+    "keywords":["conducting polymers","electrochemistry"],
     "year": "2017",
     "journal": "Hybrid Polymer Composite Materials Structure and Chemistry",
     "authors": [
@@ -903,6 +957,7 @@
   },
   {
     "title": "Electrochemical synthesis and characterization of poly(3-hexylthiophene)/single-walled carbon nanotube array hybrid materials",
+    "keywords":["electrochemistry","conducting polymers"],
     "year": "2016",
     "journal": "Journal of Solid State Electrochemistry",
     "authors": [
@@ -918,6 +973,7 @@
   },
   {
     "title": "The Effect of Rh on the Interaction of Co with Al<sub>2</sub>O<sub>3</sub> and CeO<sub>2</sub> Supports",
+    "keywords":["materials science","semiconductor physics"],
     "year": "2016",
     "journal": "Catalysis Letters",
     "authors": [
@@ -935,6 +991,7 @@
   },
   {
     "title": "Challenges and rewards of the electrosynthesis of macroscopic aligned carbon nanotube array/conducting polymer hybrid assemblies",
+    "keywords":["electrochemistry","conducting polymers"],
     "year": "2015",
     "journal": "Journal of Polymer Science, Part B: Polymer Physics",
     "authors": [
@@ -956,6 +1013,7 @@
   },
   {
     "title": "New insights into the relationship between structure and photocatalytic properties of TiO<sub>2</sub> catalysts",
+    "keywords":["photoelectrochemistry","semiconductor physics"],
     "year": "2015",
     "journal": "Rsc Advances",
     "authors": [
@@ -976,6 +1034,7 @@
   },
   {
     "title": "On the electrochemical synthesis and charge storage properties of WO<sub>3</sub>/polyaniline hybrid nanostructures",
+    "keywords":["conducting polymers","electrochemistry"],
     "year": "2015",
     "journal": "Journal of Solid State Electrochemistry",
     "authors": [
@@ -990,6 +1049,7 @@
   },
   {
     "title": "Photoelectrochemical Infiltration of a Conducting Polymer (PEDOT) into Metal-Chalcogenide Decorated TiO<sub>2</sub> Nanotube Arrays",
+    "keywords":["photoelectrochemistry","electrochemistry","semiconductor physics"],
     "year": "2015",
     "journal": "Electrochimica Acta",
     "authors": [
@@ -1006,6 +1066,7 @@
   },
   {
     "title": "Time- and energy-efficient solution combustion synthesis of binary metal tungstate nanoparticles with enhanced photocatalytic activity",
+    "keywords":["materials science","semiconductor physics","photoelectrochemistry"],
     "year": "2015",
     "journal": "ChemSusChem",
     "authors": [
@@ -1026,6 +1087,7 @@
   },
   {
     "title": "Hyphenated in situ conductance and spectroelectrochemical studies of polyaniline films in strongly acidic solutions",
+    "keywords":["conducting polymers","spectroelectrochemistry","electrochemistry"],
     "year": "2013",
     "journal": "Electrochimica Acta",
     "authors": [
