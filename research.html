@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research | Gergely Samu</title>
+  <meta name="description" content="Open topics, team, ongoing and past supervisions by Gergely Samu."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Gergely Samu</h1>
+      <nav class="space-x-4" aria-label="Primary">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="publications.html" class="hover:text-blue-600">Publications</a>
+        <a href="research.html" class="text-blue-600 font-semibold" aria-current="page">Research</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-2">Research</h2>
+      <p class="text-gray-600 mb-8">Open topics, team, ongoing and past supervisions. This page will evolve into a full group hub.</p>
+
+      <!-- Tabs -->
+      <div class="border-b border-gray-200 mb-6 flex gap-6" role="tablist" aria-label="Sections">
+        <button id="tab-topics" class="py-2 -mb-px border-b-2 border-blue-600 text-blue-600 font-medium focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="true" aria-controls="panel-topics" tabindex="0">Current Topics</button>
+
+        <button id="tab-team" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="false" aria-controls="panel-team" tabindex="-1">Current Team</button>
+
+        <button id="tab-current" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="false" aria-controls="panel-current" tabindex="-1">Current Supervisions</button>
+
+        <button id="tab-supervisions" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="false" aria-controls="panel-supervisions" tabindex="-1">Past Supervisions</button>
+      </div>
+
+      <!-- Panel: Current Topics -->
+      <section id="panel-topics" role="tabpanel" aria-labelledby="tab-topics">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" id="topicsGrid">
+          <!-- Cards injected by JS -->
+        </div>
+
+        <!-- CTA -->
+        <div class="mt-6 bg-white p-4 rounded shadow flex items-start gap-4">
+          <div class="text-3xl" aria-hidden="true">🎓</div>
+          <div>
+            <p class="font-semibold">Interested?</p>
+            <p class="text-gray-600 text-sm">
+              Email me a short CV and your interests. Motivated BSc/MSc/PhD candidates are welcome.
+              <a href="contact.html" class="text-blue-600 hover:underline">Contact →</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel: Current Team -->
+      <section id="panel-team" class="hidden" role="tabpanel" aria-labelledby="tab-team">
+        <div class="mb-4 text-sm text-gray-600">
+          Members, instrument expertise, and projects.
+        </div>
+        <div id="teamGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Cards injected by JS -->
+        </div>
+      </section>
+
+      <!-- Panel: Current Supervisions -->
+      <section id="panel-current" class="hidden" role="tabpanel" aria-labelledby="tab-current">
+        <div class="mb-4 flex gap-4">
+          <div>
+            <label for="degFilterCur" class="block mb-1 text-gray-700 text-sm font-medium">Degree</label>
+            <select id="degFilterCur" class="p-2 border border-gray-300 rounded-md">
+              <option value="all">All</option>
+              <option value="BSc">BSc</option>
+              <option value="MSc">MSc</option>
+              <option value="PhD">PhD</option>
+            </select>
+          </div>
+        </div>
+        <ul id="currentList" class="space-y-4">
+          <!-- Items injected by JS -->
+        </ul>
+      </section>
+
+      <!-- Panel: Past Supervisions -->
+      <section id="panel-supervisions" class="hidden" role="tabpanel" aria-labelledby="tab-supervisions">
+        <div class="mb-4 flex flex-col sm:flex-row gap-4">
+          <div>
+            <label for="degFilter" class="block mb-1 text-gray-700 text-sm font-medium">Degree</label>
+            <select id="degFilter" class="p-2 border border-gray-300 rounded-md">
+              <option value="all">All</option>
+              <option value="BSc">BSc</option>
+              <option value="MSc">MSc</option>
+              <option value="PhD">PhD</option>
+            </select>
+          </div>
+          <div>
+            <label for="yearFilter" class="block mb-1 text-gray-700 text-sm font-medium">Year</label>
+            <select id="yearFilter" class="p-2 border border-gray-300 rounded-md">
+              <option value="all">All years</option>
+            </select>
+          </div>
+          <div class="flex-1"></div>
+          <div>
+            <button id="clearSupFilters" class="p-2 border border-gray-300 rounded-md hover:bg-gray-100">Clear</button>
+          </div>
+        </div>
+        <ul id="supervisionList" class="space-y-4">
+          <!-- Items injected by JS -->
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    // ---------- Tab elements ----------
+    const tabTopics = document.getElementById("tab-topics");
+    const tabTeam   = document.getElementById("tab-team");
+    const tabCur    = document.getElementById("tab-current");
+    const tabSup    = document.getElementById("tab-supervisions");
+
+    const panelTopics = document.getElementById("panel-topics");
+    const panelTeam   = document.getElementById("panel-team");
+    const panelCur    = document.getElementById("panel-current");
+    const panelSup    = document.getElementById("panel-supervisions");
+
+    function setTabState(el, active) {
+      el.classList.toggle("border-blue-600", active);
+      el.classList.toggle("text-blue-600", active);
+      el.classList.toggle("border-transparent", !active);
+      el.classList.toggle("text-gray-600", !active);
+      el.setAttribute("aria-selected", String(active));
+      el.tabIndex = active ? 0 : -1;
+    }
+    function show(panel, yes) { panel.classList.toggle("hidden", !yes); }
+
+    function activateTab(which) {
+      setTabState(tabTopics, which === "topics");
+      setTabState(tabTeam,   which === "team");
+      setTabState(tabCur,    which === "current");
+      setTabState(tabSup,    which === "sup");
+
+      show(panelTopics, which === "topics");
+      show(panelTeam,   which === "team");
+      show(panelCur,    which === "current");
+      show(panelSup,    which === "sup");
+
+      const activeEl = which === "topics" ? tabTopics
+                        : which === "team" ? tabTeam
+                        : which === "current" ? tabCur
+                        : tabSup;
+      activeEl.focus();
+    }
+
+    // Click binding
+    tabTopics.addEventListener("click", () => activateTab("topics"));
+    tabTeam  .addEventListener("click", () => activateTab("team"));
+    tabCur   .addEventListener("click", () => activateTab("current"));
+    tabSup   .addEventListener("click", () => activateTab("sup"));
+
+    // Keyboard navigation (ArrowLeft/Right, Home/End)
+    const tabs = [tabTopics, tabTeam, tabCur, tabSup];
+    tabs.forEach((t, i) => {
+      t.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "Home" || e.key === "End") {
+          e.preventDefault();
+          let idx = i;
+          if (e.key === "ArrowRight") idx = (i + 1) % tabs.length;
+          if (e.key === "ArrowLeft")  idx = (i - 1 + tabs.length) % tabs.length;
+          if (e.key === "Home")       idx = 0;
+          if (e.key === "End")        idx = tabs.length - 1;
+          const which = idx === 0 ? "topics" : idx === 1 ? "team" : idx === 2 ? "current" : "sup";
+          activateTab(which);
+        }
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          t.click();
+        }
+      });
+    });
+
+    // Default tab
+    activateTab("topics");
+
+    // ---------- Small helpers ----------
+    function pill(text){
+      return `<span class="px-2 py-0.5 rounded-full text-xs bg-gray-100 border">${text}</span>`;
+    }
+
+    // Minimal, data-driven affiliation badges (text + optional per-item logos)
+    function renderAffBadges(ids, logos) {
+      if (!Array.isArray(ids) || !ids.length) return "";
+      return `<div class="mt-3 flex flex-wrap gap-2">
+        ${ids.map((txt, i) => {
+          const logo = Array.isArray(logos) ? logos[i] : null;
+          const icon = logo
+            ? `<img src="${logo}" alt="${txt} logo" loading="lazy" decoding="async"
+                    class="h-4 w-4 rounded-full ring-1 ring-gray-200 bg-white p-0.5 object-contain">`
+            : "";
+          return `
+            <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs bg-gray-50 border">
+              ${icon}<span>${txt}</span>
+            </span>`;
+        }).join("")}
+      </div>`;
+    }
+
+    async function loadJSON(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+      return res.json();
+    }
+
+    // ---------- DOM targets ----------
+    const topicsGrid     = document.getElementById("topicsGrid");
+    const currentList    = document.getElementById("currentList");
+    const degFilterCur   = document.getElementById("degFilterCur");
+
+    const supList        = document.getElementById("supervisionList");
+    const degFilter      = document.getElementById("degFilter");
+    const yearFilter     = document.getElementById("yearFilter");
+    const clearSupFilters= document.getElementById("clearSupFilters");
+
+    const teamGrid       = document.getElementById("teamGrid");
+
+    // ---------- Data ----------
+    let TOPICS = [];
+    let SUPERVISIONS = [];
+    let CURRENT_SUP = [];
+    let PAST_SUP = [];
+    let TEAM = [];
+
+    async function init() {
+      try {
+        [TOPICS, SUPERVISIONS, TEAM] = await Promise.all([
+          loadJSON("topics.json"),
+          loadJSON("supervisions.json"),
+          loadJSON("team.json")
+        ]);
+
+        CURRENT_SUP = SUPERVISIONS.filter(s => (s.status || "past").toLowerCase() === "current");
+        PAST_SUP    = SUPERVISIONS.filter(s => (s.status || "past").toLowerCase() === "past");
+
+        renderTopics(TOPICS);
+        setupTeam(TEAM);
+        setupCurrent(CURRENT_SUP);
+        setupPast(PAST_SUP);
+
+       
+
+      } catch (e) {
+        console.error(e);
+        topicsGrid.innerHTML = `<div class="text-gray-500">Couldn’t load topics.</div>`;
+        currentList.innerHTML = `<li class="text-gray-500">Couldn’t load current supervisions.</li>`;
+        supList.innerHTML = `<li class="text-gray-500">Couldn’t load past supervisions.</li>`;
+      }
+    }
+
+     function getSupervisorNames(s) {
+  const names = [];
+  if (s.mainSupervisor) names.push(s.mainSupervisor);         // show main first if present
+  names.push("Gergely F. Samu");
+  if (Array.isArray(s.coSupervisors)) names.push(...s.coSupervisors);
+  // de-duplicate while preserving order
+  return [...new Set(names.filter(Boolean))];
+}
+
+    // ---------- Topics (pretty cards) ----------
+    function renderTopics(topics = []) {
+      if (!Array.isArray(topics) || topics.length === 0) {
+        topicsGrid.innerHTML = `
+          <div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">
+            No open topics right now. Check back soon or
+            <a href="contact.html" class="text-blue-600 hover:underline">contact me</a>.
+          </div>`;
+        return;
+      }
+
+      topicsGrid.innerHTML = topics.map((t) => {
+        const titleText = t.title || "Untitled topic";
+        const descText  = t.description || "";
+        const levelText = t.level || "";
+        const supText   = t.supervisor || "Gergely F. Samu";
+
+        const statusBadgeHTML =
+          t.open === false
+            ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-gray-200 text-gray-700">Closed</span>`
+            : (Number.isFinite(t.spots)
+                ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800">${t.spots} spot${t.spots === 1 ? "" : "s"} open</span>`
+                : "");
+
+        const tagBadgesHTML =
+          Array.isArray(t.tags) && t.tags.length
+            ? `<div class="mt-3 flex flex-wrap gap-2">${t.tags.map((x) => pill(x)).join("")}</div>`
+            : "";
+
+        const affBadgesHTML = renderAffBadges(t.affiliations, t.affiliationLogos);
+
+        const thumbHTML = t.thumb
+          ? `<img src="${t.thumb}" alt="" loading="lazy" decoding="async" class="h-72 w-full object-cover">`
+          : "";
+
+        const linkHTML = t.link
+          ? `<a href="${t.link}" target="_blank" rel="noopener noreferrer"
+               class="text-blue-700 hover:text-blue-900 font-medium">Details →</a>`
+          : "";
+
+        return `
+          <article class="group bg-white rounded-xl shadow hover:shadow-md transition-shadow ring-1 ring-gray-100 overflow-hidden">
+            ${thumbHTML}
+            <div class="h-1.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500"></div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold leading-snug">
+                <span class="align-middle">${titleText}</span>${statusBadgeHTML}
+              </h3>
+              <p class="mt-2 text-sm text-gray-700">${descText}</p>
+              ${tagBadgesHTML}
+              ${affBadgesHTML}
+              <div class="mt-4 flex items-center justify-between text-sm text-gray-600">
+                <div class="flex items-center gap-3">
+                  ${levelText ? `<span class="px-2 py-0.5 rounded-md bg-gray-50 border">${levelText}</span>` : ""}
+                  <span>Supervisor: ${supText}</span>
+                </div>
+                <div class="shrink-0">${linkHTML}</div>
+              </div>
+            </div>
+          </article>`;
+      }).join("");
+    }
+
+    // ---------- Team ----------
+    function setupTeam(data) {
+      if (!Array.isArray(data) || !data.length) {
+        teamGrid.innerHTML = `<div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">No team members yet.</div>`;
+        return;
+      }
+
+      teamGrid.innerHTML = data.map(m => {
+        const photo = m.photo
+          ? `<img src="${m.photo}" alt="${m.name}" loading="lazy" decoding="async" class="h-28 w-28 rounded-full object-cover ring-2 ring-gray-200">`
+          : `<div class="h-28 w-28 rounded-full bg-gray-200 grid place-content-center text-gray-600">?</div>`;
+
+        const instruments = Array.isArray(m.instruments) && m.instruments.length
+          ? `<div class="mt-2 text-xs text-gray-600"><span class="font-medium">Instruments:</span> ${m.instruments.join(", ")}</div>` : "";
+
+        const projects = Array.isArray(m.projects) && m.projects.length
+          ? `<div class="mt-1 text-xs text-gray-600"><span class="font-medium">Projects:</span> ${m.projects.join(", ")}</div>` : "";
+
+        const contact = m.email ? `<a href="mailto:${m.email}" class="text-blue-600 hover:underline text-sm">${m.email}</a>` : "";
+
+        const links = m.links ? `
+          <div class="mt-2 flex gap-3 text-sm">
+            ${m.links.scholar ? `<a href="${m.links.scholar}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Scholar</a>` : ""}
+            ${m.links.orcid ? `<a href="${m.links.orcid}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">ORCID</a>` : ""}
+          </div>` : "";
+
+        const affBadges = renderAffBadges(m.affiliations, m.affiliationLogos);
+
+        return `
+          <article class="bg-white rounded-xl shadow p-5 flex items-start gap-4">
+            ${photo}
+            <div class="min-w-0">
+              <div class="font-semibold">${m.name}</div>
+              <div class="text-sm text-gray-700">${m.role || ""}</div>
+              ${contact}
+              ${instruments}
+              ${projects}
+              ${affBadges}
+              ${links}
+            </div>
+          </article>`;
+      }).join("");
+    }
+
+    // ---------- Current supervisions ----------
+    function setupCurrent(data) {
+  function normDeg(x){ return (x || "").toLowerCase(); }
+  const degreeOrder = ["PhD", "MSc", "BSc"];
+
+  function render() {
+    currentList.innerHTML = "";
+    const degVal = (degFilterCur.value || "all").toLowerCase();
+
+    const sortCur = (a,b) => (b.year||0) - (a.year||0) || (a.student||"").localeCompare(b.student||"");
+
+    if (degVal !== "all") {
+      const filtered = data.filter(s => normDeg(s.degree) === degVal).sort(sortCur);
+      if (!filtered.length) {
+        currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
+        return;
+      }
+      filtered.forEach(s => currentList.appendChild(renderCurItem(s)));
+      return;
+    }
+
+    // Grouped: PhD → MSc → BSc, with counts
+    let any = false;
+    degreeOrder.forEach(degLabel => {
+      const group = data.filter(s => normDeg(s.degree) === degLabel.toLowerCase()).sort(sortCur);
+      if (!group.length) return;
+      any = true;
+
+      const header = document.createElement("li");
+      header.className = "list-none mt-6";
+      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degLabel} (${group.length})</h3>`;
+      currentList.appendChild(header);
+
+      group.forEach(s => currentList.appendChild(renderCurItem(s)));
+    });
+
+    if (!any) currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
+  }
+
+  // one item (with avatar), new “Supervisors” + “Role” lines
+  function renderCurItem(s) {
+    const li = document.createElement("li");
+    li.className = "bg-white p-4 rounded shadow flex gap-4 items-start";
+
+    const avatar = s.photo
+      ? `<img src="${s.photo}" alt="${s.student}" loading="lazy" decoding="async" class="h-14 w-14 rounded-full object-cover ring-2 ring-gray-200">`
+      : `<div class="h-14 w-14 rounded-full bg-gray-200 grid place-content-center text-gray-600 text-sm">👤</div>`;
+
+    const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
+    const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+    const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
+    const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+
+    const supNames = getSupervisorNames(s).join(", ");
+
+    li.innerHTML = `
+      ${avatar}
+      <div class="min-w-0">
+        <div class="font-semibold">
+          ${s.student || ""} 
+          <span class="text-gray-500 font-normal">• ${s.degree || ""}${s.year ? " • " + s.year : ""}${remark}</span>
+        </div>
+        <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+
+        <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
+        
+        ${affs}
+        ${kws}
+      </div>
+    `;
+    return li;
+  }
+
+  degFilterCur.addEventListener("change", render);
+  render();
+}
+
+    // ---------- Past supervisions (now with photo, role, remark, badges) ----------
+    function setupPast(data) {
+  // populate year dropdown
+  const years = [...new Set(data.map(s => s.year))].filter(Boolean).sort((a,b)=> b - a);
+  years.forEach(y => {
+    const opt = document.createElement("option");
+    opt.value = String(y);
+    opt.textContent = String(y);
+    yearFilter.appendChild(opt);
+  });
+
+  const degreeOrder = ["PhD", "MSc", "BSc"];
+  const normDeg = x => (x || "").toLowerCase();
+
+  function render() {
+    const degVal = (degFilter.value || "all").toLowerCase();
+    const yr = yearFilter.value || "all";
+    const byYear = arr => arr.filter(s => (yr === "all" || String(s.year) === yr));
+    supList.innerHTML = "";
+
+    if (degVal !== "all") {
+      const filtered = byYear(data.filter(s => normDeg(s.degree) === degVal))
+        .sort((a,b)=> (b.year||0) - (a.year||0));
+      if (!filtered.length) {
+        supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
+        return;
+      }
+      filtered.forEach(s => supList.appendChild(renderPastItem(s)));
+      return;
+    }
+
+    // Grouped: PhD → MSc → BSc with counts
+    let any = false;
+    degreeOrder.forEach(degLabel => {
+      const group = byYear(data.filter(s => normDeg(s.degree) === degLabel.toLowerCase()))
+        .sort((a,b)=> (b.year||0) - (a.year||0));
+      if (!group.length) return;
+
+      any = true;
+      const header = document.createElement("li");
+      header.className = "list-none mt-6";
+      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degLabel} (${group.length})</h3>`;
+      supList.appendChild(header);
+
+      group.forEach(s => supList.appendChild(renderPastItem(s)));
+    });
+
+    if (!any) supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
+  }
+
+  function renderPastItem(s) {
+    const li = document.createElement("li");
+    li.className = "bg-white p-4 rounded shadow mt-2";
+
+    const co   = s.coSupervisors?.length ? ` • Co-supervisors: ${s.coSupervisors.join(", ")}` : "";
+    const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+    const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
+    const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+
+    const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
+
+    const supNames = getSupervisorNames(s).join(", ");
+
+    li.innerHTML = `
+      <div class="font-semibold">${s.student || ""}
+        <span class="text-gray-500 font-normal">• ${s.degree || ""} • ${s.year || ""}${remark}</span>
+      </div>
+      <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+
+      <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
+      
+      ${affs}
+      ${kws}
+    `;
+    return li;
+  }
+
+  degFilter.addEventListener("change", render);
+  yearFilter.addEventListener("change", render);
+  clearSupFilters.addEventListener("click", () => {
+    degFilter.value = "all";
+    yearFilter.value = "all";
+    render();
+  });
+
+  render();
+}
+
+    // Kick off
+    init();
+  </script>
+</body>
+</html>

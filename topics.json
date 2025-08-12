@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Pseudo-perovskite scintillators",
+    "level": ["BSc","MSc","PhD"],
+    "keywords": [],
+    "summary": "",
+    "thumb": "images/topics/topic1.jpg",
+    "thumb_alt": "Perovskite thin film under laser probe",
+    "link": "",
+    "affiliations": ["ELI ALPS Research Institute", "SZTE-TTIK"],
+    "affiliationLogos": ["images/icons/eli.png", "images/icons/szte.png"]
+  },
+  {
+    "title": "Perovskite nanocrystal synthesis",
+    "level": ["BSc", "MSc"],
+    "keywords": [],
+    "summary": "Electrochemical tuning of interfacial energetics and its effect on device performance.",
+    "thumb": "images/topics/topic2.png",
+    "thumb_alt": "NiO interface schematic",
+    "link": "",
+    "affiliations": ["ELI ALPS Research Institute", "SZTE-TTIK"],
+    "affiliationLogos": ["images/icons/eli.png", "images/icons/szte.png"]
+  },
+  {
+    "title": "Charge carrier dynamics in novel semiconductors",
+    "level": ["MSc", "PhD"],
+    "keywords": [],
+    "summary": "Time-resolved optical experiments to map carrier dynamics in mixed-halide perovskites.",
+    "thumb": "images/topics/perovskite-ultrafast.webp",
+    "thumb_alt": "Perovskite thin film under laser probe",
+    "link": "",
+    "affiliations": ["ELI ALPS Research Institute", "SZTE-TTIK"],
+    "affiliationLogos": ["images/icons/eli.png", "images/icons/szte.png"]
+  },
+  {
+    "title": "In situ spectroelectrochemistry of semiconductors",
+    "level": ["MSc", "PhD"],
+    "keywords": [],
+    "summary": "Time-resolved optical experiments to map carrier dynamics in mixed-halide perovskites.",
+    "thumb": "images/topics/perovskite-ultrafast.webp",
+    "thumb_alt": "Perovskite thin film under laser probe",
+    "link": "",
+    "affiliations": ["ELI ALPS Research Institute", "SZTE-TTIK"],
+    "affiliationLogos": ["images/icons/eli.png", "images/icons/szte.png"]
+  },
+  {
+    "title": "Development of ultrafast measurement techniques",
+    "level": ["PhD"],
+    "keywords": [],
+    "summary": "Time-resolved optical experiments to map carrier dynamics in mixed-halide perovskites.",
+    "thumb": "images/topics/perovskite-ultrafast.webp",
+    "thumb_alt": "Perovskite thin film under laser probe",
+    "link": "",
+    "affiliations": ["ELI ALPS Research Institute", "SZTE-TTIK"],
+    "affiliationLogos": ["images/icons/eli.png", "images/icons/szte.png"]
+  }
+]

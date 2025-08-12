@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Cintia Hajdu",
+    "role": "PhD student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": ["TEM", "XRD", "contact profilometry", "NMR", "PL spectroscopy"],
+    "projects": ["Pseudo-perovskite scintillators", "Perovskite nanocrystal synthesis"],
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=CjQcbxEAAAAJ&hl=hu",
+      "orcid": "",
+      "mtmt": "https://m2.mtmt.hu/api/author/10088747"
+    },
+    "affiliations": ["SZTE"]
+  },
+  {
+    "name": "Krisztina Trényi-Sárosi",
+    "role": "PhD student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": ["Transient absorption spectroscopy", "Potentiostat/galvanostat"],
+    "projects": ["Development of ultrafast measurement techniques", "Charge carrier dynamics in novel semiconductors"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":"https://m2.mtmt.hu/api/author/10081758"
+    },
+    "affiliations": ["ELI ALPS"]
+  },
+  {
+    "name": "Bálint Tóth",
+    "role": "Early-stage researcher",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": ["Transient absorption spectroscopy"],
+    "projects": ["Development of ultrafast measurement techniques", "Charge carrier dynamics in novel semiconductors"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["ELI ALPS"]
+  },
+  {
+    "name": "Rebeka Ádám",
+    "role": "Laboratory technician",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": [""],
+    "projects": ["Perovskite nanocrystal synthesis"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["ELI ALPS"]
+  },
+  {
+    "name": "Kitti Cseh",
+    "role": "MSc student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": ["Time-resolved PL spectroscopy"],
+    "projects": ["Pseudo-perovskite scintillators", "In situ spectroelectrochemistry of semiconductors"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["SZTE"]
+  },
+  {
+    "name": "Attila Tóth",
+    "role": "MSc student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": [""],
+    "projects": ["Perovskite nanocrystal synthesis"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["SZTE"]
+  },
+  {
+    "name": "Betti Fodor",
+    "role": "PhD student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": [""],
+    "projects": ["Perovskite nanocrystal synthesis"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["SZTE"]
+  },
+  {
+    "name": "Melinda Kovács",
+    "role": "PhD student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": [""],
+    "projects": ["In situ spectroelectrochemistry of semiconductors"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["SZTE"]
+  },
+  {
+    "name": "Attila Gélányi",
+    "role": "PhD student",
+    "photo": "",
+    "email": "alice@university.hu",
+    "instruments": [""],
+    "projects": ["Pseudo-perovskite scintillators"],
+    "links": {
+      "scholar": "",
+      "orcid": "",
+      "mtmt":""
+    },
+    "affiliations": ["SZTE"]
+  }
+]
