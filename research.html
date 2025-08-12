@@ -10,22 +10,62 @@
 <body class="bg-gray-50 text-gray-800 font-sans">
 
   <!-- Navbar -->
-  <header class="bg-white shadow sticky top-0 z-10">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">Gergely Samu</h1>
-      <nav class="space-x-4" aria-label="Primary">
-        <a href="index.html" class="hover:text-blue-600">Home</a>
-        <a href="publications.html" class="hover:text-blue-600">Publications</a>
-        <a href="research.html" class="text-blue-600 font-semibold" aria-current="page">Research</a>
-        <a href="contact.html" class="hover:text-blue-600">Contact</a>
-      </nav>
-    </div>
-  </header>
+<header class="bg-white shadow sticky top-0 z-20">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <!-- Brand -->
+    <a href="index.html" class="text-xl font-bold">Gergely Samu</a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-5" aria-label="Primary">
+      <a href="index.html"        class="text-gray-600 hover:text-blue-600">Home</a>
+      <a href="news.html"         class="text-gray-600 hover:text-blue-600">News</a>
+      <a href="cv.html"           class="text-gray-600 hover:text-blue-600">CV</a>
+      <a href="research.html"     class="text-gray-600 hover:text-blue-600">Research</a>
+      <a href="publications.html" class="text-gray-600 hover:text-blue-600">Publications</a>
+      <a href="courses.html"      class="text-gray-600 hover:text-blue-600">Courses</a>
+      <a href="resources.html"    class="text-gray-600 hover:text-blue-600">Resources</a>
+      <a href="gallery.html"      class="text-gray-600 hover:text-blue-600">Gallery</a>
+      <a href="contact.html"      class="text-gray-600 hover:text-blue-600">Contact</a>
+    </nav>
+
+    <!-- Mobile toggle -->
+    <button id="mobileToggle"
+            class="md:hidden inline-flex items-center justify-center p-2 rounded border border-gray-300 hover:bg-gray-50"
+            aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">
+      <!-- hamburger icon -->
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu (collapsible) -->
+  <div id="mobileMenu"
+       class="md:hidden hidden border-t border-gray-200 bg-white"
+       role="dialog" aria-modal="true" aria-label="Mobile menu">
+    <nav class="max-w-6xl mx-auto px-4 py-3" aria-label="Primary mobile">
+      <ul class="flex flex-col divide-y divide-gray-100">
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="index.html">Home</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="news.html">News</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="cv.html">CV</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="research.html">Research</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="publications.html">Publications</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="courses.html">Courses</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="resources.html">Resources</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="gallery.html">Gallery</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
   <main class="py-16">
     <div class="max-w-5xl mx-auto px-4">
       <h2 class="text-3xl font-bold mb-2">Research</h2>
-      <p class="text-gray-600 mb-8">Open topics, team, ongoing and past supervisions. This page will evolve into a full group hub.</p>
+      <p class="text-gray-600 mb-8">Open topics, team, current and past supervisions, internships, and collaborations.</p>
 
       <!-- Tabs -->
       <div class="border-b border-gray-200 mb-6 flex gap-6" role="tablist" aria-label="Sections">
@@ -40,13 +80,20 @@
 
         <button id="tab-supervisions" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
                 role="tab" aria-selected="false" aria-controls="panel-supervisions" tabindex="-1">Past Supervisions</button>
+
+        <button id="tab-intern" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="false" aria-controls="panel-intern" tabindex="-1">Summer Internship</button>
+
+        <button id="tab-collab" class="py-2 -mb-px border-b-2 border-transparent text-gray-600 hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-blue-300"
+                role="tab" aria-selected="false" aria-controls="panel-collab" tabindex="-1">Collaborations</button>
       </div>
 
       <!-- Panel: Current Topics -->
       <section id="panel-topics" role="tabpanel" aria-labelledby="tab-topics">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" id="topicsGrid">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" id="topicsGrid">            
           <!-- Cards injected by JS -->
         </div>
+        
 
         <!-- CTA -->
         <div class="mt-6 bg-white p-4 rounded shadow flex items-start gap-4">
@@ -63,9 +110,7 @@
 
       <!-- Panel: Current Team -->
       <section id="panel-team" class="hidden" role="tabpanel" aria-labelledby="tab-team">
-        <div class="mb-4 text-sm text-gray-600">
-          Members, instrument expertise, and projects.
-        </div>
+        <div class="mb-4 text-sm text-gray-600">Members, instrument expertise, and projects.</div>
         <div id="teamGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <!-- Cards injected by JS -->
         </div>
@@ -78,9 +123,10 @@
             <label for="degFilterCur" class="block mb-1 text-gray-700 text-sm font-medium">Degree</label>
             <select id="degFilterCur" class="p-2 border border-gray-300 rounded-md">
               <option value="all">All</option>
-              <option value="BSc">BSc</option>
-              <option value="MSc">MSc</option>
               <option value="PhD">PhD</option>
+              <option value="MSc">MSc</option>
+              <option value="BSc">BSc</option>
+              <option value="Project">Project</option>
             </select>
           </div>
         </div>
@@ -96,9 +142,10 @@
             <label for="degFilter" class="block mb-1 text-gray-700 text-sm font-medium">Degree</label>
             <select id="degFilter" class="p-2 border border-gray-300 rounded-md">
               <option value="all">All</option>
-              <option value="BSc">BSc</option>
-              <option value="MSc">MSc</option>
               <option value="PhD">PhD</option>
+              <option value="MSc">MSc</option>
+              <option value="BSc">BSc</option>
+              <option value="Project">Project</option>
             </select>
           </div>
           <div>
@@ -116,20 +163,38 @@
           <!-- Items injected by JS -->
         </ul>
       </section>
+
+      <!-- Panel: Summer Internship -->
+      <section id="panel-intern" class="hidden" role="tabpanel" aria-labelledby="tab-intern">
+        <ul id="internList" class="space-y-4">
+          <!-- Items injected by JS -->
+        </ul>
+      </section>
+
+      <!-- Panel: Collaborations -->
+      <section id="panel-collab" class="hidden" role="tabpanel" aria-labelledby="tab-collab">
+        <ul id="collabList" class="space-y-4">
+          <!-- Items injected by JS -->
+        </ul>
+      </section>
     </div>
   </main>
 
   <script>
-    // ---------- Tab elements ----------
+    // ---------- Tabs ----------
     const tabTopics = document.getElementById("tab-topics");
     const tabTeam   = document.getElementById("tab-team");
     const tabCur    = document.getElementById("tab-current");
     const tabSup    = document.getElementById("tab-supervisions");
+    const tabIntern = document.getElementById("tab-intern");
+    const tabCollab = document.getElementById("tab-collab");
 
     const panelTopics = document.getElementById("panel-topics");
     const panelTeam   = document.getElementById("panel-team");
     const panelCur    = document.getElementById("panel-current");
     const panelSup    = document.getElementById("panel-supervisions");
+    const panelIntern = document.getElementById("panel-intern");
+    const panelCollab = document.getElementById("panel-collab");
 
     function setTabState(el, active) {
       el.classList.toggle("border-blue-600", active);
@@ -146,27 +211,33 @@
       setTabState(tabTeam,   which === "team");
       setTabState(tabCur,    which === "current");
       setTabState(tabSup,    which === "sup");
+      setTabState(tabIntern, which === "intern");
+      setTabState(tabCollab, which === "collab");
 
       show(panelTopics, which === "topics");
       show(panelTeam,   which === "team");
       show(panelCur,    which === "current");
       show(panelSup,    which === "sup");
+      show(panelIntern, which === "intern");
+      show(panelCollab, which === "collab");
 
-      const activeEl = which === "topics" ? tabTopics
-                        : which === "team" ? tabTeam
-                        : which === "current" ? tabCur
-                        : tabSup;
+      const activeEl =
+        which === "topics" ? tabTopics :
+        which === "team"   ? tabTeam   :
+        which === "current"? tabCur    :
+        which === "sup"    ? tabSup    :
+        which === "intern" ? tabIntern : tabCollab;
       activeEl.focus();
     }
 
-    // Click binding
     tabTopics.addEventListener("click", () => activateTab("topics"));
     tabTeam  .addEventListener("click", () => activateTab("team"));
     tabCur   .addEventListener("click", () => activateTab("current"));
     tabSup   .addEventListener("click", () => activateTab("sup"));
+    tabIntern.addEventListener("click", () => activateTab("intern"));
+    tabCollab.addEventListener("click", () => activateTab("collab"));
 
-    // Keyboard navigation (ArrowLeft/Right, Home/End)
-    const tabs = [tabTopics, tabTeam, tabCur, tabSup];
+    const tabs = [tabTopics, tabTeam, tabCur, tabSup, tabIntern, tabCollab];
     tabs.forEach((t, i) => {
       t.addEventListener("keydown", (e) => {
         if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === "Home" || e.key === "End") {
@@ -176,25 +247,33 @@
           if (e.key === "ArrowLeft")  idx = (i - 1 + tabs.length) % tabs.length;
           if (e.key === "Home")       idx = 0;
           if (e.key === "End")        idx = tabs.length - 1;
-          const which = idx === 0 ? "topics" : idx === 1 ? "team" : idx === 2 ? "current" : "sup";
+          const which = ["topics","team","current","sup","intern","collab"][idx];
           activateTab(which);
         }
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          t.click();
-        }
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); t.click(); }
       });
     });
 
-    // Default tab
-    activateTab("topics");
+    activateTab("topics"); // default
 
-    // ---------- Small helpers ----------
+    // ---------- Helpers ----------
     function pill(text){
       return `<span class="px-2 py-0.5 rounded-full text-xs bg-gray-100 border">${text}</span>`;
     }
 
-    // Minimal, data-driven affiliation badges (text + optional per-item logos)
+    // normalize degree strings consistently
+    function normDeg(x){ return (x || "").trim().toLowerCase(); }
+
+    // display label for headings
+    function degreeDisplay(norm) {
+      if (norm === "phd") return "PhD";
+      if (norm === "msc") return "MSc";
+      if (norm === "bsc") return "BSc";
+      if (norm === "project" || norm === "project work" || norm === "projectwork") return "Project work";
+      return (norm || "").toUpperCase();
+    }
+
+    // basic affiliation badges (text + optional per-item logos)
     function renderAffBadges(ids, logos) {
       if (!Array.isArray(ids) || !ids.length) return "";
       return `<div class="mt-3 flex flex-wrap gap-2">
@@ -212,6 +291,23 @@
       </div>`;
     }
 
+    // supervisors in one clear line
+    function getSupervisorNames(s) {
+      const names = [];
+      if (s.mainSupervisor) names.push(s.mainSupervisor); // show main first if provided
+      names.push("Gergely F. Samu");
+      if (Array.isArray(s.coSupervisors)) names.push(...s.coSupervisors);
+      return [...new Set(names.filter(Boolean))];
+    }
+
+    // internship classifier (uses supervisions.json only)
+    function isIntern(s) {
+      const d = normDeg(s.degree);
+      if (d.includes("intern")) return true; // "Intern", "Summer Internship", etc.
+      const tag = normDeg(s.type || s.kind || s.category);
+      return tag === "intern" || tag === "internship";
+    }
+
     async function loadJSON(url) {
       const res = await fetch(url, { cache: "no-store" });
       if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
@@ -220,6 +316,9 @@
 
     // ---------- DOM targets ----------
     const topicsGrid     = document.getElementById("topicsGrid");
+
+    const teamGrid       = document.getElementById("teamGrid");
+
     const currentList    = document.getElementById("currentList");
     const degFilterCur   = document.getElementById("degFilterCur");
 
@@ -228,7 +327,8 @@
     const yearFilter     = document.getElementById("yearFilter");
     const clearSupFilters= document.getElementById("clearSupFilters");
 
-    const teamGrid       = document.getElementById("teamGrid");
+    const internList     = document.getElementById("internList");
+    const collabList     = document.getElementById("collabList");
 
     // ---------- Data ----------
     let TOPICS = [];
@@ -236,316 +336,533 @@
     let CURRENT_SUP = [];
     let PAST_SUP = [];
     let TEAM = [];
+    let INTERNS = [];
+    let COLLABS = [];
 
     async function init() {
       try {
-        [TOPICS, SUPERVISIONS, TEAM] = await Promise.all([
+        [TOPICS, SUPERVISIONS, TEAM, COLLABS] = await Promise.all([
           loadJSON("topics.json"),
           loadJSON("supervisions.json"),
-          loadJSON("team.json")
+          loadJSON("team.json"),
+          loadJSON("collaborations.json")
         ]);
 
         CURRENT_SUP = SUPERVISIONS.filter(s => (s.status || "past").toLowerCase() === "current");
         PAST_SUP    = SUPERVISIONS.filter(s => (s.status || "past").toLowerCase() === "past");
+        INTERNS     = SUPERVISIONS.filter(isIntern);
 
         renderTopics(TOPICS);
         setupTeam(TEAM);
         setupCurrent(CURRENT_SUP);
         setupPast(PAST_SUP);
-
-       
+        setupInternships(INTERNS);
+        setupCollaborations(COLLABS);
 
       } catch (e) {
         console.error(e);
         topicsGrid.innerHTML = `<div class="text-gray-500">Couldn’t load topics.</div>`;
+        teamGrid.innerHTML = `<div class="text-gray-500">Couldn’t load team.</div>`;
         currentList.innerHTML = `<li class="text-gray-500">Couldn’t load current supervisions.</li>`;
         supList.innerHTML = `<li class="text-gray-500">Couldn’t load past supervisions.</li>`;
+        internList.innerHTML = `<li class="text-gray-500">Couldn’t load internships.</li>`;
+        collabList.innerHTML = `<li class="text-gray-500">Couldn’t load collaborations.</li>`;
       }
     }
-
-     function getSupervisorNames(s) {
-  const names = [];
-  if (s.mainSupervisor) names.push(s.mainSupervisor);         // show main first if present
-  names.push("Gergely F. Samu");
-  if (Array.isArray(s.coSupervisors)) names.push(...s.coSupervisors);
-  // de-duplicate while preserving order
-  return [...new Set(names.filter(Boolean))];
-}
 
     // ---------- Topics (pretty cards) ----------
     function renderTopics(topics = []) {
-      if (!Array.isArray(topics) || topics.length === 0) {
-        topicsGrid.innerHTML = `
-          <div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">
-            No open topics right now. Check back soon or
-            <a href="contact.html" class="text-blue-600 hover:underline">contact me</a>.
-          </div>`;
-        return;
-      }
-
-      topicsGrid.innerHTML = topics.map((t) => {
-        const titleText = t.title || "Untitled topic";
-        const descText  = t.description || "";
-        const levelText = t.level || "";
-        const supText   = t.supervisor || "Gergely F. Samu";
-
-        const statusBadgeHTML =
-          t.open === false
-            ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-gray-200 text-gray-700">Closed</span>`
-            : (Number.isFinite(t.spots)
-                ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800">${t.spots} spot${t.spots === 1 ? "" : "s"} open</span>`
-                : "");
-
-        const tagBadgesHTML =
-          Array.isArray(t.tags) && t.tags.length
-            ? `<div class="mt-3 flex flex-wrap gap-2">${t.tags.map((x) => pill(x)).join("")}</div>`
-            : "";
-
-        const affBadgesHTML = renderAffBadges(t.affiliations, t.affiliationLogos);
-
-        const thumbHTML = t.thumb
-          ? `<img src="${t.thumb}" alt="" loading="lazy" decoding="async" class="h-72 w-full object-cover">`
-          : "";
-
-        const linkHTML = t.link
-          ? `<a href="${t.link}" target="_blank" rel="noopener noreferrer"
-               class="text-blue-700 hover:text-blue-900 font-medium">Details →</a>`
-          : "";
-
-        return `
-          <article class="group bg-white rounded-xl shadow hover:shadow-md transition-shadow ring-1 ring-gray-100 overflow-hidden">
-            ${thumbHTML}
-            <div class="h-1.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500"></div>
-            <div class="p-5">
-              <h3 class="text-lg font-semibold leading-snug">
-                <span class="align-middle">${titleText}</span>${statusBadgeHTML}
-              </h3>
-              <p class="mt-2 text-sm text-gray-700">${descText}</p>
-              ${tagBadgesHTML}
-              ${affBadgesHTML}
-              <div class="mt-4 flex items-center justify-between text-sm text-gray-600">
-                <div class="flex items-center gap-3">
-                  ${levelText ? `<span class="px-2 py-0.5 rounded-md bg-gray-50 border">${levelText}</span>` : ""}
-                  <span>Supervisor: ${supText}</span>
-                </div>
-                <div class="shrink-0">${linkHTML}</div>
-              </div>
-            </div>
-          </article>`;
-      }).join("");
-    }
-
-    // ---------- Team ----------
-    function setupTeam(data) {
-      if (!Array.isArray(data) || !data.length) {
-        teamGrid.innerHTML = `<div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">No team members yet.</div>`;
-        return;
-      }
-
-      teamGrid.innerHTML = data.map(m => {
-        const photo = m.photo
-          ? `<img src="${m.photo}" alt="${m.name}" loading="lazy" decoding="async" class="h-28 w-28 rounded-full object-cover ring-2 ring-gray-200">`
-          : `<div class="h-28 w-28 rounded-full bg-gray-200 grid place-content-center text-gray-600">?</div>`;
-
-        const instruments = Array.isArray(m.instruments) && m.instruments.length
-          ? `<div class="mt-2 text-xs text-gray-600"><span class="font-medium">Instruments:</span> ${m.instruments.join(", ")}</div>` : "";
-
-        const projects = Array.isArray(m.projects) && m.projects.length
-          ? `<div class="mt-1 text-xs text-gray-600"><span class="font-medium">Projects:</span> ${m.projects.join(", ")}</div>` : "";
-
-        const contact = m.email ? `<a href="mailto:${m.email}" class="text-blue-600 hover:underline text-sm">${m.email}</a>` : "";
-
-        const links = m.links ? `
-          <div class="mt-2 flex gap-3 text-sm">
-            ${m.links.scholar ? `<a href="${m.links.scholar}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Scholar</a>` : ""}
-            ${m.links.orcid ? `<a href="${m.links.orcid}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">ORCID</a>` : ""}
-          </div>` : "";
-
-        const affBadges = renderAffBadges(m.affiliations, m.affiliationLogos);
-
-        return `
-          <article class="bg-white rounded-xl shadow p-5 flex items-start gap-4">
-            ${photo}
-            <div class="min-w-0">
-              <div class="font-semibold">${m.name}</div>
-              <div class="text-sm text-gray-700">${m.role || ""}</div>
-              ${contact}
-              ${instruments}
-              ${projects}
-              ${affBadges}
-              ${links}
-            </div>
-          </article>`;
-      }).join("");
-    }
-
-    // ---------- Current supervisions ----------
-    function setupCurrent(data) {
-  function normDeg(x){ return (x || "").toLowerCase(); }
-  const degreeOrder = ["PhD", "MSc", "BSc"];
-
-  function render() {
-    currentList.innerHTML = "";
-    const degVal = (degFilterCur.value || "all").toLowerCase();
-
-    const sortCur = (a,b) => (b.year||0) - (a.year||0) || (a.student||"").localeCompare(b.student||"");
-
-    if (degVal !== "all") {
-      const filtered = data.filter(s => normDeg(s.degree) === degVal).sort(sortCur);
-      if (!filtered.length) {
-        currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
-        return;
-      }
-      filtered.forEach(s => currentList.appendChild(renderCurItem(s)));
-      return;
-    }
-
-    // Grouped: PhD → MSc → BSc, with counts
-    let any = false;
-    degreeOrder.forEach(degLabel => {
-      const group = data.filter(s => normDeg(s.degree) === degLabel.toLowerCase()).sort(sortCur);
-      if (!group.length) return;
-      any = true;
-
-      const header = document.createElement("li");
-      header.className = "list-none mt-6";
-      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degLabel} (${group.length})</h3>`;
-      currentList.appendChild(header);
-
-      group.forEach(s => currentList.appendChild(renderCurItem(s)));
-    });
-
-    if (!any) currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
+  const grid = document.getElementById("topicsGrid");
+  if (!Array.isArray(topics) || topics.length === 0) {
+    grid.innerHTML = `
+      <div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">
+        No open topics right now. Check back soon or
+        <a href="contact.html" class="text-blue-600 hover:underline">contact me</a>.
+      </div>`;
+    return;
   }
 
-  // one item (with avatar), new “Supervisors” + “Role” lines
-  function renderCurItem(s) {
-    const li = document.createElement("li");
-    li.className = "bg-white p-4 rounded shadow flex gap-4 items-start";
+  // helper: level → small tiles (split on /, , or ·)
+  const levelPills = (level) => {
+    const raw = (level || "").trim();
+    if (!raw) return "";
+    const parts = raw.split(/[\/,·]/).map(s => s.trim()).filter(Boolean);
+    if (!parts.length) return "";
+    return `<div class="mt-3 flex flex-wrap gap-2">
+      ${parts.map(p => `<span class="px-2 py-0.5 rounded-md text-xs bg-gray-50 border">${p}</span>`).join("")}
+    </div>`;
+  };
 
-    const avatar = s.photo
-      ? `<img src="${s.photo}" alt="${s.student}" loading="lazy" decoding="async" class="h-14 w-14 rounded-full object-cover ring-2 ring-gray-200">`
-      : `<div class="h-14 w-14 rounded-full bg-gray-200 grid place-content-center text-gray-600 text-sm">👤</div>`;
+  // one card (no supervisor line)
+  const card = (t) => {
+    const title = t.title || "Untitled topic";
+    const desc  = t.shortDescription || "";  // short summary under the image
+    const tags  = Array.isArray(t.tags) && t.tags.length
+      ? `<div class="mt-3 flex flex-wrap gap-2">${t.tags.map(pill).join("")}</div>` : "";
+    const affs  = renderAffBadges(t.affiliations, t.affiliationLogos);
 
-    const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
-    const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
-    const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
-    const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+    // Prefer per-topic page (t.page), else fall back to an external link if you have one
+    const link  = t.page
+      ? `<a href="${t.page}" class="text-blue-700 hover:text-blue-900 font-medium">Details →</a>`
+      : (t.link
+          ? `<a href="${t.link}" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 font-medium">Details →</a>`
+          : "");
 
-    const supNames = getSupervisorNames(s).join(", ");
+    const thumb = t.thumb
+      ? `<div class="w-full aspect-[4/3] overflow-hidden">
+           <img src="${t.thumb}" alt="" loading="lazy" decoding="async" class="w-full h-full object-cover object-center">
+         </div>`
+      : "";
 
-    li.innerHTML = `
-      ${avatar}
-      <div class="min-w-0">
-        <div class="font-semibold">
-          ${s.student || ""} 
-          <span class="text-gray-500 font-normal">• ${s.degree || ""}${s.year ? " • " + s.year : ""}${remark}</span>
+    const status =
+      t.open === false
+        ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-gray-200 text-gray-700">Closed</span>`
+        : (Number.isFinite(t.spots)
+            ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800">${t.spots} spot${t.spots === 1 ? "" : "s"} open</span>`
+            : "");
+
+    return `
+      <article class="group bg-white rounded-xl shadow hover:shadow-md transition-shadow ring-1 ring-gray-100 overflow-hidden">
+        ${thumb}
+        <div class="h-1.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500"></div>
+        <div class="p-5">
+          <h3 class="text-lg font-semibold leading-snug">
+            <span class="align-middle">${title}</span>${status}
+          </h3>
+          <p class="mt-2 text-sm text-gray-700">${desc}</p>
+          ${levelPills(t.level)}
+          ${tags}
+          ${affs}
+          <div class="mt-4 flex justify-end text-sm text-gray-600">
+            <div class="shrink-0">${link}</div>
+          </div>
         </div>
-        <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+      </article>`;
+  };
 
-        <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
-        
-        ${affs}
-        ${kws}
-      </div>
-    `;
-    return li;
-  }
-
-  degFilterCur.addEventListener("change", render);
-  render();
+  // simple grid; keep the order from your JSON
+  grid.innerHTML = topics.map(t => {
+    const wrap = document.createElement("div");
+    wrap.innerHTML = card(t);
+    return wrap.firstElementChild.outerHTML;
+  }).join("");
 }
 
-    // ---------- Past supervisions (now with photo, role, remark, badges) ----------
-    function setupPast(data) {
-  // populate year dropdown
-  const years = [...new Set(data.map(s => s.year))].filter(Boolean).sort((a,b)=> b - a);
-  years.forEach(y => {
-    const opt = document.createElement("option");
-    opt.value = String(y);
-    opt.textContent = String(y);
-    yearFilter.appendChild(opt);
-  });
+    // ---------- Team (grouped with counters) ----------
+    function setupTeam(data) {
+  if (!Array.isArray(data) || !data.length) {
+    teamGrid.innerHTML = `<div class="col-span-full text-gray-500 bg-white p-6 rounded shadow">No team members yet.</div>`;
+    return;
+  }
 
-  const degreeOrder = ["PhD", "MSc", "BSc"];
-  const normDeg = x => (x || "").toLowerCase();
+  // map role text to buckets
+  function roleKey(r) {
+    const t = (r || "").toLowerCase();
+    if (t.includes("prof") || t.includes("pi") || t === "faculty" || t.includes("lead")) return "faculty";
+    if (t.includes("postdoc")) return "postdoc";
+    if (t.includes("early-stage")) return "earlystage";
+    if (t.includes("phd")) return "phd";
+    if (t.includes("msc") || t.includes("master")) return "msc";
+    if (t.includes("bsc") || t.includes("bachelor") || t.includes("undergrad")) return "bsc";
+    if (t.includes("tech")) return "technician";
+    if (t.includes("admin")) return "administrative";
+    return "unmapped"; // anything else
+  }
 
-  function render() {
-    const degVal = (degFilter.value || "all").toLowerCase();
-    const yr = yearFilter.value || "all";
-    const byYear = arr => arr.filter(s => (yr === "all" || String(s.year) === yr));
-    supList.innerHTML = "";
+  const researchOrder = ["faculty","postdoc","earlystage","phd","msc","bsc"];
+  const supportOrder  = ["technician","administrative"];
 
-    if (degVal !== "all") {
-      const filtered = byYear(data.filter(s => normDeg(s.degree) === degVal))
-        .sort((a,b)=> (b.year||0) - (a.year||0));
-      if (!filtered.length) {
-        supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
-        return;
-      }
-      filtered.forEach(s => supList.appendChild(renderPastItem(s)));
-      return;
-    }
+  const labels = {
+    faculty: "Faculty / PI",
+    postdoc: "Postdoctoral researchers",
+    earlystage: "Early-stage researchers",
+    phd: "PhD students",
+    msc: "MSc students",
+    bsc: "BSc students",
+    technician: "Technicians",
+    administrative: "Administrative staff"
+  };
 
-    // Grouped: PhD → MSc → BSc with counts
-    let any = false;
-    degreeOrder.forEach(degLabel => {
-      const group = byYear(data.filter(s => normDeg(s.degree) === degLabel.toLowerCase()))
-        .sort((a,b)=> (b.year||0) - (a.year||0));
-      if (!group.length) return;
+  // bucket people
+  const groups = {};
+  [...researchOrder, ...supportOrder, "unmapped"].forEach(k => groups[k] = []);
+  data.forEach(m => groups[roleKey(m.role)].push(m));
 
-      any = true;
-      const header = document.createElement("li");
-      header.className = "list-none mt-6";
-      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degLabel} (${group.length})</h3>`;
-      supList.appendChild(header);
+  teamGrid.innerHTML = "";
 
-      group.forEach(s => supList.appendChild(renderPastItem(s)));
+  // ----- Researchers block -----
+  const hasResearchers = researchOrder.some(k => groups[k].length);
+  if (hasResearchers) {
+    const bigHeader = document.createElement("div");
+    bigHeader.className = "col-span-full";
+    bigHeader.innerHTML = `<h2 class="text-base font-semibold text-gray-800 mb-2">Researchers</h2>`;
+    teamGrid.appendChild(bigHeader);
+
+    researchOrder.forEach(k => {
+      const arr = groups[k].slice().sort((a,b)=> (a.name||"").localeCompare(b.name||""));
+      if (!arr.length) return;
+
+      const header = document.createElement("div");
+      header.className = "col-span-full mt-4";
+      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-3">${labels[k]} (${arr.length})</h3>`;
+      teamGrid.appendChild(header);
+
+      arr.forEach(m => teamGrid.appendChild(renderTeamCard(m)));
+    });
+  }
+
+  // ----- Support staff block -----
+  const hasSupport = supportOrder.some(k => groups[k].length) || groups.unmapped.length;
+  if (hasSupport) {
+    const bigHeader = document.createElement("div");
+    bigHeader.className = "col-span-full mt-8";
+    bigHeader.innerHTML = `<h2 class="text-base font-semibold text-gray-800 mb-2">Support staff</h2>`;
+    teamGrid.appendChild(bigHeader);
+
+    supportOrder.forEach(k => {
+      const arr = groups[k].slice().sort((a,b)=> (a.name||"").localeCompare(b.name||""));
+      if (!arr.length) return;
+
+      const header = document.createElement("div");
+      header.className = "col-span-full mt-4";
+      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-3">${labels[k]} (${arr.length})</h3>`;
+      teamGrid.appendChild(header);
+
+      arr.forEach(m => teamGrid.appendChild(renderTeamCard(m)));
     });
 
-    if (!any) supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
+    // any unmapped roles fall to the end of Support staff
+    if (groups.unmapped.length) {
+      const arr = groups.unmapped.slice().sort((a,b)=> (a.name||"").localeCompare(b.name||""));
+      const header = document.createElement("div");
+      header.className = "col-span-full mt-4";
+      header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-3">Other (${arr.length})</h3>`;
+      teamGrid.appendChild(header);
+      arr.forEach(m => teamGrid.appendChild(renderTeamCard(m)));
+    }
   }
 
-  function renderPastItem(s) {
-    const li = document.createElement("li");
-    li.className = "bg-white p-4 rounded shadow mt-2";
+  // card renderer (unchanged styling)
+  function renderTeamCard(m) {
+    const card = document.createElement("article");
+    card.className = "bg-white rounded-xl shadow p-5 flex items-start gap-4";
+    const photo = m.photo
+      ? `<img src="${m.photo}" alt="${m.name}" loading="lazy" decoding="async" class="h-28 w-28 rounded-full object-cover ring-2 ring-gray-200">`
+      : `<div class="h-28 w-28 rounded-full bg-gray-200 grid place-content-center text-gray-600">?</div>`;
+    const instruments = Array.isArray(m.instruments) && m.instruments.length
+      ? `<div class="mt-2 text-xs text-gray-600"><span class="font-medium">Instruments:</span> ${m.instruments.join(", ")}</div>` : "";
+    const projects = Array.isArray(m.projects) && m.projects.length
+      ? `<div class="mt-1 text-xs text-gray-600"><span class="font-medium">Projects:</span> ${m.projects.join(", ")}</div>` : "";
+    const contact = m.email ? `<a href="mailto:${m.email}" class="text-blue-600 hover:underline text-sm">${m.email}</a>` : "";
+    const links = m.links ? `
+      <div class="mt-2 flex gap-3 text-sm">
+        ${m.links.scholar ? `<a href="${m.links.scholar}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Scholar</a>` : ""}
+        ${m.links.orcid ? `<a href="${m.links.orcid}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">ORCID</a>` : ""}
+      </div>` : "";
+    const affBadges = renderAffBadges(m.affiliations, m.affiliationLogos);
 
-    const co   = s.coSupervisors?.length ? ` • Co-supervisors: ${s.coSupervisors.join(", ")}` : "";
-    const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
-    const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
-    const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
-
-    const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
-
-    const supNames = getSupervisorNames(s).join(", ");
-
-    li.innerHTML = `
-      <div class="font-semibold">${s.student || ""}
-        <span class="text-gray-500 font-normal">• ${s.degree || ""} • ${s.year || ""}${remark}</span>
+    card.innerHTML = `
+      ${photo}
+      <div class="min-w-0">
+        <div class="font-semibold">${m.name}</div>
+        <div class="text-sm text-gray-700">${m.role || ""}</div>
+        ${contact}
+        ${instruments}
+        ${projects}
+        ${affBadges}
+        ${links}
       </div>
-      <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
-
-      <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
-      
-      ${affs}
-      ${kws}
     `;
-    return li;
+    return card;
   }
-
-  degFilter.addEventListener("change", render);
-  yearFilter.addEventListener("change", render);
-  clearSupFilters.addEventListener("click", () => {
-    degFilter.value = "all";
-    yearFilter.value = "all";
-    render();
-  });
-
-  render();
 }
+
+    // ---------- Current Supervisions (tiered with counters) ----------
+    function setupCurrent(data) {
+      const degreeOrder = ["phd", "msc", "bsc", "project"]; // tier order
+
+      function render() {
+        currentList.innerHTML = "";
+        const degVal = normDeg(degFilterCur.value || "all");
+
+        const sortCur = (a,b) => (b.year||0) - (a.year||0) || (a.student||"").localeCompare(b.student||"");
+
+        if (degVal !== "all") {
+          const filtered = data
+            .filter(s => {
+              const d = normDeg(s.degree);
+              return degVal === "project" ? ["project","project work","projectwork"].includes(d) : d === degVal;
+            })
+            .sort(sortCur);
+
+          if (!filtered.length) {
+            currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
+            return;
+          }
+          filtered.forEach(s => currentList.appendChild(renderCurItem(s)));
+          return;
+        }
+
+        // Grouped: PhD → MSc → BSc → Project (with counters)
+        let any = false;
+        degreeOrder.forEach(key => {
+          const group = data
+            .filter(s => {
+              const d = normDeg(s.degree);
+              return key === "project" ? ["project","project work","projectwork"].includes(d) : d === key;
+            })
+            .sort(sortCur);
+
+          if (!group.length) return;
+          any = true;
+
+          const header = document.createElement("li");
+          header.className = "list-none mt-6";
+          header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degreeDisplay(key)} (${group.length})</h3>`;
+          currentList.appendChild(header);
+
+          group.forEach(s => currentList.appendChild(renderCurItem(s)));
+        });
+
+        if (!any) currentList.innerHTML = `<li class="text-gray-500">No current supervisions.</li>`;
+      }
+
+      function renderCurItem(s) {
+        const li = document.createElement("li");
+        li.className = "bg-white p-4 rounded shadow flex gap-4 items-start";
+
+        const avatar = s.photo
+          ? `<img src="${s.photo}" alt="${s.student}" loading="lazy" decoding="async" class="h-14 w-14 rounded-full object-cover ring-2 ring-gray-200">`
+          : `<div class="h-14 w-14 rounded-full bg-gray-200 grid place-content-center text-gray-600 text-sm">👤</div>`;
+
+        const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
+        const co   = s.coSupervisors?.length ? ` • Co-supervisors: ${s.coSupervisors.join(", ")}` : "";
+        const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+        const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
+        const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+        const supNames = getSupervisorNames(s).join(", ");
+
+        li.innerHTML = `
+          ${avatar}
+          <div class="min-w-0">
+            <div class="font-semibold">
+              ${s.student || ""} 
+              <span class="text-gray-500 font-normal">• ${s.degree || ""}${s.year ? " • " + s.year : ""}${remark}</span>
+            </div>
+            <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+            <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
+            ${affs}
+            ${kws}
+          </div>
+        `;
+        return li;
+      }
+
+      degFilterCur.addEventListener("change", render);
+      render();
+    }
+
+    // ---------- Past Supervisions (tiered, no photos, with counters) ----------
+    function setupPast(data) {
+      // populate year dropdown
+      const years = [...new Set(data.map(s => s.year))].filter(Boolean).sort((a,b)=> b - a);
+      years.forEach(y => {
+        const opt = document.createElement("option");
+        opt.value = String(y);
+        opt.textContent = String(y);
+        yearFilter.appendChild(opt);
+      });
+
+      const degreeOrder = ["phd", "msc", "bsc", "project"];
+
+      function render() {
+        const degVal = normDeg(degFilter.value || "all");
+        const yr  = yearFilter.value || "all";
+        const byYear = arr => arr.filter(s => (yr === "all" || String(s.year) === yr));
+
+        supList.innerHTML = "";
+
+        if (degVal !== "all") {
+          const filtered = byYear(
+            data.filter(s => {
+              const d = normDeg(s.degree);
+              return degVal === "project" ? ["project","project work","projectwork"].includes(d) : d === degVal;
+            })
+          ).sort((a,b)=> (b.year||0) - (a.year||0));
+
+          if (!filtered.length) {
+            supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
+            return;
+          }
+          filtered.forEach(s => supList.appendChild(renderPastItem(s)));
+          return;
+        }
+
+        // Grouped: PhD → MSc → BSc → Project (with counters)
+        let any = false;
+        degreeOrder.forEach(key => {
+          const group = byYear(
+            data.filter(s => {
+              const d = normDeg(s.degree);
+              return key === "project" ? ["project","project work","projectwork"].includes(d) : d === key;
+            })
+          ).sort((a,b)=> (b.year||0) - (a.year||0));
+
+          if (!group.length) return;
+          any = true;
+
+          const header = document.createElement("li");
+          header.className = "list-none mt-6";
+          header.innerHTML = `<h3 class="text-sm font-semibold text-gray-700 border-t border-gray-200 pt-4">${degreeDisplay(key)} (${group.length})</h3>`;
+          supList.appendChild(header);
+
+          group.forEach(s => supList.appendChild(renderPastItem(s)));
+        });
+
+        if (!any) supList.innerHTML = `<li class="text-gray-500">No items for selected filters.</li>`;
+      }
+
+      function renderPastItem(s) {
+        const li = document.createElement("li");
+        li.className = "bg-white p-4 rounded shadow mt-2";
+
+        const co   = s.coSupervisors?.length ? ` • Co-supervisors: ${s.coSupervisors.join(", ")}` : "";
+        const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+        const kws  = s.keywords?.length ? `<div class="mt-2 flex flex-wrap gap-2">${s.keywords.map(pill).join("")}</div>` : "";
+        const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+
+        const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
+        const supNames = getSupervisorNames(s).join(", ");
+
+        li.innerHTML = `
+          <div class="font-semibold">${s.student || ""}
+            <span class="text-gray-500 font-normal">• ${s.degree || ""} • ${s.year || ""}${remark}</span>
+          </div>
+          <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+          <div class="text-sm text-gray-700 mt-2"><span class="font-medium">Supervisors:</span> ${supNames}</div>
+          ${affs}
+          ${kws}
+        `;
+        return li;
+      }
+
+      degFilter.addEventListener("change", render);
+      yearFilter.addEventListener("change", render);
+      clearSupFilters.addEventListener("click", () => {
+        degFilter.value = "all";
+        yearFilter.value = "all";
+        render();
+      });
+
+      render();
+    }
+
+    // ---------- Summer Internships (from supervisions.json) ----------
+    function setupInternships(data) {
+      if (!Array.isArray(data) || !data.length) {
+        internList.innerHTML = `<li class="text-gray-500">No summer internships listed yet.</li>`;
+        return;
+      }
+      internList.innerHTML = data.map(s => {
+        const link = s.link ? ` <a href="${s.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+        const affs = renderAffBadges(s.affiliations, s.affiliationLogos);
+        const remark = s.remark ? ` • <span class="italic text-gray-500">${s.remark}</span>` : "";
+        return `
+          <li class="bg-white p-4 rounded shadow">
+            <div class="font-semibold">${s.student || ""} <span class="text-gray-500 font-normal">• ${s.year || ""}${remark}</span></div>
+            <div class="text-sm text-gray-700 mt-1">${s.title || ""}${link}</div>
+            ${affs}
+          </li>`;
+      }).join("");
+    }
+
+    // ---------- Collaborations ----------
+    function setupCollaborations(data) {
+      if (!Array.isArray(data) || !data.length) {
+        collabList.innerHTML = `<li class="text-gray-500">No collaborations listed yet.</li>`;
+        return;
+      }
+      collabList.innerHTML = data.map(x => {
+        const link = x.link ? ` <a href="${x.link}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">(link)</a>` : "";
+        const affs = renderAffBadges(x.affiliations, x.affiliationLogos);
+        return `
+          <li class="bg-white p-4 rounded shadow">
+            <div class="font-semibold">${x.partner || x.name || ""} <span class="text-gray-500 font-normal">• ${x.type || ""}</span></div>
+            <div class="text-sm text-gray-700 mt-1">${x.topic || x.title || ""}${link}</div>
+            ${affs}
+          </li>`;
+      }).join("");
+    }
 
     // Kick off
     init();
+
+    
+    // Auto-highlight current page (works for subpages)
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    const currentBase = currentPage.replace(/\.html$/, "");
+    document.querySelectorAll("header nav a").forEach(link => {
+      const linkHref = link.getAttribute("href").split("/").pop();
+      const linkBase = linkHref.replace(/\.html$/, "");
+      if (
+        linkBase === currentBase ||
+        currentBase.startsWith(linkBase) ||
+        (linkBase === "index" && currentPage === "index.html")
+      ) {
+        link.classList.remove("text-gray-600", "hover:text-blue-600");
+        link.classList.add("text-blue-600", "font-semibold");
+        link.setAttribute("aria-current", "page");
+      }
+    });
+  });
+
+  // Mobile menu toggle + a11y + scroll lock
+  (function () {
+    const btn = document.getElementById("mobileToggle");
+    const menu = document.getElementById("mobileMenu");
+    if (!btn || !menu) return;
+
+    function openMenu() {
+      menu.classList.remove("hidden");
+      document.body.classList.add("overflow-hidden");
+      btn.setAttribute("aria-expanded", "true");
+      btn.setAttribute("aria-label", "Close menu");
+      // optional: focus first link
+      const firstLink = menu.querySelector("a");
+      if (firstLink) firstLink.focus();
+    }
+    function closeMenu() {
+      menu.classList.add("hidden");
+      document.body.classList.remove("overflow-hidden");
+      btn.setAttribute("aria-expanded", "false");
+      btn.setAttribute("aria-label", "Open menu");
+      btn.focus();
+    }
+    function isOpen() {
+      return !menu.classList.contains("hidden");
+    }
+
+    btn.addEventListener("click", () => (isOpen() ? closeMenu() : openMenu()));
+
+    // Close on link click
+    menu.addEventListener("click", (e) => {
+      const a = e.target.closest("a");
+      if (a) closeMenu();
+    });
+
+    // Close on Escape
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isOpen()) closeMenu();
+    });
+
+    // Close if resizing to desktop
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768 && isOpen()) closeMenu();
+    });
+  })();
+  
+
   </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 [
-  {
+    {
     "name": "Cintia Hajdu",
     "role": "PhD student",
     "photo": "",
@@ -85,7 +85,7 @@
   },
   {
     "name": "Betti Fodor",
-    "role": "PhD student",
+    "role": "BSc student",
     "photo": "",
     "email": "alice@university.hu",
     "instruments": [""],
@@ -99,7 +99,7 @@
   },
   {
     "name": "Melinda Kovács",
-    "role": "PhD student",
+    "role": "BSc student",
     "photo": "",
     "email": "alice@university.hu",
     "instruments": [""],
@@ -113,7 +113,7 @@
   },
   {
     "name": "Attila Gélányi",
-    "role": "PhD student",
+    "role": "BSc student",
     "photo": "",
     "email": "alice@university.hu",
     "instruments": [""],

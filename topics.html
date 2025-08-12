@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Topic | Gergely Samu</title>
+  <meta name="description" content="Topic details for research projects and theses." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="bg-white shadow sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="research.html" class="text-sm text-blue-600 hover:underline">← Back to Research</a>
+      <div class="text-sm text-gray-500">Topic details</div>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-8">
+    <article id="topicRoot" class="bg-white rounded-xl shadow overflow-hidden">
+      <!-- filled by JS -->
+      <div class="p-6 text-gray-600">Loading topic…</div>
+    </article>
+  </main>
+
+  <script>
+    // --- small helpers ---
+    async function loadJSON(url){ const r = await fetch(url, { cache: "no-store" }); if(!r.ok) throw new Error(url+" → "+r.status); return r.json(); }
+    function getSlug(){ return new URLSearchParams(location.search).get("slug") || ""; }
+    function pill(text){ return `<span class="px-2 py-0.5 rounded-full text-xs bg-gray-100 border">${text}</span>`; }
+
+    // same affiliation badges style as research.html
+    function renderAffBadges(ids, logos) {
+      if (!Array.isArray(ids) || !ids.length) return "";
+      return `<div class="mt-3 flex flex-wrap gap-2">
+        ${ids.map((txt, i) => {
+          const logo = Array.isArray(logos) ? logos[i] : null;
+          const icon = logo
+            ? `<img src="${logo}" alt="${txt} logo" loading="lazy" decoding="async"
+                    class="h-4 w-4 rounded-full ring-1 ring-gray-200 bg-white p-0.5 object-contain">`
+            : "";
+          return `
+            <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs bg-gray-50 border">
+              ${icon}<span>${txt}</span>
+            </span>`;
+        }).join("")}
+      </div>`;
+    }
+
+    // optionally render a small gallery if provided
+    function renderGallery(arr){
+      if (!Array.isArray(arr) || !arr.length) return "";
+      return `
+        <section class="mt-6">
+          <h2 class="text-base font-semibold text-gray-800">Gallery</h2>
+          <div class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            ${arr.map(src => `
+              <figure class="w-full aspect-[4/3] overflow-hidden rounded-lg ring-1 ring-gray-100">
+                <img src="${src}" alt="" loading="lazy" decoding="async" class="w-full h-full object-cover object-center">
+              </figure>
+            `).join("")}
+          </div>
+        </section>`;
+    }
+
+    // optional links/docs list: [{label, url}]
+    function renderDocs(docs){
+      if (!Array.isArray(docs) || !docs.length) return "";
+      return `
+        <section class="mt-6">
+          <h2 class="text-base font-semibold text-gray-800">Links & documents</h2>
+          <ul class="mt-2 list-disc list-inside text-sm text-blue-700">
+            ${docs.map(d => `<li><a class="hover:underline" href="${d.url}" target="_blank" rel="noopener noreferrer">${d.label || d.url}</a></li>`).join("")}
+          </ul>
+        </section>`;
+    }
+
+    (async () => {
+      const root = document.getElementById("topicRoot");
+      try {
+        const slug = getSlug();
+        const topics = await loadJSON("topics.json");
+        const t = topics.find(x => (x.slug || "") === slug);
+
+        if (!slug || !t) {
+          root.innerHTML = `
+            <div class="p-6">
+              <p class="text-gray-700">Topic not found.</p>
+              <p class="mt-2"><a href="research.html" class="text-blue-600 hover:underline">Back to Research</a></p>
+            </div>`;
+          return;
+        }
+
+        const tags = Array.isArray(t.tags) && t.tags.length
+          ? `<div class="mt-3 flex flex-wrap gap-2">${t.tags.map(pill).join("")}</div>` : "";
+
+        const affs = renderAffBadges(t.affiliations, t.affiliationLogos);
+
+        const hero = t.hero
+          ? `<div class="w-full aspect-[16/9] overflow-hidden bg-gray-100">
+               <img src="${t.hero}" alt="" class="w-full h-full object-cover object-center">
+             </div>`
+          : (t.thumb
+              ? `<div class="w-full aspect-[4/3] overflow-hidden bg-gray-100">
+                   <img src="${t.thumb}" alt="" class="w-full h-full object-cover object-center">
+                 </div>`
+              : "");
+
+        const status =
+          t.open === false
+            ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-gray-200 text-gray-700">Closed</span>`
+            : (Number.isFinite(t.spots)
+                ? `<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800">${t.spots} spot${t.spots === 1 ? "" : "s"} open</span>`
+                : "");
+
+        const lvl = t.level ? `<span class="px-2 py-0.5 rounded-md bg-gray-50 border text-sm">${t.level}</span>` : "";
+
+        const short = t.shortDescription ? `<p class="mt-2 text-gray-700">${t.shortDescription}</p>` : "";
+        const long  = t.longDescription
+          ? `<div class="prose prose-sm max-w-none mt-4">${t.longDescription}</div>`
+          : "";
+
+        const gallery = renderGallery(t.gallery);
+        const docs = renderDocs(t.docs);
+
+        root.innerHTML = `
+          ${hero}
+          <div class="p-6">
+            <h1 class="text-2xl font-bold">${t.title || "Topic"}</h1>
+            <div class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+              ${lvl} ${status}
+            </div>
+            ${tags}
+            ${affs}
+            ${short}
+            ${long}
+            ${gallery}
+            ${docs}
+          </div>
+        `;
+      } catch (e) {
+        root.innerHTML = `
+          <div class="p-6">
+            <p class="text-gray-700">Couldn’t load topic details.</p>
+            <p class="mt-2 text-xs text-gray-500">${String(e)}</p>
+          </div>`;
+      }
+    })();
+
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+      const currentBase = currentPage.replace(/\.html$/, "");
+
+      document.querySelectorAll("header nav a").forEach(link => {
+        const linkHref = link.getAttribute("href").split("/").pop();
+        const linkBase = linkHref.replace(/\.html$/, "");
+
+        if (
+          linkBase === currentBase ||
+          currentBase.startsWith(linkBase) ||
+          (linkBase === "index" && currentPage === "index.html")
+        ) {
+          link.classList.remove("text-gray-600", "hover:text-blue-600");
+          link.classList.add("text-blue-600", "font-semibold");
+          link.setAttribute("aria-current", "page");
+        }
+      });
+    });
+  
+
+  </script>
+</body>
+</html>
