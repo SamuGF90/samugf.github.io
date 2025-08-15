@@ -43,7 +43,7 @@
 
   <!-- Mobile menu (collapsible, animated) -->
 <div id="mobileMenu"
-     class="md:hidden invisible opacity-0 -translate-y-2 pointer-events-none border-t border-gray-200 bg-white transition-all duration-200 ease-out"
+     class="md:hidden hidden opacity-0 -translate-y-2 pointer-events-none border-t border-gray-200 bg-white transition-all duration-200 ease-out"
      role="dialog" aria-modal="true" aria-label="Mobile menu">
   <nav class="max-w-6xl mx-auto px-4 py-3 max-h-[80vh] overflow-auto" aria-label="Primary mobile">
     <ul class="flex flex-col divide-y divide-gray-100">
@@ -92,11 +92,11 @@
   });
 
   // Auto-highlight current page (works for subpages)
-  document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
     const currentPage = window.location.pathname.split("/").pop() || "index.html";
     const currentBase = currentPage.replace(/\.html$/, "");
     document.querySelectorAll("header nav a").forEach(link => {
-      const linkHref = link.getAttribute("href").split("/").pop();
+      const linkHref = link.getAttribute("href")?.split("/").pop() || "";
       const linkBase = linkHref.replace(/\.html$/, "");
       if (
         linkBase === currentBase ||
@@ -110,58 +110,38 @@
     });
   });
 
-  // Mobile menu toggle + a11y + scroll lock + animation
-  (function () {
-    const btn = document.getElementById("mobileToggle");
+  // Mobile menu toggle + a11y + scroll lock + animation (uses 'hidden' when closed)
+  (() => {
+    const btn  = document.getElementById("mobileToggle");
     const menu = document.getElementById("mobileMenu");
     if (!btn || !menu) return;
 
     function openMenu() {
-      // show + enable interactions
-      menu.classList.remove("invisible", "opacity-0", "-translate-y-2", "pointer-events-none");
+      menu.classList.remove("hidden", "opacity-0", "-translate-y-2", "pointer-events-none");
       document.body.classList.add("overflow-hidden");
       btn.setAttribute("aria-expanded", "true");
       btn.setAttribute("aria-label", "Close menu");
-      // focus first link
       const firstLink = menu.querySelector("a");
       if (firstLink) firstLink.focus();
     }
 
     function closeMenu() {
-      // fade out + slide up
       menu.classList.add("opacity-0", "-translate-y-2", "pointer-events-none");
       document.body.classList.remove("overflow-hidden");
       btn.setAttribute("aria-expanded", "false");
       btn.setAttribute("aria-label", "Open menu");
-      // after transition, hide from screen readers/Tab
-      setTimeout(() => {
-        // keep md:hidden behavior; just make it invisible for a11y
-        menu.classList.add("invisible");
-      }, 200); // matches duration-200
+      setTimeout(() => menu.classList.add("hidden"), 200); // match duration-200
       btn.focus();
     }
 
     function isOpen() {
-      return !menu.classList.contains("invisible");
+      return !menu.classList.contains("hidden");
     }
 
     btn.addEventListener("click", () => (isOpen() ? closeMenu() : openMenu()));
-
-    // Close on link click
-    menu.addEventListener("click", (e) => {
-      const a = e.target.closest("a");
-      if (a) closeMenu();
-    });
-
-    // Close on Escape
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && isOpen()) closeMenu();
-    });
-
-    // Close if resizing to desktop
-    window.addEventListener("resize", () => {
-      if (window.innerWidth >= 768 && isOpen()) closeMenu();
-    });
+    menu.addEventListener("click", (e) => { if (e.target.closest("a")) closeMenu(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && isOpen()) closeMenu(); });
+    window.addEventListener("resize", () => { if (window.innerWidth >= 768 && isOpen()) closeMenu(); });
   })();
 </script>
 

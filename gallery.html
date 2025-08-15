@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Gergely Samu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Group & conference photos and science art from the lab.">
+  <style>
+    /* Smooth thumb fade-in */
+    img[data-loaded="true"] { transition: opacity .2s ease; opacity: 1; }
+    img[data-loaded="false"] { opacity: 0; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+<header class="bg-white shadow sticky top-0 z-20">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <!-- Brand -->
+    <a href="index.html" class="text-xl font-bold">Gergely Samu</a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-5" aria-label="Primary">
+      <a href="index.html"        class="text-gray-600 hover:text-blue-600">Home</a>
+      <a href="news.html"         class="text-gray-600 hover:text-blue-600">News</a>
+      <a href="cv.html"           class="text-gray-600 hover:text-blue-600">CV</a>
+      <a href="research.html"     class="text-gray-600 hover:text-blue-600">Research</a>
+      <a href="publications.html" class="text-gray-600 hover:text-blue-600">Publications</a>
+      <a href="courses.html"      class="text-gray-600 hover:text-blue-600">Courses</a>
+      <a href="resources.html"    class="text-gray-600 hover:text-blue-600">Resources</a>
+      <a href="gallery.html"      class="text-gray-600 hover:text-blue-600">Gallery</a>
+      <a href="contact.html"      class="text-gray-600 hover:text-blue-600">Contact</a>
+    </nav>
+
+      <!-- Mobile toggle -->
+    <button id="mobileToggle"
+            class="md:hidden inline-flex items-center justify-center p-2 rounded border border-gray-300 hover:bg-gray-50"
+            aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">
+      <!-- hamburger icon -->
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu (collapsible, animated) -->
+<div id="mobileMenu"
+     class="md:hidden hidden opacity-0 -translate-y-2 pointer-events-none border-t border-gray-200 bg-white transition-all duration-200 ease-out"
+     role="dialog" aria-modal="true" aria-label="Mobile menu">
+  <nav class="max-w-6xl mx-auto px-4 py-3 max-h-[80vh] overflow-auto" aria-label="Primary mobile">
+    <ul class="flex flex-col divide-y divide-gray-100">
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="index.html">Home</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="news.html">News</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="cv.html">CV</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="research.html">Research</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="publications.html">Publications</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="courses.html">Courses</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="resources.html">Resources</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="gallery.html">Gallery</a></li>
+        <li><a class="block py-2 text-gray-700 hover:text-blue-700" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="text-3xl font-bold mb-2">Gallery</h1>
+      <p class="text-gray-600 mb-6">People & events, and science art from our lab.</p>
+
+      <!-- Filters -->
+      <div class="bg-white border rounded-md p-4 shadow-sm mb-6">
+        <div class="grid sm:grid-cols-4 gap-4">
+          <div>
+            <label for="typeFilter" class="block text-sm text-gray-700 mb-1">Category</label>
+            <select id="typeFilter" class="w-full p-2 border rounded-md">
+              <option value="all">All</option>
+              <option value="people">People & Events</option>
+              <option value="art">Science Art</option>
+              <option value="cover">Cover Art</option>
+            </select>
+          </div>
+          <div>
+            <label for="yearFilter" class="block text-sm text-gray-700 mb-1">Year</label>
+            <select id="yearFilter" class="w-full p-2 border rounded-md">
+              <option value="all">All years</option>
+            </select>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="searchBox" class="block text-sm text-gray-700 mb-1">Search (caption, location, tags)</label>
+            <input id="searchBox" type="text" class="w-full p-2 border rounded-md" placeholder="e.g., perovskite, E-MRS, confocal…">
+          </div>
+        </div>
+      </div>
+
+      <!-- Grids -->
+      <section class="space-y-10">
+        <!-- People & Events -->
+        <div id="block-people" class="hidden">
+          <h2 class="text-lg font-semibold mb-3 pb-1 border-b border-gray-200">People & Events <span id="count-people" class="text-gray-500 font-normal"></span></h2>
+          <div id="grid-people" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3"></div>
+        </div>
+
+        <!-- Science Art -->
+        <div id="block-art" class="hidden">
+          <h2 class="text-lg font-semibold mb-3 pb-1 border-b border-gray-200">Science Art <span id="count-art" class="text-gray-500 font-normal"></span></h2>
+          <div id="grid-art" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3"></div>
+        </div>
+
+        <!-- Cover Art -->
+        <div id="block-cover" class="hidden">
+            <h2 class="text-lg font-semibold mb-3 pb-1 border-b border-gray-200">
+            Cover Art <span id="count-cover" class="text-gray-500 font-normal"></span>
+            </h2>
+        <div id="grid-cover" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-40">
+    <button id="lbClose" class="absolute top-3 right-3 p-2 text-white/80 hover:text-white" aria-label="Close">✕</button>
+    <button id="lbPrev" class="absolute left-3 top-1/2 -translate-y-1/2 p-2 text-white/80 hover:text-white" aria-label="Previous">‹</button>
+    <figure class="max-w-[92vw] max-h-[86vh] flex flex-col items-center gap-2">
+      <img id="lbImg" src="" alt="" class="max-h-[70vh] object-contain rounded shadow"/>
+      <figcaption id="lbCap" class="text-sm text-gray-200 text-center max-w-[80ch]"></figcaption>
+    </figure>
+    <button id="lbNext" class="absolute right-3 top-1/2 -translate-y-1/2 p-2 text-white/80 hover:text-white" aria-label="Next">›</button>
+  </div>
+
+  <!-- Scripts -->
+<script>
+  /* ---------- Active link highlight (subpage-friendly) ---------- */
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    const currentBase = currentPage.replace(/\.html$/, "");
+    document.querySelectorAll("header nav a").forEach(link => {
+      const linkHref = link.getAttribute("href")?.split("/").pop() || "";
+      const linkBase = linkHref.replace(/\.html$/, "");
+      if (linkBase === currentBase || currentBase.startsWith(linkBase) || (linkBase === "index" && currentPage === "index.html")) {
+        link.classList.remove("text-gray-600", "hover:text-blue-600");
+        link.classList.add("text-blue-600", "font-semibold");
+        link.setAttribute("aria-current", "page");
+      }
+    });
+  });
+
+  /* ---------- Mobile menu toggle (hidden strategy) ---------- */
+  (() => {
+    const btn  = document.getElementById("mobileToggle");
+    const menu = document.getElementById("mobileMenu");
+    if (!btn || !menu) return;
+    const isOpen = () => !menu.classList.contains("hidden");
+    function openMenu(){ menu.classList.remove("hidden","opacity-0","-translate-y-2","pointer-events-none"); document.body.classList.add("overflow-hidden"); btn.setAttribute("aria-expanded","true"); btn.setAttribute("aria-label","Close menu"); }
+    function closeMenu(){ menu.classList.add("opacity-0","-translate-y-2","pointer-events-none"); document.body.classList.remove("overflow-hidden"); btn.setAttribute("aria-expanded","false"); btn.setAttribute("aria-label","Open menu"); setTimeout(()=>menu.classList.add("hidden"),200); }
+    btn.addEventListener("click", ()=> isOpen()? closeMenu(): openMenu());
+    menu.addEventListener("click", e => { if (e.target.closest("a")) closeMenu(); });
+    document.addEventListener("keydown", (e)=> { if (e.key === "Escape" && isOpen()) closeMenu(); });
+    window.addEventListener("resize", ()=> { if (window.innerWidth >= 768 && isOpen()) closeMenu(); });
+  })();
+
+  /* ---------- Gallery logic ---------- */
+  const typeFilter = document.getElementById("typeFilter");
+  const yearFilter = document.getElementById("yearFilter");
+  const searchBox  = document.getElementById("searchBox");
+
+  const blockPeople = document.getElementById("block-people");
+  const blockArt    = document.getElementById("block-art");
+  const blockCover  = document.getElementById("block-cover");
+
+  const gridPeople  = document.getElementById("grid-people");
+  const gridArt     = document.getElementById("grid-art");
+  const gridCover   = document.getElementById("grid-cover");
+
+  const countPeople = document.getElementById("count-people");
+  const countArt    = document.getElementById("count-art");
+  const countCover  = document.getElementById("count-cover");
+
+  // Lightbox state
+  const lb = document.getElementById("lightbox");
+  const lbImg = document.getElementById("lbImg");
+  const lbCap = document.getElementById("lbCap");
+  const lbPrev= document.getElementById("lbPrev");
+  const lbNext= document.getElementById("lbNext");
+  const lbClose= document.getElementById("lbClose");
+  let flatList = [];
+  let idx = 0;
+
+  function pill(text){ return `<span class="px-2 py-0.5 rounded-full text-xs bg-gray-100 border">${text}</span>`; }
+
+  async function loadJSON(url) {
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(url + " → HTTP " + res.status);
+    return res.json();
+  }
+
+  let ITEMS = [];
+  (async function init(){
+    try {
+      ITEMS = await loadJSON("gallery.json");
+      populateYearOptions(ITEMS);
+      render();
+    } catch(e) {
+      console.error(e);
+      blockPeople.classList.remove("hidden");
+      gridPeople.innerHTML = `<div class="col-span-full text-gray-500">Couldn’t load gallery.</div>`;
+    }
+  })();
+
+  function populateYearOptions(items){
+    const years = [...new Set(items.map(x => x.year).filter(Boolean))].sort((a,b)=> b-a);
+    years.forEach(y => {
+      const opt = document.createElement("option");
+      opt.value = String(y);
+      opt.textContent = String(y);
+      yearFilter.appendChild(opt);
+    });
+  }
+
+  function matchQuery(item, q){
+    if (!q) return true;
+    const hay = [item.title, item.caption, item.location, (item.tags||[]).join(" ")].join(" ").toLowerCase();
+    return hay.includes(q.toLowerCase());
+  }
+
+  function card(x){
+    const tags = Array.isArray(x.tags) && x.tags.length
+      ? `<div class="mt-1 flex flex-wrap gap-1">${x.tags.map(pill).join("")}</div>` : "";
+
+    const thumb = x.thumb || x.src; // fallback
+    const journalLine = (x.journal || x.issue || x.doi)
+      ? `<div class="text-[11px] text-gray-500">${[
+          x.journal ? `<span class="font-medium">${escapeHtml(x.journal)}</span>` : "",
+          x.issue ? `${escapeHtml(x.issue)}` : "",
+          x.doi ? `<a class="text-blue-700 hover:underline" target="_blank" rel="noopener" href="${x.doi.startsWith('http') ? x.doi : 'https://doi.org/'+x.doi}">${escapeHtml(x.doi)}</a>` : ""
+        ].filter(Boolean).join(" • ")}</div>`
+      : "";
+
+    return `
+      <figure class="bg-white rounded shadow overflow-hidden ring-1 ring-gray-100">
+        <button class="group w-full" data-src="${x.src}" data-id="${x.id}">
+          <img src="${thumb}" alt="${escapeAttr(x.alt || x.title || "")}"
+               loading="lazy" decoding="async"
+               class="w-full h-40 object-cover" data-loaded="false"
+               onload="this.dataset.loaded='true'">
+        </button>
+        <figcaption class="p-2 text-xs">
+          <div class="font-medium line-clamp-2">${x.title || ""}</div>
+          <div class="text-gray-600 line-clamp-2">${x.caption || ""}</div>
+          ${journalLine}
+          <div class="text-gray-500">${[x.location, x.year].filter(Boolean).join(" • ")}</div>
+          ${tags}
+        </figcaption>
+      </figure>`;
+  }
+
+  function render(){
+    const type = typeFilter.value;
+    const yr   = yearFilter.value;
+    const q    = searchBox.value.trim();
+
+    const filtered = ITEMS.filter(x =>
+      (type === "all" || x.type === type) &&
+      (yr === "all"   || String(x.year) === yr) &&
+      matchQuery(x, q)
+    ).sort((a,b)=> (b.year||0) - (a.year||0));
+
+    const people = filtered.filter(x => x.type === "people");
+    const art    = filtered.filter(x => x.type === "art");
+    const cover  = filtered.filter(x => x.type === "cover");
+
+    blockPeople.classList.toggle("hidden", people.length === 0);
+    blockArt.classList.toggle("hidden", art.length === 0);
+    blockCover.classList.toggle("hidden", cover.length === 0);
+    countPeople.textContent = people.length ? `(${people.length})` : "";
+    countArt.textContent    = art.length    ? `(${art.length})`    : "";
+    countCover.textContent  = cover.length  ? `(${cover.length})`  : "";
+
+    gridPeople.innerHTML = people.map(card).join("");
+    gridArt.innerHTML    = art.map(card).join("");
+    gridCover.innerHTML  = cover.map(card).join("");
+
+    flatList = [...people, ...art, ...cover];
+    wireThumbs();
+  }
+
+  function wireThumbs(){
+    document.querySelectorAll("figure button[data-src]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-id");
+        const i = flatList.findIndex(x => String(x.id) === String(id));
+        if (i >= 0) openLB(i);
+      });
+    });
+  }
+
+  function openLB(i){
+    idx = i;
+    const item = flatList[idx];
+    const doiLink = item.doi
+      ? (item.doi.startsWith('http') ? item.doi : 'https://doi.org/' + item.doi)
+      : null;
+
+    lbImg.src = item.src;
+    lbImg.alt = item.alt || item.title || "";
+    lbCap.innerHTML = `
+      <div class="font-medium">${escapeHtml(item.title || "")}</div>
+      <div class="text-gray-300">${escapeHtml(item.caption || "")}</div>
+      ${ (item.journal || item.issue || item.doi) ? `
+        <div class="text-gray-200 text-sm">
+          ${item.journal ? `<span class="font-medium">${escapeHtml(item.journal)}</span>` : ""} 
+          ${item.issue ? `• ${escapeHtml(item.issue)}` : ""} 
+          ${doiLink ? `• <a class="underline" target="_blank" rel="noopener" href="${doiLink}">${escapeHtml(item.doi)}</a>` : ""}
+        </div>` : "" }
+      <div class="text-gray-400 text-xs">${[item.location, item.year].filter(Boolean).join(" • ")}</div>
+      ${Array.isArray(item.tags)&&item.tags.length ? `<div class="mt-1 flex flex-wrap gap-1">${item.tags.map(t=>'<span class='+"'px-2 py-0.5 rounded-full text-xs bg-white/10'"+'>'+escapeHtml(t)+'</span>').join("")}</div>` : ""}
+      ${item.credit ? `<div class="text-gray-400 text-xs mt-1">© ${escapeHtml(item.credit)}</div>` : ""}
+    `;
+
+    lb.classList.remove("hidden");
+    document.body.classList.add("overflow-hidden");
+  }
+  function closeLB(){
+    lb.classList.add("hidden");
+    document.body.classList.remove("overflow-hidden");
+  }
+  function prevLB(){ if (!flatList.length) return; idx = (idx - 1 + flatList.length) % flatList.length; openLB(idx); }
+  function nextLB(){ if (!flatList.length) return; idx = (idx + 1) % flatList.length; openLB(idx); }
+
+  lbClose.addEventListener("click", closeLB);
+  lbPrev .addEventListener("click", prevLB);
+  lbNext .addEventListener("click", nextLB);
+  lb.addEventListener("click", (e)=> { if (e.target === lb) closeLB(); });
+  document.addEventListener("keydown", (e)=> {
+    if (lb.classList.contains("hidden")) return;
+    if (e.key === "Escape") closeLB();
+    if (e.key === "ArrowLeft") prevLB();
+    if (e.key === "ArrowRight") nextLB();
+  });
+
+  function escapeHtml(s){ return (s||"").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+  function escapeAttr(s){ return escapeHtml(s).replace(/"/g, '&quot;'); }
+
+  typeFilter.addEventListener("change", render);
+  yearFilter.addEventListener("change", render);
+  searchBox.addEventListener("input", render);
+</script>
+</body>
+</html>
